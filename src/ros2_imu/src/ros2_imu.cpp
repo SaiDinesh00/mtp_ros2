@@ -9,7 +9,7 @@
 //
 // Model version                  : 1.9
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Thu Jun 13 16:25:09 2024
+// C/C++ source code generated on : Thu Jun 13 16:47:37 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -525,10 +525,10 @@ void ros2_imu_initialize(void)
   ros2_imu_M->Timing.stepSize0 = 0.005;
 
   // External mode info
-  ros2_imu_M->Sizes.checksums[0] = (3388658755U);
-  ros2_imu_M->Sizes.checksums[1] = (2955545390U);
-  ros2_imu_M->Sizes.checksums[2] = (689112781U);
-  ros2_imu_M->Sizes.checksums[3] = (3672116448U);
+  ros2_imu_M->Sizes.checksums[0] = (469295594U);
+  ros2_imu_M->Sizes.checksums[1] = (926529460U);
+  ros2_imu_M->Sizes.checksums[2] = (229940749U);
+  ros2_imu_M->Sizes.checksums[3] = (4124543569U);
 
   {
     static const sysRanDType rtAlwaysEnabled = SUBSYS_RAN_BC_ENABLE;

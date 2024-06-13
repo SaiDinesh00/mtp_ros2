@@ -37,9 +37,7 @@ class ESCNode(Node):
             self.pi.set_servo_pulsewidth(self.pin, self.min_value)
             time.sleep(0.5)
             
-            
         else:
-            
             self.pi.set_servo_pulsewidth(self.pin, 0)            
             
         response = True
@@ -52,7 +50,6 @@ class ESCNode(Node):
         
         self.pi.set_servo_pulsewidth(self.pin, msg.pulse_width)
         
-                        
 
 def main(args = None):
     rclpy.init(args=args)

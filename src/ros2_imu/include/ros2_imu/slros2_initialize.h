@@ -1,5 +1,5 @@
 // Copyright 2022-2023 The MathWorks, Inc.
-// Generated 13-Jun-2024 16:25:16
+// Generated 13-Jun-2024 16:47:44
 #ifndef _SLROS2_INITIALIZE_H_
 #define _SLROS2_INITIALIZE_H_
 #include "ros2_imu_types.h"

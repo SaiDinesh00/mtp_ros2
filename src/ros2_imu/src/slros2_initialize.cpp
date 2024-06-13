@@ -1,5 +1,5 @@
 // Copyright 2022-2023 The MathWorks, Inc.
-// Generated 13-Jun-2024 16:25:16
+// Generated 13-Jun-2024 16:47:44
 #include "slros2_initialize.h"
 // ros2_imu/Chart/controlling1/Publish
 SimulinkPublisher<aerobot_interfaces::msg::EscMsg,SL_Bus_aerobot_interfaces_EscMsg> Pub_ros2_imu_41__183;
