@@ -1,0 +1,987 @@
+[0.000000] (-) TimerEvent: {}
+[0.001152] (-) JobUnselected: {'identifier': 'bmm150_sensor'}
+[0.001765] (-) JobUnselected: {'identifier': 'lsm6dso'}
+[0.002580] (-) JobUnselected: {'identifier': 'my_ahrs'}
+[0.003156] (ros2_imu) JobQueued: {'identifier': 'ros2_imu', 'dependencies': OrderedDict()}
+[0.007272] (ros2_imu) JobStarted: {'identifier': 'ros2_imu'}
+[0.054418] (ros2_imu) JobProgress: {'identifier': 'ros2_imu', 'progress': 'cmake'}
+[0.058381] (ros2_imu) JobProgress: {'identifier': 'ros2_imu', 'progress': 'build'}
+[0.061690] (ros2_imu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/ros2_imu', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/ros2_imu', 'env': OrderedDict([('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 54662 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ros2_ws/build/ros2_imu'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.0.106 54662 192.168.0.122 22'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[0.095643] (-) TimerEvent: {}
+[0.105672] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cmake -S/home/ubuntu/ros2_ws/src/ros2_imu -B/home/ubuntu/ros2_ws/build/ros2_imu --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.175883] (ros2_imu) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.195824] (-) TimerEvent: {}
+[0.296301] (-) TimerEvent: {}
+[0.397017] (-) TimerEvent: {}
+[0.497567] (-) TimerEvent: {}
+[0.598289] (-) TimerEvent: {}
+[0.698752] (-) TimerEvent: {}
+[0.799247] (-) TimerEvent: {}
+[0.904070] (-) TimerEvent: {}
+[0.999491] (ros2_imu) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.004425] (-) TimerEvent: {}
+[1.016267] (ros2_imu) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.104603] (-) TimerEvent: {}
+[1.182188] (ros2_imu) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.193754] (ros2_imu) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.204867] (-) TimerEvent: {}
+[1.225030] (ros2_imu) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.280757] (ros2_imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.305085] (-) TimerEvent: {}
+[1.358896] (ros2_imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.406295] (-) TimerEvent: {}
+[1.507145] (-) TimerEvent: {}
+[1.607626] (-) TimerEvent: {}
+[1.708013] (-) TimerEvent: {}
+[1.808400] (-) TimerEvent: {}
+[1.833492] (ros2_imu) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.908588] (-) TimerEvent: {}
+[2.009054] (-) TimerEvent: {}
+[2.030967] (ros2_imu) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.037960] (ros2_imu) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.109263] (-) TimerEvent: {}
+[2.209773] (-) TimerEvent: {}
+[2.310205] (-) TimerEvent: {}
+[2.410599] (-) TimerEvent: {}
+[2.510970] (-) TimerEvent: {}
+[2.594467] (ros2_imu) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.611156] (-) TimerEvent: {}
+[2.711626] (-) TimerEvent: {}
+[2.812248] (-) TimerEvent: {}
+[2.912745] (-) TimerEvent: {}
+[3.013184] (-) TimerEvent: {}
+[3.113622] (-) TimerEvent: {}
+[3.214055] (-) TimerEvent: {}
+[3.314524] (-) TimerEvent: {}
+[3.414922] (-) TimerEvent: {}
+[3.515649] (-) TimerEvent: {}
+[3.561654] (ros2_imu) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.615779] (-) TimerEvent: {}
+[3.633048] (ros2_imu) StdoutLine: {'line': b'-- Generating done\n'}
+[3.643292] (ros2_imu) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/ros2_imu\n'}
+[3.672266] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles /home/ubuntu/ros2_ws/build/ros2_imu//CMakeFiles/progress.marks\n'}
+[3.700791] (ros2_imu) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[3.705239] (ros2_imu) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'\n"}
+[3.705830] (ros2_imu) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/depend\n'}
+[3.712150] (ros2_imu) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'\n"}
+[3.712761] (ros2_imu) StdoutLine: {'line': b'cd /home/ubuntu/ros2_ws/build/ros2_imu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/ros2_imu /home/ubuntu/ros2_ws/src/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles/ros2_imu.dir/DependInfo.cmake --color=\n'}
+[3.715961] (-) TimerEvent: {}
+[3.816620] (-) TimerEvent: {}
+[3.902108] (ros2_imu) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ros2_imu\n'}
+[3.905313] (ros2_imu) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'\n"}
+[3.905864] (ros2_imu) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/build\n'}
+[3.916758] (-) TimerEvent: {}
+[3.931415] (ros2_imu) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'\n"}
+[3.972114] (ros2_imu) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/ros2_imu.dir/src/ext_svr.c.o\n'}
+[3.982409] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/ros2_imu.dir/src/ext_svr.c.o -MF CMakeFiles/ros2_imu.dir/src/ext_svr.c.o.d -o CMakeFiles/ros2_imu.dir/src/ext_svr.c.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/ext_svr.c\n'}
+[3.995293] (ros2_imu) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/ros2_imu.dir/src/ext_work.c.o\n'}
+[4.005589] (ros2_imu) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/ros2_imu.dir/src/updown.c.o\n'}
+[4.008820] (ros2_imu) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/ros2_imu.dir/src/rtiostream_interface.c.o\n'}
+[4.012835] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/ros2_imu.dir/src/rtiostream_interface.c.o -MF CMakeFiles/ros2_imu.dir/src/rtiostream_interface.c.o.d -o CMakeFiles/ros2_imu.dir/src/rtiostream_interface.c.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtiostream_interface.c\n'}
+[4.016068] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/ros2_imu.dir/src/updown.c.o -MF CMakeFiles/ros2_imu.dir/src/updown.c.o.d -o CMakeFiles/ros2_imu.dir/src/updown.c.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/updown.c\n'}
+[4.017182] (-) TimerEvent: {}
+[4.020439] (ros2_imu) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[4.026652] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/ros2_imu.dir/src/ext_work.c.o -MF CMakeFiles/ros2_imu.dir/src/ext_work.c.o.d -o CMakeFiles/ros2_imu.dir/src/ext_work.c.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/ext_work.c\n'}
+[4.050230] (ros2_imu) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[4.066577] (ros2_imu) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[4.078876] (ros2_imu) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[4.117351] (-) TimerEvent: {}
+[4.217760] (-) TimerEvent: {}
+[4.318207] (-) TimerEvent: {}
+[4.418720] (-) TimerEvent: {}
+[4.519339] (-) TimerEvent: {}
+[4.564311] (ros2_imu) StdoutLine: {'line': b'[ 31%] Building C object CMakeFiles/ros2_imu.dir/src/rtiostream_tcpip.c.o\n'}
+[4.570074] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/ros2_imu.dir/src/rtiostream_tcpip.c.o -MF CMakeFiles/ros2_imu.dir/src/rtiostream_tcpip.c.o.d -o CMakeFiles/ros2_imu.dir/src/rtiostream_tcpip.c.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtiostream_tcpip.c\n'}
+[4.613522] (ros2_imu) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[4.620515] (-) TimerEvent: {}
+[4.721072] (-) TimerEvent: {}
+[4.821609] (-) TimerEvent: {}
+[4.922159] (-) TimerEvent: {}
+[5.022692] (-) TimerEvent: {}
+[5.087783] (ros2_imu) StdoutLine: {'line': b'[ 37%] Building C object CMakeFiles/ros2_imu.dir/src/rtiostream_utils.c.o\n'}
+[5.094748] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/ros2_imu.dir/src/rtiostream_utils.c.o -MF CMakeFiles/ros2_imu.dir/src/rtiostream_utils.c.o.d -o CMakeFiles/ros2_imu.dir/src/rtiostream_utils.c.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtiostream_utils.c\n'}
+[5.122908] (-) TimerEvent: {}
+[5.140190] (ros2_imu) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[5.223114] (-) TimerEvent: {}
+[5.323719] (-) TimerEvent: {}
+[5.365991] (ros2_imu) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/ros2_imu.dir/src/main.cpp.o\n'}
+[5.373091] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/main.cpp.o -MF CMakeFiles/ros2_imu.dir/src/main.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/main.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/main.cpp\n'}
+[5.423998] (-) TimerEvent: {}
+[5.513201] (ros2_imu) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o\n'}
+[5.516835] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o -MF CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/ros2_imu.cpp\n'}
+[5.524131] (-) TimerEvent: {}
+[5.624612] (-) TimerEvent: {}
+[5.630509] (ros2_imu) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o\n'}
+[5.633887] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o -MF CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/ros2_imu_data.cpp\n'}
+[5.724784] (-) TimerEvent: {}
+[5.825287] (-) TimerEvent: {}
+[5.925738] (-) TimerEvent: {}
+[6.026659] (-) TimerEvent: {}
+[6.127129] (-) TimerEvent: {}
+[6.227607] (-) TimerEvent: {}
+[6.328124] (-) TimerEvent: {}
+[6.429531] (-) TimerEvent: {}
+[6.529990] (-) TimerEvent: {}
+[6.630476] (-) TimerEvent: {}
+[6.730936] (-) TimerEvent: {}
+[6.801610] (ros2_imu) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o\n'}
+[6.805159] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o -MF CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp\n'}
+[6.831173] (-) TimerEvent: {}
+[6.931704] (-) TimerEvent: {}
+[7.032132] (-) TimerEvent: {}
+[7.132540] (-) TimerEvent: {}
+[7.232981] (-) TimerEvent: {}
+[7.333502] (-) TimerEvent: {}
+[7.433973] (-) TimerEvent: {}
+[7.534379] (-) TimerEvent: {}
+[7.634826] (-) TimerEvent: {}
+[7.735280] (-) TimerEvent: {}
+[7.835736] (-) TimerEvent: {}
+[7.936201] (-) TimerEvent: {}
+[8.036656] (-) TimerEvent: {}
+[8.137124] (-) TimerEvent: {}
+[8.237579] (-) TimerEvent: {}
+[8.338200] (-) TimerEvent: {}
+[8.438634] (-) TimerEvent: {}
+[8.539111] (-) TimerEvent: {}
+[8.639786] (-) TimerEvent: {}
+[8.740385] (-) TimerEvent: {}
+[8.840985] (-) TimerEvent: {}
+[8.941632] (-) TimerEvent: {}
+[9.042329] (-) TimerEvent: {}
+[9.146489] (-) TimerEvent: {}
+[9.247057] (-) TimerEvent: {}
+[9.347658] (-) TimerEvent: {}
+[9.448338] (-) TimerEvent: {}
+[9.549521] (-) TimerEvent: {}
+[9.650183] (-) TimerEvent: {}
+[9.750838] (-) TimerEvent: {}
+[9.851440] (-) TimerEvent: {}
+[9.952120] (-) TimerEvent: {}
+[10.052680] (-) TimerEvent: {}
+[10.153378] (-) TimerEvent: {}
+[10.253939] (-) TimerEvent: {}
+[10.354480] (-) TimerEvent: {}
+[10.455051] (-) TimerEvent: {}
+[10.555701] (-) TimerEvent: {}
+[10.656362] (-) TimerEvent: {}
+[10.756880] (-) TimerEvent: {}
+[10.857415] (-) TimerEvent: {}
+[10.957949] (-) TimerEvent: {}
+[11.058580] (-) TimerEvent: {}
+[11.159137] (-) TimerEvent: {}
+[11.259703] (-) TimerEvent: {}
+[11.360230] (-) TimerEvent: {}
+[11.460780] (-) TimerEvent: {}
+[11.561296] (-) TimerEvent: {}
+[11.661822] (-) TimerEvent: {}
+[11.762449] (-) TimerEvent: {}
+[11.863173] (-) TimerEvent: {}
+[11.963777] (-) TimerEvent: {}
+[12.064315] (-) TimerEvent: {}
+[12.164876] (-) TimerEvent: {}
+[12.265500] (-) TimerEvent: {}
+[12.366077] (-) TimerEvent: {}
+[12.466655] (-) TimerEvent: {}
+[12.567273] (-) TimerEvent: {}
+[12.667963] (-) TimerEvent: {}
+[12.768599] (-) TimerEvent: {}
+[12.869378] (-) TimerEvent: {}
+[12.970079] (-) TimerEvent: {}
+[13.070658] (-) TimerEvent: {}
+[13.171299] (-) TimerEvent: {}
+[13.271903] (-) TimerEvent: {}
+[13.372488] (-) TimerEvent: {}
+[13.473121] (-) TimerEvent: {}
+[13.573674] (-) TimerEvent: {}
+[13.674226] (-) TimerEvent: {}
+[13.774750] (-) TimerEvent: {}
+[13.875348] (-) TimerEvent: {}
+[13.976418] (-) TimerEvent: {}
+[14.082824] (-) TimerEvent: {}
+[14.183359] (-) TimerEvent: {}
+[14.283918] (-) TimerEvent: {}
+[14.384447] (-) TimerEvent: {}
+[14.487713] (-) TimerEvent: {}
+[14.588225] (-) TimerEvent: {}
+[14.688773] (-) TimerEvent: {}
+[14.789353] (-) TimerEvent: {}
+[14.889922] (-) TimerEvent: {}
+[14.990585] (-) TimerEvent: {}
+[15.091153] (-) TimerEvent: {}
+[15.191731] (-) TimerEvent: {}
+[15.292269] (-) TimerEvent: {}
+[15.392842] (-) TimerEvent: {}
+[15.493576] (-) TimerEvent: {}
+[15.594139] (-) TimerEvent: {}
+[15.694686] (-) TimerEvent: {}
+[15.799738] (-) TimerEvent: {}
+[15.900344] (-) TimerEvent: {}
+[16.000916] (-) TimerEvent: {}
+[16.101489] (-) TimerEvent: {}
+[16.202096] (-) TimerEvent: {}
+[16.302844] (-) TimerEvent: {}
+[16.403462] (-) TimerEvent: {}
+[16.504029] (-) TimerEvent: {}
+[16.604630] (-) TimerEvent: {}
+[16.705184] (-) TimerEvent: {}
+[16.805719] (-) TimerEvent: {}
+[16.906446] (-) TimerEvent: {}
+[17.007060] (-) TimerEvent: {}
+[17.107790] (-) TimerEvent: {}
+[17.208451] (-) TimerEvent: {}
+[17.311710] (-) TimerEvent: {}
+[17.412289] (-) TimerEvent: {}
+[17.512848] (-) TimerEvent: {}
+[17.613801] (-) TimerEvent: {}
+[17.714326] (-) TimerEvent: {}
+[17.814857] (-) TimerEvent: {}
+[17.915468] (-) TimerEvent: {}
+[18.018165] (-) TimerEvent: {}
+[18.118714] (-) TimerEvent: {}
+[18.219313] (-) TimerEvent: {}
+[18.320585] (-) TimerEvent: {}
+[18.421102] (-) TimerEvent: {}
+[18.521606] (-) TimerEvent: {}
+[18.622336] (-) TimerEvent: {}
+[18.722981] (-) TimerEvent: {}
+[18.823575] (-) TimerEvent: {}
+[18.924115] (-) TimerEvent: {}
+[19.024707] (-) TimerEvent: {}
+[19.127127] (-) TimerEvent: {}
+[19.227768] (-) TimerEvent: {}
+[19.328298] (-) TimerEvent: {}
+[19.428823] (-) TimerEvent: {}
+[19.529414] (-) TimerEvent: {}
+[19.630045] (-) TimerEvent: {}
+[19.730576] (-) TimerEvent: {}
+[19.831110] (-) TimerEvent: {}
+[19.931721] (-) TimerEvent: {}
+[20.032260] (-) TimerEvent: {}
+[20.132812] (-) TimerEvent: {}
+[20.233370] (-) TimerEvent: {}
+[20.333900] (-) TimerEvent: {}
+[20.434483] (-) TimerEvent: {}
+[20.535058] (-) TimerEvent: {}
+[20.635642] (-) TimerEvent: {}
+[20.736228] (-) TimerEvent: {}
+[20.836872] (-) TimerEvent: {}
+[20.937656] (-) TimerEvent: {}
+[21.040153] (-) TimerEvent: {}
+[21.141801] (-) TimerEvent: {}
+[21.243388] (-) TimerEvent: {}
+[21.344914] (-) TimerEvent: {}
+[21.450141] (-) TimerEvent: {}
+[21.551702] (-) TimerEvent: {}
+[21.652704] (-) TimerEvent: {}
+[21.753404] (-) TimerEvent: {}
+[21.854183] (-) TimerEvent: {}
+[21.955178] (-) TimerEvent: {}
+[22.055747] (-) TimerEvent: {}
+[22.156727] (-) TimerEvent: {}
+[22.257520] (-) TimerEvent: {}
+[22.358379] (-) TimerEvent: {}
+[22.459249] (-) TimerEvent: {}
+[22.560021] (-) TimerEvent: {}
+[22.660906] (-) TimerEvent: {}
+[22.761820] (-) TimerEvent: {}
+[22.818829] (ros2_imu) StderrLine: {'line': b'In file included from /home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:31:\n'}
+[22.820698] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2nodeinterface.h: In constructor 'ros2::matlab::NodeInterface::NodeInterface()':\n"}
+[22.822003] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2nodeinterface.h:76:38: warning: 'ros2::matlab::NodeInterface::mExtModeThread' will be initialized after [-Wreorder]\n"}
+[22.822752] (ros2_imu) StderrLine: {'line': b'   76 |         std::shared_ptr<std::thread> mExtModeThread;\n'}
+[22.825861] (ros2_imu) StderrLine: {'line': b'      |                                      ^~~~~~~~~~~~~~\n'}
+[22.826766] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2nodeinterface.h:73:15: warning:   'ros2::matlab::Semaphore ros2::matlab::NodeInterface::mStopSem' [-Wreorder]\n"}
+[22.827936] (ros2_imu) StderrLine: {'line': b'   73 |     Semaphore mStopSem;\n'}
+[22.829051] (ros2_imu) StderrLine: {'line': b'      |               ^~~~~~~~\n'}
+[22.830483] (ros2_imu) StderrLine: {'line': b'/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:43:1: warning:   when initialized here [-Wreorder]\n'}
+[22.834424] (ros2_imu) StderrLine: {'line': b'   43 | NodeInterface::NodeInterface()\n'}
+[22.837366] (ros2_imu) StderrLine: {'line': b'      | ^~~~~~~~~~~~~\n'}
+[22.843962] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp: In member function 'void ros2::matlab::NodeInterface::initialize(int, char* const*)':\n"}
+[22.848646] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:67:47: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[22.854666] (ros2_imu) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[22.873640] (-) TimerEvent: {}
+[22.874722] (ros2_imu) StderrLine: {'line': b'      |                                               ^~~~~~~\n'}
+[22.878393] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:67:55: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[22.885241] (ros2_imu) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[22.889082] (ros2_imu) StderrLine: {'line': b'      |                                                       ^~~~~~~\n'}
+[22.895094] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:67:63: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[22.902195] (ros2_imu) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[22.906836] (ros2_imu) StderrLine: {'line': b'      |                                                               ^~~~~~~~~~~\n'}
+[22.913989] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:67:75: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[22.921204] (ros2_imu) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[22.922320] (ros2_imu) StderrLine: {'line': b'      |                                                                           ^~~\n'}
+[22.926094] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:67:79: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[22.931667] (ros2_imu) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[22.932870] (ros2_imu) StderrLine: {'line': b'      |                                                                               ^~~~~~~~~~\n'}
+[22.934183] (ros2_imu) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp:67:90: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[22.935715] (ros2_imu) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[22.937017] (ros2_imu) StderrLine: {'line': b'      |                                                                                          ^~~\n'}
+[22.973866] (-) TimerEvent: {}
+[23.075207] (-) TimerEvent: {}
+[23.176117] (-) TimerEvent: {}
+[23.277204] (-) TimerEvent: {}
+[23.377930] (-) TimerEvent: {}
+[23.478893] (-) TimerEvent: {}
+[23.579610] (-) TimerEvent: {}
+[23.680509] (-) TimerEvent: {}
+[23.781464] (-) TimerEvent: {}
+[23.882188] (-) TimerEvent: {}
+[23.983105] (-) TimerEvent: {}
+[24.084395] (-) TimerEvent: {}
+[24.191030] (-) TimerEvent: {}
+[24.291641] (-) TimerEvent: {}
+[24.392211] (-) TimerEvent: {}
+[24.492824] (-) TimerEvent: {}
+[24.593377] (-) TimerEvent: {}
+[24.693905] (-) TimerEvent: {}
+[24.794465] (-) TimerEvent: {}
+[24.894975] (-) TimerEvent: {}
+[24.995680] (-) TimerEvent: {}
+[25.097564] (-) TimerEvent: {}
+[25.198194] (-) TimerEvent: {}
+[25.300547] (-) TimerEvent: {}
+[25.401090] (-) TimerEvent: {}
+[25.501718] (-) TimerEvent: {}
+[25.602254] (-) TimerEvent: {}
+[25.702917] (-) TimerEvent: {}
+[25.803829] (-) TimerEvent: {}
+[25.904355] (-) TimerEvent: {}
+[26.005996] (-) TimerEvent: {}
+[26.106570] (-) TimerEvent: {}
+[26.207168] (-) TimerEvent: {}
+[26.307742] (-) TimerEvent: {}
+[26.408527] (-) TimerEvent: {}
+[26.509177] (-) TimerEvent: {}
+[26.609794] (-) TimerEvent: {}
+[26.710358] (-) TimerEvent: {}
+[26.810946] (-) TimerEvent: {}
+[26.911585] (-) TimerEvent: {}
+[27.012116] (-) TimerEvent: {}
+[27.112684] (-) TimerEvent: {}
+[27.213270] (-) TimerEvent: {}
+[27.313810] (-) TimerEvent: {}
+[27.414381] (-) TimerEvent: {}
+[27.514971] (-) TimerEvent: {}
+[27.615685] (-) TimerEvent: {}
+[27.716287] (-) TimerEvent: {}
+[27.816980] (-) TimerEvent: {}
+[27.917584] (-) TimerEvent: {}
+[28.018265] (-) TimerEvent: {}
+[28.118782] (-) TimerEvent: {}
+[28.219321] (-) TimerEvent: {}
+[28.320333] (-) TimerEvent: {}
+[28.421700] (-) TimerEvent: {}
+[28.522257] (-) TimerEvent: {}
+[28.625981] (-) TimerEvent: {}
+[28.726611] (-) TimerEvent: {}
+[28.827439] (-) TimerEvent: {}
+[28.928907] (-) TimerEvent: {}
+[29.029471] (-) TimerEvent: {}
+[29.131814] (-) TimerEvent: {}
+[29.235074] (-) TimerEvent: {}
+[29.336434] (-) TimerEvent: {}
+[29.437185] (-) TimerEvent: {}
+[29.537837] (-) TimerEvent: {}
+[29.638831] (-) TimerEvent: {}
+[29.739964] (-) TimerEvent: {}
+[29.840583] (-) TimerEvent: {}
+[29.941692] (-) TimerEvent: {}
+[30.042379] (-) TimerEvent: {}
+[30.143108] (-) TimerEvent: {}
+[30.162266] (ros2_imu) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o\n'}
+[30.170223] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o -MF CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetInf.cpp\n'}
+[30.243321] (-) TimerEvent: {}
+[30.343889] (-) TimerEvent: {}
+[30.444528] (-) TimerEvent: {}
+[30.485117] (ros2_imu) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o\n'}
+[30.493804] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o -MF CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetNaN.cpp\n'}
+[30.544726] (-) TimerEvent: {}
+[30.645331] (-) TimerEvent: {}
+[30.747820] (-) TimerEvent: {}
+[30.848392] (-) TimerEvent: {}
+[30.853208] (ros2_imu) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o\n'}
+[30.863197] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o -MF CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rt_nonfinite.cpp\n'}
+[30.948611] (-) TimerEvent: {}
+[31.049137] (-) TimerEvent: {}
+[31.150317] (-) TimerEvent: {}
+[31.222589] (ros2_imu) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o\n'}
+[31.241371] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o -MF CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/slros2_initialize.cpp\n'}
+[31.250531] (-) TimerEvent: {}
+[31.351134] (-) TimerEvent: {}
+[31.451667] (-) TimerEvent: {}
+[31.552175] (-) TimerEvent: {}
+[31.652748] (-) TimerEvent: {}
+[31.753334] (-) TimerEvent: {}
+[31.853863] (-) TimerEvent: {}
+[31.954399] (-) TimerEvent: {}
+[32.054986] (-) TimerEvent: {}
+[32.155511] (-) TimerEvent: {}
+[32.256080] (-) TimerEvent: {}
+[32.356592] (-) TimerEvent: {}
+[32.457099] (-) TimerEvent: {}
+[32.557623] (-) TimerEvent: {}
+[32.658157] (-) TimerEvent: {}
+[32.758674] (-) TimerEvent: {}
+[32.859193] (-) TimerEvent: {}
+[32.959788] (-) TimerEvent: {}
+[33.060333] (-) TimerEvent: {}
+[33.160853] (-) TimerEvent: {}
+[33.261424] (-) TimerEvent: {}
+[33.362465] (-) TimerEvent: {}
+[33.462997] (-) TimerEvent: {}
+[33.563588] (-) TimerEvent: {}
+[33.664161] (-) TimerEvent: {}
+[33.767856] (-) TimerEvent: {}
+[33.868351] (-) TimerEvent: {}
+[33.969585] (-) TimerEvent: {}
+[34.070148] (-) TimerEvent: {}
+[34.172590] (-) TimerEvent: {}
+[34.279693] (-) TimerEvent: {}
+[34.380434] (-) TimerEvent: {}
+[34.480948] (-) TimerEvent: {}
+[34.581451] (-) TimerEvent: {}
+[34.681957] (-) TimerEvent: {}
+[34.782509] (-) TimerEvent: {}
+[34.883055] (-) TimerEvent: {}
+[34.983630] (-) TimerEvent: {}
+[35.084154] (-) TimerEvent: {}
+[35.184694] (-) TimerEvent: {}
+[35.285448] (-) TimerEvent: {}
+[35.386067] (-) TimerEvent: {}
+[35.486611] (-) TimerEvent: {}
+[35.587170] (-) TimerEvent: {}
+[35.687776] (-) TimerEvent: {}
+[35.788817] (-) TimerEvent: {}
+[35.889342] (-) TimerEvent: {}
+[35.989893] (-) TimerEvent: {}
+[36.090526] (-) TimerEvent: {}
+[36.191132] (-) TimerEvent: {}
+[36.291728] (-) TimerEvent: {}
+[36.392234] (-) TimerEvent: {}
+[36.492897] (-) TimerEvent: {}
+[36.593470] (-) TimerEvent: {}
+[36.694023] (-) TimerEvent: {}
+[36.794688] (-) TimerEvent: {}
+[36.895329] (-) TimerEvent: {}
+[36.995875] (-) TimerEvent: {}
+[37.096448] (-) TimerEvent: {}
+[37.197061] (-) TimerEvent: {}
+[37.297613] (-) TimerEvent: {}
+[37.398120] (-) TimerEvent: {}
+[37.498578] (-) TimerEvent: {}
+[37.599044] (-) TimerEvent: {}
+[37.699506] (-) TimerEvent: {}
+[37.800041] (-) TimerEvent: {}
+[37.900541] (-) TimerEvent: {}
+[38.001033] (-) TimerEvent: {}
+[38.101571] (-) TimerEvent: {}
+[38.202063] (-) TimerEvent: {}
+[38.302565] (-) TimerEvent: {}
+[38.403018] (-) TimerEvent: {}
+[38.503482] (-) TimerEvent: {}
+[38.603980] (-) TimerEvent: {}
+[38.704465] (-) TimerEvent: {}
+[38.804957] (-) TimerEvent: {}
+[38.905457] (-) TimerEvent: {}
+[39.005954] (-) TimerEvent: {}
+[39.106432] (-) TimerEvent: {}
+[39.206975] (-) TimerEvent: {}
+[39.314478] (-) TimerEvent: {}
+[39.414994] (-) TimerEvent: {}
+[39.515467] (-) TimerEvent: {}
+[39.616001] (-) TimerEvent: {}
+[39.716511] (-) TimerEvent: {}
+[39.817025] (-) TimerEvent: {}
+[39.917496] (-) TimerEvent: {}
+[40.017984] (-) TimerEvent: {}
+[40.118520] (-) TimerEvent: {}
+[40.219054] (-) TimerEvent: {}
+[40.319653] (-) TimerEvent: {}
+[40.420200] (-) TimerEvent: {}
+[40.520726] (-) TimerEvent: {}
+[40.621298] (-) TimerEvent: {}
+[40.721843] (-) TimerEvent: {}
+[40.822335] (-) TimerEvent: {}
+[40.922877] (-) TimerEvent: {}
+[41.023452] (-) TimerEvent: {}
+[41.124032] (-) TimerEvent: {}
+[41.224534] (-) TimerEvent: {}
+[41.325027] (-) TimerEvent: {}
+[41.425515] (-) TimerEvent: {}
+[41.526990] (-) TimerEvent: {}
+[41.627689] (-) TimerEvent: {}
+[41.728233] (-) TimerEvent: {}
+[41.828798] (-) TimerEvent: {}
+[41.929331] (-) TimerEvent: {}
+[42.029846] (-) TimerEvent: {}
+[42.130362] (-) TimerEvent: {}
+[42.230900] (-) TimerEvent: {}
+[42.331458] (-) TimerEvent: {}
+[42.432179] (-) TimerEvent: {}
+[42.535720] (-) TimerEvent: {}
+[42.636993] (-) TimerEvent: {}
+[42.737807] (-) TimerEvent: {}
+[42.838416] (-) TimerEvent: {}
+[42.939494] (-) TimerEvent: {}
+[43.040050] (-) TimerEvent: {}
+[43.140569] (-) TimerEvent: {}
+[43.241059] (-) TimerEvent: {}
+[43.341527] (-) TimerEvent: {}
+[43.442612] (-) TimerEvent: {}
+[43.543098] (-) TimerEvent: {}
+[43.643644] (-) TimerEvent: {}
+[43.744138] (-) TimerEvent: {}
+[43.844622] (-) TimerEvent: {}
+[43.945120] (-) TimerEvent: {}
+[44.045638] (-) TimerEvent: {}
+[44.146169] (-) TimerEvent: {}
+[44.246736] (-) TimerEvent: {}
+[44.356807] (-) TimerEvent: {}
+[44.457345] (-) TimerEvent: {}
+[44.557883] (-) TimerEvent: {}
+[44.658386] (-) TimerEvent: {}
+[44.758891] (-) TimerEvent: {}
+[44.859379] (-) TimerEvent: {}
+[44.959894] (-) TimerEvent: {}
+[45.060327] (-) TimerEvent: {}
+[45.160826] (-) TimerEvent: {}
+[45.261280] (-) TimerEvent: {}
+[45.361736] (-) TimerEvent: {}
+[45.462314] (-) TimerEvent: {}
+[45.562892] (-) TimerEvent: {}
+[45.663605] (-) TimerEvent: {}
+[45.764101] (-) TimerEvent: {}
+[45.864805] (-) TimerEvent: {}
+[45.965362] (-) TimerEvent: {}
+[46.065874] (-) TimerEvent: {}
+[46.166333] (-) TimerEvent: {}
+[46.266810] (-) TimerEvent: {}
+[46.367381] (-) TimerEvent: {}
+[46.468014] (-) TimerEvent: {}
+[46.568573] (-) TimerEvent: {}
+[46.669078] (-) TimerEvent: {}
+[46.769593] (-) TimerEvent: {}
+[46.870093] (-) TimerEvent: {}
+[46.970610] (-) TimerEvent: {}
+[47.071205] (-) TimerEvent: {}
+[47.171689] (-) TimerEvent: {}
+[47.272182] (-) TimerEvent: {}
+[47.372797] (-) TimerEvent: {}
+[47.473251] (-) TimerEvent: {}
+[47.573735] (-) TimerEvent: {}
+[47.674304] (-) TimerEvent: {}
+[47.774768] (-) TimerEvent: {}
+[47.875274] (-) TimerEvent: {}
+[47.975766] (-) TimerEvent: {}
+[48.076268] (-) TimerEvent: {}
+[48.176770] (-) TimerEvent: {}
+[48.277381] (-) TimerEvent: {}
+[48.377894] (-) TimerEvent: {}
+[48.478412] (-) TimerEvent: {}
+[48.578894] (-) TimerEvent: {}
+[48.679338] (-) TimerEvent: {}
+[48.779797] (-) TimerEvent: {}
+[48.880273] (-) TimerEvent: {}
+[48.980786] (-) TimerEvent: {}
+[49.081262] (-) TimerEvent: {}
+[49.181742] (-) TimerEvent: {}
+[49.282272] (-) TimerEvent: {}
+[49.382915] (-) TimerEvent: {}
+[49.483422] (-) TimerEvent: {}
+[49.583912] (-) TimerEvent: {}
+[49.684445] (-) TimerEvent: {}
+[49.784942] (-) TimerEvent: {}
+[49.885474] (-) TimerEvent: {}
+[49.985957] (-) TimerEvent: {}
+[50.086413] (-) TimerEvent: {}
+[50.186897] (-) TimerEvent: {}
+[50.287356] (-) TimerEvent: {}
+[50.387849] (-) TimerEvent: {}
+[50.488328] (-) TimerEvent: {}
+[50.588759] (-) TimerEvent: {}
+[50.689231] (-) TimerEvent: {}
+[50.789786] (-) TimerEvent: {}
+[50.890289] (-) TimerEvent: {}
+[50.990727] (-) TimerEvent: {}
+[51.091220] (-) TimerEvent: {}
+[51.191695] (-) TimerEvent: {}
+[51.292140] (-) TimerEvent: {}
+[51.392628] (-) TimerEvent: {}
+[51.493059] (-) TimerEvent: {}
+[51.593505] (-) TimerEvent: {}
+[51.693955] (-) TimerEvent: {}
+[51.794427] (-) TimerEvent: {}
+[51.894865] (-) TimerEvent: {}
+[51.995318] (-) TimerEvent: {}
+[52.095832] (-) TimerEvent: {}
+[52.196282] (-) TimerEvent: {}
+[52.296790] (-) TimerEvent: {}
+[52.397299] (-) TimerEvent: {}
+[52.497772] (-) TimerEvent: {}
+[52.598220] (-) TimerEvent: {}
+[52.698721] (-) TimerEvent: {}
+[52.799241] (-) TimerEvent: {}
+[52.899691] (-) TimerEvent: {}
+[53.000173] (-) TimerEvent: {}
+[53.100666] (-) TimerEvent: {}
+[53.201147] (-) TimerEvent: {}
+[53.301588] (-) TimerEvent: {}
+[53.402074] (-) TimerEvent: {}
+[53.502532] (-) TimerEvent: {}
+[53.602994] (-) TimerEvent: {}
+[53.703452] (-) TimerEvent: {}
+[53.803929] (-) TimerEvent: {}
+[53.904416] (-) TimerEvent: {}
+[54.004853] (-) TimerEvent: {}
+[54.105345] (-) TimerEvent: {}
+[54.205822] (-) TimerEvent: {}
+[54.306456] (-) TimerEvent: {}
+[54.406889] (-) TimerEvent: {}
+[54.507316] (-) TimerEvent: {}
+[54.607777] (-) TimerEvent: {}
+[54.708213] (-) TimerEvent: {}
+[54.808667] (-) TimerEvent: {}
+[54.909331] (-) TimerEvent: {}
+[55.009760] (-) TimerEvent: {}
+[55.110201] (-) TimerEvent: {}
+[55.210676] (-) TimerEvent: {}
+[55.311112] (-) TimerEvent: {}
+[55.411623] (-) TimerEvent: {}
+[55.512048] (-) TimerEvent: {}
+[55.612487] (-) TimerEvent: {}
+[55.712905] (-) TimerEvent: {}
+[55.813358] (-) TimerEvent: {}
+[55.913841] (-) TimerEvent: {}
+[56.014388] (-) TimerEvent: {}
+[56.114881] (-) TimerEvent: {}
+[56.215342] (-) TimerEvent: {}
+[56.315882] (-) TimerEvent: {}
+[56.416483] (-) TimerEvent: {}
+[56.517009] (-) TimerEvent: {}
+[56.617425] (-) TimerEvent: {}
+[56.717879] (-) TimerEvent: {}
+[56.818306] (-) TimerEvent: {}
+[56.918743] (-) TimerEvent: {}
+[57.019190] (-) TimerEvent: {}
+[57.119733] (-) TimerEvent: {}
+[57.221479] (-) TimerEvent: {}
+[57.321916] (-) TimerEvent: {}
+[57.422394] (-) TimerEvent: {}
+[57.522965] (-) TimerEvent: {}
+[57.623403] (-) TimerEvent: {}
+[57.723928] (-) TimerEvent: {}
+[57.824395] (-) TimerEvent: {}
+[57.924857] (-) TimerEvent: {}
+[58.025295] (-) TimerEvent: {}
+[58.125771] (-) TimerEvent: {}
+[58.226236] (-) TimerEvent: {}
+[58.326686] (-) TimerEvent: {}
+[58.427174] (-) TimerEvent: {}
+[58.527649] (-) TimerEvent: {}
+[58.628057] (-) TimerEvent: {}
+[58.728489] (-) TimerEvent: {}
+[58.828909] (-) TimerEvent: {}
+[58.929365] (-) TimerEvent: {}
+[59.029853] (-) TimerEvent: {}
+[59.130307] (-) TimerEvent: {}
+[59.230773] (-) TimerEvent: {}
+[59.331291] (-) TimerEvent: {}
+[59.432000] (-) TimerEvent: {}
+[59.532501] (-) TimerEvent: {}
+[59.633020] (-) TimerEvent: {}
+[59.733430] (-) TimerEvent: {}
+[59.833854] (-) TimerEvent: {}
+[59.934353] (-) TimerEvent: {}
+[60.034863] (-) TimerEvent: {}
+[60.135370] (-) TimerEvent: {}
+[60.236002] (-) TimerEvent: {}
+[60.336687] (-) TimerEvent: {}
+[60.437216] (-) TimerEvent: {}
+[60.537685] (-) TimerEvent: {}
+[60.638159] (-) TimerEvent: {}
+[60.738638] (-) TimerEvent: {}
+[60.839056] (-) TimerEvent: {}
+[60.939516] (-) TimerEvent: {}
+[61.039974] (-) TimerEvent: {}
+[61.140416] (-) TimerEvent: {}
+[61.240879] (-) TimerEvent: {}
+[61.341326] (-) TimerEvent: {}
+[61.441796] (-) TimerEvent: {}
+[61.542240] (-) TimerEvent: {}
+[61.642887] (-) TimerEvent: {}
+[61.743328] (-) TimerEvent: {}
+[61.843821] (-) TimerEvent: {}
+[61.944259] (-) TimerEvent: {}
+[62.044736] (-) TimerEvent: {}
+[62.145247] (-) TimerEvent: {}
+[62.245688] (-) TimerEvent: {}
+[62.346172] (-) TimerEvent: {}
+[62.446649] (-) TimerEvent: {}
+[62.547142] (-) TimerEvent: {}
+[62.647617] (-) TimerEvent: {}
+[62.748081] (-) TimerEvent: {}
+[62.848530] (-) TimerEvent: {}
+[62.948990] (-) TimerEvent: {}
+[63.049587] (-) TimerEvent: {}
+[63.150043] (-) TimerEvent: {}
+[63.250502] (-) TimerEvent: {}
+[63.350933] (-) TimerEvent: {}
+[63.451430] (-) TimerEvent: {}
+[63.552011] (-) TimerEvent: {}
+[63.652504] (-) TimerEvent: {}
+[63.752924] (-) TimerEvent: {}
+[63.853430] (-) TimerEvent: {}
+[63.953951] (-) TimerEvent: {}
+[64.054428] (-) TimerEvent: {}
+[64.154998] (-) TimerEvent: {}
+[64.255487] (-) TimerEvent: {}
+[64.356011] (-) TimerEvent: {}
+[64.456517] (-) TimerEvent: {}
+[64.561133] (-) TimerEvent: {}
+[64.661609] (-) TimerEvent: {}
+[64.762012] (-) TimerEvent: {}
+[64.862496] (-) TimerEvent: {}
+[64.962988] (-) TimerEvent: {}
+[65.063461] (-) TimerEvent: {}
+[65.164097] (-) TimerEvent: {}
+[65.264578] (-) TimerEvent: {}
+[65.365057] (-) TimerEvent: {}
+[65.465544] (-) TimerEvent: {}
+[65.565948] (-) TimerEvent: {}
+[65.666490] (-) TimerEvent: {}
+[65.767146] (-) TimerEvent: {}
+[65.867620] (-) TimerEvent: {}
+[65.968064] (-) TimerEvent: {}
+[66.068573] (-) TimerEvent: {}
+[66.169234] (-) TimerEvent: {}
+[66.269856] (-) TimerEvent: {}
+[66.370394] (-) TimerEvent: {}
+[66.470916] (-) TimerEvent: {}
+[66.571481] (-) TimerEvent: {}
+[66.672024] (-) TimerEvent: {}
+[66.772488] (-) TimerEvent: {}
+[66.872943] (-) TimerEvent: {}
+[66.973409] (-) TimerEvent: {}
+[67.073882] (-) TimerEvent: {}
+[67.174457] (-) TimerEvent: {}
+[67.274989] (-) TimerEvent: {}
+[67.375486] (-) TimerEvent: {}
+[67.475958] (-) TimerEvent: {}
+[67.576397] (-) TimerEvent: {}
+[67.676855] (-) TimerEvent: {}
+[67.777290] (-) TimerEvent: {}
+[67.877769] (-) TimerEvent: {}
+[67.978238] (-) TimerEvent: {}
+[68.078675] (-) TimerEvent: {}
+[68.179198] (-) TimerEvent: {}
+[68.279802] (-) TimerEvent: {}
+[68.380381] (-) TimerEvent: {}
+[68.480916] (-) TimerEvent: {}
+[68.581529] (-) TimerEvent: {}
+[68.682099] (-) TimerEvent: {}
+[68.782637] (-) TimerEvent: {}
+[68.883171] (-) TimerEvent: {}
+[68.983683] (-) TimerEvent: {}
+[69.084173] (-) TimerEvent: {}
+[69.184723] (-) TimerEvent: {}
+[69.285159] (-) TimerEvent: {}
+[69.385627] (-) TimerEvent: {}
+[69.486101] (-) TimerEvent: {}
+[69.586611] (-) TimerEvent: {}
+[69.687051] (-) TimerEvent: {}
+[69.787517] (-) TimerEvent: {}
+[69.888011] (-) TimerEvent: {}
+[69.988484] (-) TimerEvent: {}
+[70.088961] (-) TimerEvent: {}
+[70.189521] (-) TimerEvent: {}
+[70.289949] (-) TimerEvent: {}
+[70.390444] (-) TimerEvent: {}
+[70.490940] (-) TimerEvent: {}
+[70.591613] (-) TimerEvent: {}
+[70.692105] (-) TimerEvent: {}
+[70.792702] (-) TimerEvent: {}
+[70.893230] (-) TimerEvent: {}
+[70.993678] (-) TimerEvent: {}
+[71.094091] (-) TimerEvent: {}
+[71.194524] (-) TimerEvent: {}
+[71.295029] (-) TimerEvent: {}
+[71.395611] (-) TimerEvent: {}
+[71.496223] (-) TimerEvent: {}
+[71.552938] (ros2_imu) StdoutLine: {'line': b'[ 93%] Building CXX object CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o\n'}
+[71.557792] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"ros2_imu\\" -I/home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu -I/home/ubuntu/ros2_ws/src/ros2_imu/include -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=ros2_imu -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o -MF CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/slros_busmsg_conversion.cpp\n'}
+[71.596382] (-) TimerEvent: {}
+[71.696880] (-) TimerEvent: {}
+[71.797249] (-) TimerEvent: {}
+[71.897702] (-) TimerEvent: {}
+[71.998134] (-) TimerEvent: {}
+[72.098505] (-) TimerEvent: {}
+[72.198882] (-) TimerEvent: {}
+[72.299256] (-) TimerEvent: {}
+[72.399668] (-) TimerEvent: {}
+[72.500047] (-) TimerEvent: {}
+[72.600442] (-) TimerEvent: {}
+[72.700851] (-) TimerEvent: {}
+[72.801227] (-) TimerEvent: {}
+[72.901641] (-) TimerEvent: {}
+[73.002036] (-) TimerEvent: {}
+[73.102486] (-) TimerEvent: {}
+[73.202907] (-) TimerEvent: {}
+[73.303373] (-) TimerEvent: {}
+[73.403864] (-) TimerEvent: {}
+[73.504447] (-) TimerEvent: {}
+[73.604905] (-) TimerEvent: {}
+[73.705554] (-) TimerEvent: {}
+[73.806047] (-) TimerEvent: {}
+[73.906466] (-) TimerEvent: {}
+[74.006961] (-) TimerEvent: {}
+[74.107384] (-) TimerEvent: {}
+[74.207878] (-) TimerEvent: {}
+[74.308354] (-) TimerEvent: {}
+[74.408825] (-) TimerEvent: {}
+[74.509298] (-) TimerEvent: {}
+[74.609906] (-) TimerEvent: {}
+[74.710389] (-) TimerEvent: {}
+[74.810849] (-) TimerEvent: {}
+[74.912043] (-) TimerEvent: {}
+[75.012555] (-) TimerEvent: {}
+[75.113091] (-) TimerEvent: {}
+[75.213626] (-) TimerEvent: {}
+[75.314142] (-) TimerEvent: {}
+[75.414652] (-) TimerEvent: {}
+[75.515106] (-) TimerEvent: {}
+[75.615516] (-) TimerEvent: {}
+[75.715980] (-) TimerEvent: {}
+[75.816453] (-) TimerEvent: {}
+[75.916917] (-) TimerEvent: {}
+[76.017437] (-) TimerEvent: {}
+[76.117949] (-) TimerEvent: {}
+[76.218460] (-) TimerEvent: {}
+[76.318978] (-) TimerEvent: {}
+[76.419481] (-) TimerEvent: {}
+[76.519977] (-) TimerEvent: {}
+[76.620475] (-) TimerEvent: {}
+[76.720972] (-) TimerEvent: {}
+[76.821406] (-) TimerEvent: {}
+[76.921861] (-) TimerEvent: {}
+[77.022310] (-) TimerEvent: {}
+[77.122765] (-) TimerEvent: {}
+[77.223460] (-) TimerEvent: {}
+[77.324197] (-) TimerEvent: {}
+[77.424692] (-) TimerEvent: {}
+[77.525185] (-) TimerEvent: {}
+[77.625649] (-) TimerEvent: {}
+[77.726135] (-) TimerEvent: {}
+[77.826611] (-) TimerEvent: {}
+[77.927036] (-) TimerEvent: {}
+[78.027490] (-) TimerEvent: {}
+[78.127930] (-) TimerEvent: {}
+[78.228443] (-) TimerEvent: {}
+[78.328943] (-) TimerEvent: {}
+[78.429413] (-) TimerEvent: {}
+[78.529903] (-) TimerEvent: {}
+[78.630389] (-) TimerEvent: {}
+[78.730805] (-) TimerEvent: {}
+[78.831289] (-) TimerEvent: {}
+[78.932219] (-) TimerEvent: {}
+[79.032648] (-) TimerEvent: {}
+[79.133135] (-) TimerEvent: {}
+[79.233646] (-) TimerEvent: {}
+[79.334166] (-) TimerEvent: {}
+[79.434617] (-) TimerEvent: {}
+[79.535846] (-) TimerEvent: {}
+[79.640269] (-) TimerEvent: {}
+[79.740695] (-) TimerEvent: {}
+[79.841167] (-) TimerEvent: {}
+[79.941607] (-) TimerEvent: {}
+[80.042159] (-) TimerEvent: {}
+[80.142638] (-) TimerEvent: {}
+[80.243100] (-) TimerEvent: {}
+[80.343633] (-) TimerEvent: {}
+[80.444063] (-) TimerEvent: {}
+[80.544530] (-) TimerEvent: {}
+[80.644981] (-) TimerEvent: {}
+[80.745441] (-) TimerEvent: {}
+[80.845904] (-) TimerEvent: {}
+[80.946380] (-) TimerEvent: {}
+[81.046866] (-) TimerEvent: {}
+[81.147310] (-) TimerEvent: {}
+[81.247854] (-) TimerEvent: {}
+[81.348353] (-) TimerEvent: {}
+[81.449385] (-) TimerEvent: {}
+[81.550737] (-) TimerEvent: {}
+[81.651212] (-) TimerEvent: {}
+[81.751743] (-) TimerEvent: {}
+[81.852197] (-) TimerEvent: {}
+[81.952633] (-) TimerEvent: {}
+[82.053107] (-) TimerEvent: {}
+[82.153558] (-) TimerEvent: {}
+[82.254066] (-) TimerEvent: {}
+[82.354542] (-) TimerEvent: {}
+[82.454997] (-) TimerEvent: {}
+[82.555812] (-) TimerEvent: {}
+[82.656252] (-) TimerEvent: {}
+[82.756695] (-) TimerEvent: {}
+[82.857174] (-) TimerEvent: {}
+[82.957603] (-) TimerEvent: {}
+[83.058062] (-) TimerEvent: {}
+[83.160478] (-) TimerEvent: {}
+[83.261038] (-) TimerEvent: {}
+[83.361495] (-) TimerEvent: {}
+[83.461959] (-) TimerEvent: {}
+[83.562416] (-) TimerEvent: {}
+[83.662848] (-) TimerEvent: {}
+[83.763335] (-) TimerEvent: {}
+[83.864315] (-) TimerEvent: {}
+[83.964799] (-) TimerEvent: {}
+[84.065255] (-) TimerEvent: {}
+[84.165707] (-) TimerEvent: {}
+[84.266123] (-) TimerEvent: {}
+[84.366578] (-) TimerEvent: {}
+[84.467005] (-) TimerEvent: {}
+[84.567471] (-) TimerEvent: {}
+[84.612441] (ros2_imu) StdoutLine: {'line': b'[100%] Linking CXX executable ros2_imu\n'}
+[84.615296] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/ros2_imu.dir/link.txt --verbose=1\n'}
+[84.643760] (ros2_imu) StdoutLine: {'line': b'/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/ros2_imu.dir/src/ext_svr.c.o CMakeFiles/ros2_imu.dir/src/ext_work.c.o CMakeFiles/ros2_imu.dir/src/rtiostream_interface.c.o CMakeFiles/ros2_imu.dir/src/updown.c.o CMakeFiles/ros2_imu.dir/src/rtiostream_tcpip.c.o CMakeFiles/ros2_imu.dir/src/rtiostream_utils.c.o CMakeFiles/ros2_imu.dir/src/main.cpp.o CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o -o ros2_imu  -Wl,-rpath,/home/ubuntu/ros2_ws/install/ros2_imu/lib:/opt/ros/humble/lib /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librclcpp.so -ldl /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/liblibstatistics_collector.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/libament_index_cpp.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /usr/lib/aarch64-linux-gnu/libpython3.10.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librcutils.so -ldl /opt/ros/humble/lib/libtracetools.so \n'}
+[84.667759] (-) TimerEvent: {}
+[84.768190] (-) TimerEvent: {}
+[84.868806] (-) TimerEvent: {}
+[84.969342] (-) TimerEvent: {}
+[85.070044] (-) TimerEvent: {}
+[85.170873] (-) TimerEvent: {}
+[85.271516] (-) TimerEvent: {}
+[85.326908] (ros2_imu) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'\n"}
+[85.361750] (ros2_imu) StdoutLine: {'line': b'[100%] Built target ros2_imu\n'}
+[85.365013] (ros2_imu) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'\n"}
+[85.365714] (ros2_imu) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles 0\n'}
+[85.372737] (-) TimerEvent: {}
+[85.402819] (ros2_imu) CommandEnded: {'returncode': 0}
+[85.472838] (-) TimerEvent: {}
+[85.573329] (-) TimerEvent: {}
+[85.675052] (-) TimerEvent: {}
+[85.677042] (ros2_imu) JobProgress: {'identifier': 'ros2_imu', 'progress': 'install'}
+[85.708195] (ros2_imu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/ros2_imu'], 'cwd': '/home/ubuntu/ros2_ws/build/ros2_imu', 'env': OrderedDict([('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 54662 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ros2_ws/build/ros2_imu'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.0.106 54662 192.168.0.122 22'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[85.739655] (ros2_imu) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[85.740807] (ros2_imu) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/lib/ros2_imu/ros2_imu\n'}
+[85.749118] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/package_run_dependencies/ros2_imu\n'}
+[85.750129] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/parent_prefix_path/ros2_imu\n'}
+[85.750607] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/ament_prefix_path.sh\n'}
+[85.751012] (ros2_imu) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/ament_prefix_path.dsv\n'}
+[85.751860] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/path.sh\n'}
+[85.752760] (ros2_imu) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/path.dsv\n'}
+[85.755700] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.bash\n'}
+[85.758251] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.sh\n'}
+[85.758753] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.zsh\n'}
+[85.759108] (ros2_imu) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.dsv\n'}
+[85.759479] (ros2_imu) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/package.dsv\n'}
+[85.760324] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/packages/ros2_imu\n'}
+[85.763196] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[85.764058] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ros2_imuConfig.cmake\n'}
+[85.764599] (ros2_imu) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ros2_imuConfig-version.cmake\n'}
+[85.765160] (ros2_imu) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/package.xml\n'}
+[85.767671] (ros2_imu) CommandEnded: {'returncode': 0}
+[85.775738] (-) TimerEvent: {}
+[85.876205] (-) TimerEvent: {}
+[85.976656] (-) TimerEvent: {}
+[86.077392] (-) TimerEvent: {}
+[86.147230] (ros2_imu) JobEnded: {'identifier': 'ros2_imu', 'rc': 0}
+[86.150784] (-) EventReactorShutdown: {}

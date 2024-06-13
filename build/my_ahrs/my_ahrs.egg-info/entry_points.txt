@@ -1,0 +1,5 @@
+[console_scripts]
+cf_node = my_ahrs.complementary_filter:main
+ekf_node = my_ahrs.ekf_node:main
+mad_node = my_ahrs.madgwick_node:main
+

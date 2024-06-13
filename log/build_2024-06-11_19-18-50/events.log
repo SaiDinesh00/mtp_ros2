@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.002019] (-) JobUnselected: {'identifier': 'bmm150_sensor'}
+[0.002713] (-) JobUnselected: {'identifier': 'lsm6dso'}
+[0.004911] (my_ahrs) JobQueued: {'identifier': 'my_ahrs', 'dependencies': OrderedDict()}
+[0.005613] (my_ahrs) JobStarted: {'identifier': 'my_ahrs'}
+[0.098611] (-) TimerEvent: {}
+[0.199364] (-) TimerEvent: {}
+[0.300276] (-) TimerEvent: {}
+[0.401082] (-) TimerEvent: {}
+[0.502034] (-) TimerEvent: {}
+[0.602732] (-) TimerEvent: {}
+[0.703417] (-) TimerEvent: {}
+[0.804241] (-) TimerEvent: {}
+[0.906295] (-) TimerEvent: {}
+[1.006986] (-) TimerEvent: {}
+[1.107713] (-) TimerEvent: {}
+[1.208419] (-) TimerEvent: {}
+[1.310050] (-) TimerEvent: {}
+[1.411572] (-) TimerEvent: {}
+[1.512392] (-) TimerEvent: {}
+[1.613362] (-) TimerEvent: {}
+[1.714112] (-) TimerEvent: {}
+[1.814891] (-) TimerEvent: {}
+[1.915877] (-) TimerEvent: {}
+[2.016864] (-) TimerEvent: {}
+[2.118087] (-) TimerEvent: {}
+[2.219061] (-) TimerEvent: {}
+[2.322270] (-) TimerEvent: {}
+[2.424407] (-) TimerEvent: {}
+[2.525245] (-) TimerEvent: {}
+[2.630321] (-) TimerEvent: {}
+[2.731210] (-) TimerEvent: {}
+[2.831976] (-) TimerEvent: {}
+[2.932673] (-) TimerEvent: {}
+[3.033529] (-) TimerEvent: {}
+[3.134356] (-) TimerEvent: {}
+[3.235051] (-) TimerEvent: {}
+[3.335761] (-) TimerEvent: {}
+[3.436486] (-) TimerEvent: {}
+[3.544893] (-) TimerEvent: {}
+[3.645758] (-) TimerEvent: {}
+[3.746493] (-) TimerEvent: {}
+[3.847324] (-) TimerEvent: {}
+[3.948178] (-) TimerEvent: {}
+[4.049436] (-) TimerEvent: {}
+[4.151240] (-) TimerEvent: {}
+[4.252011] (-) TimerEvent: {}
+[4.352825] (-) TimerEvent: {}
+[4.453583] (-) TimerEvent: {}
+[4.554682] (-) TimerEvent: {}
+[4.655684] (-) TimerEvent: {}
+[4.756711] (-) TimerEvent: {}
+[4.857517] (-) TimerEvent: {}
+[4.958555] (-) TimerEvent: {}
+[5.059353] (-) TimerEvent: {}
+[5.160599] (-) TimerEvent: {}
+[5.261859] (-) TimerEvent: {}
+[5.363057] (-) TimerEvent: {}
+[5.372918] (my_ahrs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ahrs', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/my_ahrs/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/my_ahrs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/my_ahrs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.106 54432 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.90.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-21ae01ad-c912-44dc-a4c2-f06c8ce29b91.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-28a9f5e679.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/my_ahrs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.106 54432 192.168.0.122 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.463275] (-) TimerEvent: {}
+[5.564062] (-) TimerEvent: {}
+[5.664925] (-) TimerEvent: {}
+[5.765829] (-) TimerEvent: {}
+[5.866919] (-) TimerEvent: {}
+[5.967670] (-) TimerEvent: {}
+[6.068443] (-) TimerEvent: {}
+[6.169286] (-) TimerEvent: {}
+[6.270111] (-) TimerEvent: {}
+[6.370836] (-) TimerEvent: {}
+[6.471564] (-) TimerEvent: {}
+[6.572319] (-) TimerEvent: {}
+[6.676902] (-) TimerEvent: {}
+[7.396287] (my_ahrs) StdoutLine: {'line': b'running egg_info\n'}
+[7.397806] (-) TimerEvent: {}
+[7.398293] (my_ahrs) StdoutLine: {'line': b'writing ../../build/my_ahrs/my_ahrs.egg-info/PKG-INFO\n'}
+[7.408987] (my_ahrs) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ahrs/my_ahrs.egg-info/dependency_links.txt\n'}
+[7.409641] (my_ahrs) StdoutLine: {'line': b'writing entry points to ../../build/my_ahrs/my_ahrs.egg-info/entry_points.txt\n'}
+[7.410161] (my_ahrs) StdoutLine: {'line': b'writing requirements to ../../build/my_ahrs/my_ahrs.egg-info/requires.txt\n'}
+[7.410741] (my_ahrs) StdoutLine: {'line': b'writing top-level names to ../../build/my_ahrs/my_ahrs.egg-info/top_level.txt\n'}
+[7.416644] (my_ahrs) StdoutLine: {'line': b"reading manifest file '../../build/my_ahrs/my_ahrs.egg-info/SOURCES.txt'\n"}
+[7.429356] (my_ahrs) StdoutLine: {'line': b"writing manifest file '../../build/my_ahrs/my_ahrs.egg-info/SOURCES.txt'\n"}
+[7.430291] (my_ahrs) StdoutLine: {'line': b'running build\n'}
+[7.430724] (my_ahrs) StdoutLine: {'line': b'running build_py\n'}
+[7.432911] (my_ahrs) StdoutLine: {'line': b'copying my_ahrs/ekf_node.py -> /home/ubuntu/ros2_ws/build/my_ahrs/build/lib/my_ahrs\n'}
+[7.438009] (my_ahrs) StdoutLine: {'line': b'running install\n'}
+[7.440495] (my_ahrs) StdoutLine: {'line': b'running install_lib\n'}
+[7.445972] (my_ahrs) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/my_ahrs/build/lib/my_ahrs/ekf_node.py -> /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs\n'}
+[7.450007] (my_ahrs) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs/ekf_node.py to ekf_node.cpython-310.pyc\n'}
+[7.454268] (my_ahrs) StdoutLine: {'line': b'running install_data\n'}
+[7.467123] (my_ahrs) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.467651] (my_ahrs) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.468563] (my_ahrs) StdoutLine: {'line': b'Copying ../../build/my_ahrs/my_ahrs.egg-info to /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs-0.0.0-py3.10.egg-info\n'}
+[7.487098] (my_ahrs) StdoutLine: {'line': b'running install_scripts\n'}
+[7.497985] (-) TimerEvent: {}
+[7.581551] (my_ahrs) StdoutLine: {'line': b'Installing ekf_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs\n'}
+[7.584543] (my_ahrs) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/my_ahrs/install.log'\n"}
+[7.598455] (-) TimerEvent: {}
+[7.699928] (-) TimerEvent: {}
+[7.780552] (my_ahrs) CommandEnded: {'returncode': 0}
+[7.800247] (-) TimerEvent: {}
+[7.889063] (my_ahrs) JobEnded: {'identifier': 'my_ahrs', 'rc': 0}
+[7.892414] (-) EventReactorShutdown: {}
