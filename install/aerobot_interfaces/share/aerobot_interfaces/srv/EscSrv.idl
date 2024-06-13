@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aerobot_interfaces/srv/EscSrv.srv
+// generated code does not contain a copyright notice
+
+
+module aerobot_interfaces {
+  module srv {
+    struct EscSrv_Request {
+      int8 pin_number;
+
+      boolean state;
+    };
+    struct EscSrv_Response {
+      boolean success;
+    };
+  };
+};

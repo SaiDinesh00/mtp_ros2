@@ -19,6 +19,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_ros REQUIRED)
+find_package( aerobot_interfaces REQUIRED)
 find_package( geometry_msgs REQUIRED)
 find_package( rclcpp REQUIRED)
 include_directories("include/ros2_imu")
@@ -73,6 +74,7 @@ target_compile_options(ros2_imu PRIVATE
   )
 ament_target_dependencies(
   ros2_imu
+  "aerobot_interfaces"
   "geometry_msgs"
   "rclcpp"
 )
@@ -103,4 +105,4 @@ add_custom_command(
 				   )				   
 endforeach(file_i)
 ament_package()
-# Generated on Wed Jun 12 03:21:13 2024
+# Generated on Thu Jun 13 16:25:19 2024

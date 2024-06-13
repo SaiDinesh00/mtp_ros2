@@ -1,0 +1,51 @@
+[0.145s] Invoking command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/aerobot_interfaces -- -j4 -l4
+[0.372s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.170s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.236s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.318s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[5.328s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[5.332s]   aerobot_interfaces --arguments-file
+[5.333s]   /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter__arguments__aerobot_interfaces.json
+[5.334s]   --output-dir
+[5.335s]   /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces
+[5.357s]   --output-file
+[5.358s]   /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces.idls)
+[5.359s]   returned error code 1:
+[5.365s] 
+[5.367s]   Traceback (most recent call last):
+[5.374s] 
+[5.381s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[5.382s]       return _run_code(code, main_globals, None,
+[5.384s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[5.385s]       exec(code, run_globals)
+[5.386s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[5.387s]       sys.exit(main())
+[5.388s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[5.389s]       abs_idl_file = convert_to_idl(
+[5.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[5.420s]       return convert_srv_to_idl(
+[5.421s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[5.422s]       srv = parse_service_string(package_name, input_file.stem, content)
+[5.423s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[5.424s]       request_message = parse_message_string(
+[5.425s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[5.426s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[5.427s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[5.429s]       self.base_type = BaseType(
+[5.430s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[5.435s]       raise InvalidResourceName(
+[5.436s] 
+[5.437s]   rosidl_adapter.parser.InvalidResourceName: 'Esc_srv_Request' is an invalid
+[5.437s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[5.438s] 
+[5.439s] Call Stack (most recent call first):
+[5.450s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[5.451s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[5.454s] 
+[5.455s] [0m
+[5.456s] -- Configuring incomplete, errors occurred!
+[5.457s] See also "/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles/CMakeOutput.log".
+[5.457s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[5.459s] Invoked command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/aerobot_interfaces -- -j4 -l4

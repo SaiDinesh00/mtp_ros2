@@ -1,0 +1,1386 @@
+[0.000000] (-) TimerEvent: {}
+[0.006712] (-) JobUnselected: {'identifier': 'bmm150_sensor'}
+[0.011746] (-) JobUnselected: {'identifier': 'esc_pkg'}
+[0.012896] (-) JobUnselected: {'identifier': 'lsm6dso'}
+[0.013909] (-) JobUnselected: {'identifier': 'my_ahrs'}
+[0.016240] (-) JobUnselected: {'identifier': 'ros2_imu'}
+[0.017328] (aerobot_interfaces) JobQueued: {'identifier': 'aerobot_interfaces', 'dependencies': OrderedDict()}
+[0.018453] (aerobot_interfaces) JobStarted: {'identifier': 'aerobot_interfaces'}
+[0.100495] (-) TimerEvent: {}
+[0.124678] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'cmake'}
+[0.152726] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'build'}
+[0.160437] (aerobot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/aerobot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/aerobot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 49944 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17ba689c-a8eb-4a38-9db5-fb6c64ab88a9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a16b5b024b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/aerobot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 49944 192.168.0.122 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[0.200767] (-) TimerEvent: {}
+[0.305381] (-) TimerEvent: {}
+[0.409395] (-) TimerEvent: {}
+[0.462685] (aerobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.509716] (-) TimerEvent: {}
+[0.610965] (-) TimerEvent: {}
+[0.712240] (-) TimerEvent: {}
+[0.813735] (-) TimerEvent: {}
+[0.915030] (-) TimerEvent: {}
+[1.021308] (-) TimerEvent: {}
+[1.125774] (-) TimerEvent: {}
+[1.228805] (-) TimerEvent: {}
+[1.344281] (-) TimerEvent: {}
+[1.447784] (-) TimerEvent: {}
+[1.553688] (-) TimerEvent: {}
+[1.661713] (-) TimerEvent: {}
+[1.763091] (-) TimerEvent: {}
+[1.864371] (-) TimerEvent: {}
+[1.965719] (-) TimerEvent: {}
+[2.068029] (-) TimerEvent: {}
+[2.171398] (-) TimerEvent: {}
+[2.274629] (-) TimerEvent: {}
+[2.376000] (-) TimerEvent: {}
+[2.477761] (-) TimerEvent: {}
+[2.540148] (aerobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.551245] (aerobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.565745] (aerobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.577610] (-) TimerEvent: {}
+[2.678780] (-) TimerEvent: {}
+[2.744834] (aerobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.779085] (-) TimerEvent: {}
+[2.881478] (-) TimerEvent: {}
+[2.982729] (-) TimerEvent: {}
+[3.089690] (-) TimerEvent: {}
+[3.190977] (-) TimerEvent: {}
+[3.292316] (-) TimerEvent: {}
+[3.393619] (-) TimerEvent: {}
+[3.499077] (-) TimerEvent: {}
+[3.600394] (-) TimerEvent: {}
+[3.701693] (-) TimerEvent: {}
+[3.803005] (-) TimerEvent: {}
+[3.904329] (-) TimerEvent: {}
+[4.005622] (-) TimerEvent: {}
+[4.106936] (-) TimerEvent: {}
+[4.220605] (-) TimerEvent: {}
+[4.321902] (-) TimerEvent: {}
+[4.423377] (-) TimerEvent: {}
+[4.525736] (-) TimerEvent: {}
+[4.628086] (-) TimerEvent: {}
+[4.730566] (-) TimerEvent: {}
+[4.833391] (-) TimerEvent: {}
+[4.942497] (-) TimerEvent: {}
+[5.045395] (-) TimerEvent: {}
+[5.146912] (-) TimerEvent: {}
+[5.248249] (-) TimerEvent: {}
+[5.349525] (-) TimerEvent: {}
+[5.450772] (-) TimerEvent: {}
+[5.553818] (-) TimerEvent: {}
+[5.658586] (-) TimerEvent: {}
+[5.759894] (-) TimerEvent: {}
+[5.861600] (-) TimerEvent: {}
+[5.966729] (-) TimerEvent: {}
+[6.069533] (-) TimerEvent: {}
+[6.170235] (-) TimerEvent: {}
+[6.271943] (-) TimerEvent: {}
+[6.382390] (-) TimerEvent: {}
+[6.489665] (-) TimerEvent: {}
+[6.599353] (-) TimerEvent: {}
+[6.700655] (-) TimerEvent: {}
+[6.786037] (aerobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.807040] (-) TimerEvent: {}
+[6.908474] (-) TimerEvent: {}
+[7.011036] (-) TimerEvent: {}
+[7.116724] (-) TimerEvent: {}
+[7.220750] (-) TimerEvent: {}
+[7.324379] (-) TimerEvent: {}
+[7.427952] (-) TimerEvent: {}
+[7.529511] (-) TimerEvent: {}
+[7.630843] (-) TimerEvent: {}
+[7.732135] (-) TimerEvent: {}
+[7.834510] (-) TimerEvent: {}
+[7.937503] (-) TimerEvent: {}
+[8.040944] (-) TimerEvent: {}
+[8.142461] (-) TimerEvent: {}
+[8.243707] (-) TimerEvent: {}
+[8.344988] (-) TimerEvent: {}
+[8.446474] (-) TimerEvent: {}
+[8.548105] (-) TimerEvent: {}
+[8.653693] (-) TimerEvent: {}
+[8.755257] (-) TimerEvent: {}
+[8.856650] (-) TimerEvent: {}
+[8.957926] (-) TimerEvent: {}
+[9.059265] (-) TimerEvent: {}
+[9.162404] (-) TimerEvent: {}
+[9.265486] (-) TimerEvent: {}
+[9.369818] (-) TimerEvent: {}
+[9.471133] (-) TimerEvent: {}
+[9.573606] (-) TimerEvent: {}
+[9.598789] (aerobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.673764] (-) TimerEvent: {}
+[9.774545] (-) TimerEvent: {}
+[9.875306] (-) TimerEvent: {}
+[9.976061] (-) TimerEvent: {}
+[10.076826] (-) TimerEvent: {}
+[10.179075] (-) TimerEvent: {}
+[10.280606] (-) TimerEvent: {}
+[10.382541] (-) TimerEvent: {}
+[10.485667] (-) TimerEvent: {}
+[10.586977] (-) TimerEvent: {}
+[10.688353] (-) TimerEvent: {}
+[10.791532] (-) TimerEvent: {}
+[10.893218] (-) TimerEvent: {}
+[10.994749] (-) TimerEvent: {}
+[11.095999] (-) TimerEvent: {}
+[11.197425] (-) TimerEvent: {}
+[11.299020] (-) TimerEvent: {}
+[11.400256] (-) TimerEvent: {}
+[11.501582] (-) TimerEvent: {}
+[11.603274] (-) TimerEvent: {}
+[11.704572] (-) TimerEvent: {}
+[11.806120] (-) TimerEvent: {}
+[11.907400] (-) TimerEvent: {}
+[12.011095] (-) TimerEvent: {}
+[12.114657] (-) TimerEvent: {}
+[12.219057] (-) TimerEvent: {}
+[12.322276] (-) TimerEvent: {}
+[12.399395] (aerobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.422583] (-) TimerEvent: {}
+[12.526160] (-) TimerEvent: {}
+[12.631617] (-) TimerEvent: {}
+[12.725574] (aerobot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.731881] (-) TimerEvent: {}
+[12.835297] (-) TimerEvent: {}
+[12.938590] (-) TimerEvent: {}
+[13.041793] (-) TimerEvent: {}
+[13.064141] (aerobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.070896] (aerobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[13.077100] (aerobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[13.142080] (-) TimerEvent: {}
+[13.244445] (-) TimerEvent: {}
+[13.345833] (-) TimerEvent: {}
+[13.358921] (aerobot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.446301] (-) TimerEvent: {}
+[13.553215] (-) TimerEvent: {}
+[13.656695] (-) TimerEvent: {}
+[13.718188] (aerobot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[13.756977] (-) TimerEvent: {}
+[13.774569] (aerobot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/aerobot_interfaces\n'}
+[13.857734] (-) TimerEvent: {}
+[13.968609] (-) TimerEvent: {}
+[14.080944] (-) TimerEvent: {}
+[14.185718] (-) TimerEvent: {}
+[14.260387] (aerobot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.287615] (-) TimerEvent: {}
+[14.393686] (-) TimerEvent: {}
+[14.497898] (-) TimerEvent: {}
+[14.601870] (-) TimerEvent: {}
+[14.709791] (-) TimerEvent: {}
+[14.814860] (-) TimerEvent: {}
+[14.928578] (-) TimerEvent: {}
+[15.045897] (-) TimerEvent: {}
+[15.147333] (-) TimerEvent: {}
+[15.253762] (-) TimerEvent: {}
+[15.357731] (-) TimerEvent: {}
+[15.459984] (-) TimerEvent: {}
+[15.563688] (-) TimerEvent: {}
+[15.668068] (-) TimerEvent: {}
+[15.779451] (-) TimerEvent: {}
+[15.887928] (-) TimerEvent: {}
+[15.989721] (-) TimerEvent: {}
+[16.094990] (-) TimerEvent: {}
+[16.198274] (-) TimerEvent: {}
+[16.301723] (-) TimerEvent: {}
+[16.405721] (-) TimerEvent: {}
+[16.509694] (-) TimerEvent: {}
+[16.613778] (-) TimerEvent: {}
+[16.719350] (-) TimerEvent: {}
+[16.821336] (-) TimerEvent: {}
+[16.922010] (-) TimerEvent: {}
+[17.022638] (-) TimerEvent: {}
+[17.123417] (-) TimerEvent: {}
+[17.224756] (-) TimerEvent: {}
+[17.326118] (-) TimerEvent: {}
+[17.427370] (-) TimerEvent: {}
+[17.528639] (-) TimerEvent: {}
+[17.630681] (-) TimerEvent: {}
+[17.732680] (-) TimerEvent: {}
+[17.835453] (-) TimerEvent: {}
+[17.938347] (-) TimerEvent: {}
+[18.041055] (-) TimerEvent: {}
+[18.144971] (-) TimerEvent: {}
+[18.249172] (-) TimerEvent: {}
+[18.353100] (-) TimerEvent: {}
+[18.458663] (-) TimerEvent: {}
+[18.561790] (-) TimerEvent: {}
+[18.667035] (-) TimerEvent: {}
+[18.770422] (-) TimerEvent: {}
+[18.871808] (-) TimerEvent: {}
+[18.973326] (-) TimerEvent: {}
+[19.074683] (-) TimerEvent: {}
+[19.176105] (-) TimerEvent: {}
+[19.277551] (-) TimerEvent: {}
+[19.378863] (-) TimerEvent: {}
+[19.420080] (aerobot_interfaces) StdoutLine: {'line': b'[  2%] Built target aerobot_interfaces__cpp\n'}
+[19.479167] (-) TimerEvent: {}
+[19.584000] (-) TimerEvent: {}
+[19.693830] (-) TimerEvent: {}
+[19.799223] (-) TimerEvent: {}
+[19.900528] (-) TimerEvent: {}
+[19.984954] (aerobot_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_aerobot_interfaces\n'}
+[20.000899] (-) TimerEvent: {}
+[20.103592] (-) TimerEvent: {}
+[20.133551] (aerobot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.203840] (-) TimerEvent: {}
+[20.305285] (-) TimerEvent: {}
+[20.410341] (-) TimerEvent: {}
+[20.511085] (-) TimerEvent: {}
+[20.611811] (-) TimerEvent: {}
+[20.712510] (-) TimerEvent: {}
+[20.816966] (-) TimerEvent: {}
+[20.923937] (-) TimerEvent: {}
+[21.025260] (-) TimerEvent: {}
+[21.127279] (-) TimerEvent: {}
+[21.228785] (-) TimerEvent: {}
+[21.330149] (-) TimerEvent: {}
+[21.432491] (-) TimerEvent: {}
+[21.537777] (-) TimerEvent: {}
+[21.640084] (-) TimerEvent: {}
+[21.742708] (-) TimerEvent: {}
+[21.844010] (-) TimerEvent: {}
+[21.946571] (-) TimerEvent: {}
+[22.047928] (-) TimerEvent: {}
+[22.153599] (-) TimerEvent: {}
+[22.257126] (-) TimerEvent: {}
+[22.358407] (-) TimerEvent: {}
+[22.459676] (-) TimerEvent: {}
+[22.560959] (-) TimerEvent: {}
+[22.663310] (-) TimerEvent: {}
+[22.764855] (-) TimerEvent: {}
+[22.866099] (-) TimerEvent: {}
+[22.967480] (-) TimerEvent: {}
+[23.069220] (-) TimerEvent: {}
+[23.179203] (-) TimerEvent: {}
+[23.280549] (-) TimerEvent: {}
+[23.381853] (-) TimerEvent: {}
+[23.483627] (-) TimerEvent: {}
+[23.543477] (aerobot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobot_interfaces/srv/detail/dds_fastrtps/esc_srv__type_support.cpp.o\x1b[0m\n'}
+[23.585202] (-) TimerEvent: {}
+[23.686465] (-) TimerEvent: {}
+[23.787644] (-) TimerEvent: {}
+[23.888919] (-) TimerEvent: {}
+[23.990207] (-) TimerEvent: {}
+[24.091376] (-) TimerEvent: {}
+[24.192226] (-) TimerEvent: {}
+[24.293547] (-) TimerEvent: {}
+[24.394935] (-) TimerEvent: {}
+[24.497625] (-) TimerEvent: {}
+[24.600612] (-) TimerEvent: {}
+[24.704258] (-) TimerEvent: {}
+[24.807793] (-) TimerEvent: {}
+[24.913719] (-) TimerEvent: {}
+[25.016185] (-) TimerEvent: {}
+[25.118669] (-) TimerEvent: {}
+[25.221717] (-) TimerEvent: {}
+[25.324382] (-) TimerEvent: {}
+[25.428537] (-) TimerEvent: {}
+[25.532176] (-) TimerEvent: {}
+[25.634553] (-) TimerEvent: {}
+[25.737110] (-) TimerEvent: {}
+[25.839984] (-) TimerEvent: {}
+[25.949708] (-) TimerEvent: {}
+[26.052457] (-) TimerEvent: {}
+[26.153895] (-) TimerEvent: {}
+[26.255566] (-) TimerEvent: {}
+[26.357005] (-) TimerEvent: {}
+[26.459602] (-) TimerEvent: {}
+[26.562340] (-) TimerEvent: {}
+[26.665715] (-) TimerEvent: {}
+[26.768296] (-) TimerEvent: {}
+[26.869698] (-) TimerEvent: {}
+[26.971259] (-) TimerEvent: {}
+[27.072580] (-) TimerEvent: {}
+[27.174275] (-) TimerEvent: {}
+[27.275808] (-) TimerEvent: {}
+[27.378554] (-) TimerEvent: {}
+[27.479920] (-) TimerEvent: {}
+[27.580672] (-) TimerEvent: {}
+[27.681580] (-) TimerEvent: {}
+[27.782474] (-) TimerEvent: {}
+[27.883311] (-) TimerEvent: {}
+[27.984060] (-) TimerEvent: {}
+[28.058706] (aerobot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobot_interfaces/msg/detail/dds_fastrtps/esc_msg__type_support.cpp.o\x1b[0m\n'}
+[28.084253] (-) TimerEvent: {}
+[28.184942] (-) TimerEvent: {}
+[28.285584] (-) TimerEvent: {}
+[28.386354] (-) TimerEvent: {}
+[28.487822] (-) TimerEvent: {}
+[28.589149] (-) TimerEvent: {}
+[28.690490] (-) TimerEvent: {}
+[28.791737] (-) TimerEvent: {}
+[28.893148] (-) TimerEvent: {}
+[28.994657] (-) TimerEvent: {}
+[29.096112] (-) TimerEvent: {}
+[29.197525] (-) TimerEvent: {}
+[29.298991] (-) TimerEvent: {}
+[29.400295] (-) TimerEvent: {}
+[29.502096] (-) TimerEvent: {}
+[29.603463] (-) TimerEvent: {}
+[29.706537] (-) TimerEvent: {}
+[29.810121] (-) TimerEvent: {}
+[29.913483] (-) TimerEvent: {}
+[30.014952] (-) TimerEvent: {}
+[30.117689] (-) TimerEvent: {}
+[30.219032] (-) TimerEvent: {}
+[30.320414] (-) TimerEvent: {}
+[30.421927] (-) TimerEvent: {}
+[30.523299] (-) TimerEvent: {}
+[30.624723] (-) TimerEvent: {}
+[30.727397] (-) TimerEvent: {}
+[30.830472] (-) TimerEvent: {}
+[30.933824] (-) TimerEvent: {}
+[31.036383] (-) TimerEvent: {}
+[31.137912] (-) TimerEvent: {}
+[31.241412] (-) TimerEvent: {}
+[31.342803] (-) TimerEvent: {}
+[31.444267] (-) TimerEvent: {}
+[31.547727] (-) TimerEvent: {}
+[31.651553] (-) TimerEvent: {}
+[31.752718] (-) TimerEvent: {}
+[31.853603] (-) TimerEvent: {}
+[31.954523] (-) TimerEvent: {}
+[32.055250] (-) TimerEvent: {}
+[32.156015] (-) TimerEvent: {}
+[32.205973] (aerobot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libaerobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[32.256179] (-) TimerEvent: {}
+[32.357013] (-) TimerEvent: {}
+[32.458243] (-) TimerEvent: {}
+[32.564193] (-) TimerEvent: {}
+[32.665755] (-) TimerEvent: {}
+[32.695837] (aerobot_interfaces) StdoutLine: {'line': b'[ 12%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[32.766047] (-) TimerEvent: {}
+[32.868246] (-) TimerEvent: {}
+[32.940144] (aerobot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[32.968517] (-) TimerEvent: {}
+[33.069928] (-) TimerEvent: {}
+[33.171325] (-) TimerEvent: {}
+[33.273672] (-) TimerEvent: {}
+[33.374926] (-) TimerEvent: {}
+[33.476215] (-) TimerEvent: {}
+[33.577565] (-) TimerEvent: {}
+[33.680473] (-) TimerEvent: {}
+[33.781832] (-) TimerEvent: {}
+[33.883152] (-) TimerEvent: {}
+[33.984456] (-) TimerEvent: {}
+[34.087633] (-) TimerEvent: {}
+[34.192225] (-) TimerEvent: {}
+[34.295393] (-) TimerEvent: {}
+[34.398837] (-) TimerEvent: {}
+[34.501162] (-) TimerEvent: {}
+[34.604537] (-) TimerEvent: {}
+[34.709772] (-) TimerEvent: {}
+[34.812131] (-) TimerEvent: {}
+[34.913389] (-) TimerEvent: {}
+[35.014714] (-) TimerEvent: {}
+[35.116051] (-) TimerEvent: {}
+[35.217328] (-) TimerEvent: {}
+[35.320554] (-) TimerEvent: {}
+[35.423721] (-) TimerEvent: {}
+[35.526270] (-) TimerEvent: {}
+[35.627558] (-) TimerEvent: {}
+[35.728783] (-) TimerEvent: {}
+[35.833714] (-) TimerEvent: {}
+[35.935921] (-) TimerEvent: {}
+[36.040762] (-) TimerEvent: {}
+[36.142060] (-) TimerEvent: {}
+[36.245035] (-) TimerEvent: {}
+[36.349753] (-) TimerEvent: {}
+[36.451369] (-) TimerEvent: {}
+[36.555177] (-) TimerEvent: {}
+[36.659728] (-) TimerEvent: {}
+[36.765812] (-) TimerEvent: {}
+[36.868783] (-) TimerEvent: {}
+[36.971296] (-) TimerEvent: {}
+[37.079261] (-) TimerEvent: {}
+[37.181810] (-) TimerEvent: {}
+[37.278486] (aerobot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aerobot_interfaces/srv/detail/esc_srv__type_support.cpp.o\x1b[0m\n'}
+[37.293785] (-) TimerEvent: {}
+[37.401747] (-) TimerEvent: {}
+[37.505812] (-) TimerEvent: {}
+[37.609728] (-) TimerEvent: {}
+[37.711091] (-) TimerEvent: {}
+[37.812439] (-) TimerEvent: {}
+[37.917778] (-) TimerEvent: {}
+[38.021712] (-) TimerEvent: {}
+[38.125044] (-) TimerEvent: {}
+[38.226442] (-) TimerEvent: {}
+[38.333723] (-) TimerEvent: {}
+[38.437770] (-) TimerEvent: {}
+[38.539324] (-) TimerEvent: {}
+[38.641709] (-) TimerEvent: {}
+[38.745707] (-) TimerEvent: {}
+[38.853725] (-) TimerEvent: {}
+[38.957203] (-) TimerEvent: {}
+[39.061690] (-) TimerEvent: {}
+[39.163627] (-) TimerEvent: {}
+[39.269272] (-) TimerEvent: {}
+[39.373625] (-) TimerEvent: {}
+[39.474408] (-) TimerEvent: {}
+[39.577753] (-) TimerEvent: {}
+[39.681687] (-) TimerEvent: {}
+[39.785764] (-) TimerEvent: {}
+[39.897703] (-) TimerEvent: {}
+[40.001025] (-) TimerEvent: {}
+[40.105682] (-) TimerEvent: {}
+[40.209028] (-) TimerEvent: {}
+[40.312699] (-) TimerEvent: {}
+[40.418543] (-) TimerEvent: {}
+[40.527925] (-) TimerEvent: {}
+[40.636241] (-) TimerEvent: {}
+[40.740169] (-) TimerEvent: {}
+[40.843650] (-) TimerEvent: {}
+[40.952314] (-) TimerEvent: {}
+[41.056162] (-) TimerEvent: {}
+[41.158856] (-) TimerEvent: {}
+[41.262326] (-) TimerEvent: {}
+[41.365960] (-) TimerEvent: {}
+[41.469470] (-) TimerEvent: {}
+[41.573051] (-) TimerEvent: {}
+[41.676977] (-) TimerEvent: {}
+[41.780643] (-) TimerEvent: {}
+[41.884191] (-) TimerEvent: {}
+[41.989799] (-) TimerEvent: {}
+[42.097727] (-) TimerEvent: {}
+[42.203372] (-) TimerEvent: {}
+[42.314101] (-) TimerEvent: {}
+[42.417725] (-) TimerEvent: {}
+[42.520503] (-) TimerEvent: {}
+[42.623241] (-) TimerEvent: {}
+[42.724566] (-) TimerEvent: {}
+[42.848148] (-) TimerEvent: {}
+[42.948915] (-) TimerEvent: {}
+[43.049738] (-) TimerEvent: {}
+[43.150564] (-) TimerEvent: {}
+[43.251330] (-) TimerEvent: {}
+[43.352113] (-) TimerEvent: {}
+[43.452822] (-) TimerEvent: {}
+[43.453883] (aerobot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aerobot_interfaces/msg/detail/esc_msg__type_support.cpp.o\x1b[0m\n'}
+[43.553005] (-) TimerEvent: {}
+[43.653692] (-) TimerEvent: {}
+[43.754355] (-) TimerEvent: {}
+[43.855156] (-) TimerEvent: {}
+[43.956467] (-) TimerEvent: {}
+[44.057878] (-) TimerEvent: {}
+[44.159744] (-) TimerEvent: {}
+[44.263576] (-) TimerEvent: {}
+[44.365766] (-) TimerEvent: {}
+[44.469046] (-) TimerEvent: {}
+[44.572412] (-) TimerEvent: {}
+[44.675119] (-) TimerEvent: {}
+[44.783535] (-) TimerEvent: {}
+[44.889312] (-) TimerEvent: {}
+[44.991767] (-) TimerEvent: {}
+[45.093109] (-) TimerEvent: {}
+[45.194575] (-) TimerEvent: {}
+[45.295946] (-) TimerEvent: {}
+[45.397278] (-) TimerEvent: {}
+[45.498645] (-) TimerEvent: {}
+[45.600116] (-) TimerEvent: {}
+[45.701425] (-) TimerEvent: {}
+[45.802904] (-) TimerEvent: {}
+[45.905726] (-) TimerEvent: {}
+[46.010576] (-) TimerEvent: {}
+[46.114561] (-) TimerEvent: {}
+[46.217339] (-) TimerEvent: {}
+[46.320935] (-) TimerEvent: {}
+[46.422445] (-) TimerEvent: {}
+[46.523779] (-) TimerEvent: {}
+[46.625122] (-) TimerEvent: {}
+[46.726648] (-) TimerEvent: {}
+[46.828037] (-) TimerEvent: {}
+[46.929364] (-) TimerEvent: {}
+[47.030743] (-) TimerEvent: {}
+[47.131987] (-) TimerEvent: {}
+[47.232778] (-) TimerEvent: {}
+[47.333622] (-) TimerEvent: {}
+[47.434560] (-) TimerEvent: {}
+[47.506926] (aerobot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libaerobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[47.534852] (-) TimerEvent: {}
+[47.637712] (-) TimerEvent: {}
+[47.740353] (-) TimerEvent: {}
+[47.842146] (-) TimerEvent: {}
+[47.943456] (-) TimerEvent: {}
+[48.000662] (aerobot_interfaces) StdoutLine: {'line': b'[ 23%] Built target aerobot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[48.045725] (-) TimerEvent: {}
+[48.149684] (-) TimerEvent: {}
+[48.250980] (-) TimerEvent: {}
+[48.352268] (-) TimerEvent: {}
+[48.453515] (-) TimerEvent: {}
+[48.554805] (-) TimerEvent: {}
+[48.663742] (-) TimerEvent: {}
+[48.765060] (-) TimerEvent: {}
+[48.870267] (-) TimerEvent: {}
+[48.972573] (-) TimerEvent: {}
+[49.075677] (-) TimerEvent: {}
+[49.178078] (-) TimerEvent: {}
+[49.279441] (-) TimerEvent: {}
+[49.385871] (-) TimerEvent: {}
+[49.489003] (-) TimerEvent: {}
+[49.594603] (-) TimerEvent: {}
+[49.696105] (-) TimerEvent: {}
+[49.797871] (-) TimerEvent: {}
+[49.899210] (-) TimerEvent: {}
+[50.000477] (-) TimerEvent: {}
+[50.101814] (-) TimerEvent: {}
+[50.203116] (-) TimerEvent: {}
+[50.305668] (-) TimerEvent: {}
+[50.406896] (-) TimerEvent: {}
+[50.508271] (-) TimerEvent: {}
+[50.609657] (-) TimerEvent: {}
+[50.710781] (-) TimerEvent: {}
+[50.811416] (-) TimerEvent: {}
+[50.913565] (-) TimerEvent: {}
+[51.021899] (-) TimerEvent: {}
+[51.125163] (-) TimerEvent: {}
+[51.226492] (-) TimerEvent: {}
+[51.331740] (-) TimerEvent: {}
+[51.434205] (-) TimerEvent: {}
+[51.535453] (-) TimerEvent: {}
+[51.638585] (-) TimerEvent: {}
+[51.739926] (-) TimerEvent: {}
+[51.845804] (-) TimerEvent: {}
+[51.947019] (-) TimerEvent: {}
+[51.966703] (aerobot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[51.974142] (aerobot_interfaces) StdoutLine: {'line': b'writing aerobot_interfaces.egg-info/PKG-INFO\n'}
+[52.014000] (aerobot_interfaces) StdoutLine: {'line': b'writing dependency_links to aerobot_interfaces.egg-info/dependency_links.txt\n'}
+[52.021943] (aerobot_interfaces) StdoutLine: {'line': b'writing top-level names to aerobot_interfaces.egg-info/top_level.txt\n'}
+[52.047299] (-) TimerEvent: {}
+[52.068126] (aerobot_interfaces) StdoutLine: {'line': b"reading manifest file 'aerobot_interfaces.egg-info/SOURCES.txt'\n"}
+[52.085322] (aerobot_interfaces) StdoutLine: {'line': b"writing manifest file 'aerobot_interfaces.egg-info/SOURCES.txt'\n"}
+[52.147628] (-) TimerEvent: {}
+[52.250016] (-) TimerEvent: {}
+[52.352542] (-) TimerEvent: {}
+[52.365694] (aerobot_interfaces) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_aerobot_interfaces_egg\n'}
+[52.452823] (-) TimerEvent: {}
+[52.479730] (aerobot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[52.553135] (-) TimerEvent: {}
+[52.654484] (-) TimerEvent: {}
+[52.757690] (-) TimerEvent: {}
+[52.858994] (-) TimerEvent: {}
+[52.960446] (-) TimerEvent: {}
+[53.067922] (-) TimerEvent: {}
+[53.171572] (-) TimerEvent: {}
+[53.274927] (-) TimerEvent: {}
+[53.376360] (-) TimerEvent: {}
+[53.478154] (-) TimerEvent: {}
+[53.581618] (-) TimerEvent: {}
+[53.689705] (-) TimerEvent: {}
+[53.792956] (-) TimerEvent: {}
+[53.894217] (-) TimerEvent: {}
+[53.995439] (-) TimerEvent: {}
+[54.096731] (-) TimerEvent: {}
+[54.198012] (-) TimerEvent: {}
+[54.301217] (-) TimerEvent: {}
+[54.402242] (-) TimerEvent: {}
+[54.502998] (-) TimerEvent: {}
+[54.606283] (-) TimerEvent: {}
+[54.710195] (-) TimerEvent: {}
+[54.811476] (-) TimerEvent: {}
+[54.912798] (-) TimerEvent: {}
+[55.014170] (-) TimerEvent: {}
+[55.115499] (-) TimerEvent: {}
+[55.217287] (-) TimerEvent: {}
+[55.318846] (-) TimerEvent: {}
+[55.425668] (-) TimerEvent: {}
+[55.527032] (-) TimerEvent: {}
+[55.635530] (-) TimerEvent: {}
+[55.652214] (aerobot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aerobot_interfaces/srv/esc_srv__type_support.cpp.o\x1b[0m\n'}
+[55.737336] (-) TimerEvent: {}
+[55.838871] (-) TimerEvent: {}
+[55.945705] (-) TimerEvent: {}
+[56.049880] (-) TimerEvent: {}
+[56.153074] (-) TimerEvent: {}
+[56.254403] (-) TimerEvent: {}
+[56.355707] (-) TimerEvent: {}
+[56.456975] (-) TimerEvent: {}
+[56.558299] (-) TimerEvent: {}
+[56.659614] (-) TimerEvent: {}
+[56.763051] (-) TimerEvent: {}
+[56.865693] (-) TimerEvent: {}
+[56.974020] (-) TimerEvent: {}
+[57.075436] (-) TimerEvent: {}
+[57.176775] (-) TimerEvent: {}
+[57.278178] (-) TimerEvent: {}
+[57.379491] (-) TimerEvent: {}
+[57.483988] (-) TimerEvent: {}
+[57.585256] (-) TimerEvent: {}
+[57.686758] (-) TimerEvent: {}
+[57.787968] (-) TimerEvent: {}
+[57.888729] (-) TimerEvent: {}
+[57.989563] (-) TimerEvent: {}
+[58.090338] (-) TimerEvent: {}
+[58.191057] (-) TimerEvent: {}
+[58.291763] (-) TimerEvent: {}
+[58.392570] (-) TimerEvent: {}
+[58.398226] (aerobot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aerobot_interfaces/msg/esc_msg__type_support.cpp.o\x1b[0m\n'}
+[58.493396] (-) TimerEvent: {}
+[58.594783] (-) TimerEvent: {}
+[58.696073] (-) TimerEvent: {}
+[58.797345] (-) TimerEvent: {}
+[58.899111] (-) TimerEvent: {}
+[59.000431] (-) TimerEvent: {}
+[59.101695] (-) TimerEvent: {}
+[59.203418] (-) TimerEvent: {}
+[59.305692] (-) TimerEvent: {}
+[59.409733] (-) TimerEvent: {}
+[59.513714] (-) TimerEvent: {}
+[59.617719] (-) TimerEvent: {}
+[59.721707] (-) TimerEvent: {}
+[59.825716] (-) TimerEvent: {}
+[59.927546] (-) TimerEvent: {}
+[60.031529] (-) TimerEvent: {}
+[60.132888] (-) TimerEvent: {}
+[60.234215] (-) TimerEvent: {}
+[60.335764] (-) TimerEvent: {}
+[60.442218] (-) TimerEvent: {}
+[60.545765] (-) TimerEvent: {}
+[60.649222] (-) TimerEvent: {}
+[60.750731] (-) TimerEvent: {}
+[60.852282] (-) TimerEvent: {}
+[60.957785] (-) TimerEvent: {}
+[61.061948] (-) TimerEvent: {}
+[61.163354] (-) TimerEvent: {}
+[61.264671] (-) TimerEvent: {}
+[61.366057] (-) TimerEvent: {}
+[61.469508] (-) TimerEvent: {}
+[61.573206] (-) TimerEvent: {}
+[61.674534] (-) TimerEvent: {}
+[61.775276] (-) TimerEvent: {}
+[61.827730] (aerobot_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libaerobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[61.875451] (-) TimerEvent: {}
+[61.976121] (-) TimerEvent: {}
+[62.047852] (aerobot_interfaces) StdoutLine: {'line': b'[ 33%] Built target aerobot_interfaces__rosidl_typesupport_cpp\n'}
+[62.076599] (-) TimerEvent: {}
+[62.094017] (aerobot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[62.176885] (-) TimerEvent: {}
+[62.289639] (-) TimerEvent: {}
+[62.391946] (-) TimerEvent: {}
+[62.493236] (-) TimerEvent: {}
+[62.601513] (-) TimerEvent: {}
+[62.704564] (-) TimerEvent: {}
+[62.807687] (-) TimerEvent: {}
+[62.910990] (-) TimerEvent: {}
+[63.014435] (-) TimerEvent: {}
+[63.144162] (-) TimerEvent: {}
+[63.247538] (-) TimerEvent: {}
+[63.351017] (-) TimerEvent: {}
+[63.454263] (-) TimerEvent: {}
+[63.557915] (-) TimerEvent: {}
+[63.661773] (-) TimerEvent: {}
+[63.764958] (-) TimerEvent: {}
+[63.868015] (-) TimerEvent: {}
+[63.971044] (-) TimerEvent: {}
+[64.072386] (-) TimerEvent: {}
+[64.175874] (-) TimerEvent: {}
+[64.277094] (-) TimerEvent: {}
+[64.385108] (-) TimerEvent: {}
+[64.491004] (-) TimerEvent: {}
+[64.594377] (-) TimerEvent: {}
+[64.698395] (-) TimerEvent: {}
+[64.802613] (-) TimerEvent: {}
+[64.904858] (-) TimerEvent: {}
+[65.007049] (-) TimerEvent: {}
+[65.108359] (-) TimerEvent: {}
+[65.209632] (-) TimerEvent: {}
+[65.311102] (-) TimerEvent: {}
+[65.421524] (-) TimerEvent: {}
+[65.525578] (-) TimerEvent: {}
+[65.629565] (-) TimerEvent: {}
+[65.732332] (-) TimerEvent: {}
+[65.836460] (-) TimerEvent: {}
+[65.941636] (-) TimerEvent: {}
+[66.043375] (-) TimerEvent: {}
+[66.149224] (-) TimerEvent: {}
+[66.257790] (-) TimerEvent: {}
+[66.361788] (-) TimerEvent: {}
+[66.465135] (-) TimerEvent: {}
+[66.571805] (-) TimerEvent: {}
+[66.678545] (-) TimerEvent: {}
+[66.782021] (-) TimerEvent: {}
+[66.885298] (-) TimerEvent: {}
+[66.988828] (-) TimerEvent: {}
+[67.091891] (-) TimerEvent: {}
+[67.193667] (-) TimerEvent: {}
+[67.297686] (-) TimerEvent: {}
+[67.311051] (aerobot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c.o\x1b[0m\n'}
+[67.401497] (-) TimerEvent: {}
+[67.504268] (-) TimerEvent: {}
+[67.610914] (-) TimerEvent: {}
+[67.721736] (-) TimerEvent: {}
+[67.824311] (-) TimerEvent: {}
+[67.931232] (-) TimerEvent: {}
+[68.046310] (-) TimerEvent: {}
+[68.181674] (-) TimerEvent: {}
+[68.284019] (-) TimerEvent: {}
+[68.391056] (-) TimerEvent: {}
+[68.493767] (-) TimerEvent: {}
+[68.572952] (aerobot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c.o\x1b[0m\n'}
+[68.594078] (-) TimerEvent: {}
+[68.697883] (-) TimerEvent: {}
+[68.801732] (-) TimerEvent: {}
+[68.908479] (-) TimerEvent: {}
+[69.011961] (-) TimerEvent: {}
+[69.114075] (-) TimerEvent: {}
+[69.215922] (-) TimerEvent: {}
+[69.268236] (aerobot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libaerobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[69.316120] (-) TimerEvent: {}
+[69.418017] (-) TimerEvent: {}
+[69.521706] (-) TimerEvent: {}
+[69.630612] (-) TimerEvent: {}
+[69.737814] (-) TimerEvent: {}
+[69.761603] (aerobot_interfaces) StdoutLine: {'line': b'[ 43%] Built target aerobot_interfaces__rosidl_generator_c\n'}
+[69.838763] (-) TimerEvent: {}
+[69.953789] (aerobot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[69.955565] (-) TimerEvent: {}
+[70.057689] (-) TimerEvent: {}
+[70.160960] (-) TimerEvent: {}
+[70.272532] (-) TimerEvent: {}
+[70.375613] (-) TimerEvent: {}
+[70.482809] (-) TimerEvent: {}
+[70.589682] (-) TimerEvent: {}
+[70.693720] (-) TimerEvent: {}
+[70.801706] (-) TimerEvent: {}
+[70.905693] (-) TimerEvent: {}
+[71.018250] (-) TimerEvent: {}
+[71.122059] (-) TimerEvent: {}
+[71.225740] (-) TimerEvent: {}
+[71.328981] (-) TimerEvent: {}
+[71.432449] (-) TimerEvent: {}
+[71.535660] (-) TimerEvent: {}
+[71.641662] (-) TimerEvent: {}
+[71.742958] (-) TimerEvent: {}
+[71.851801] (-) TimerEvent: {}
+[71.955386] (-) TimerEvent: {}
+[72.058984] (-) TimerEvent: {}
+[72.170225] (-) TimerEvent: {}
+[72.272474] (-) TimerEvent: {}
+[72.378022] (-) TimerEvent: {}
+[72.485654] (-) TimerEvent: {}
+[72.588850] (-) TimerEvent: {}
+[72.693599] (-) TimerEvent: {}
+[72.795332] (-) TimerEvent: {}
+[72.902050] (-) TimerEvent: {}
+[73.013688] (-) TimerEvent: {}
+[73.117685] (-) TimerEvent: {}
+[73.225730] (-) TimerEvent: {}
+[73.329736] (-) TimerEvent: {}
+[73.433679] (-) TimerEvent: {}
+[73.537704] (-) TimerEvent: {}
+[73.641794] (-) TimerEvent: {}
+[73.745709] (-) TimerEvent: {}
+[73.849735] (-) TimerEvent: {}
+[73.951368] (-) TimerEvent: {}
+[74.056745] (-) TimerEvent: {}
+[74.161681] (-) TimerEvent: {}
+[74.265728] (-) TimerEvent: {}
+[74.369729] (-) TimerEvent: {}
+[74.471173] (-) TimerEvent: {}
+[74.573759] (-) TimerEvent: {}
+[74.677961] (-) TimerEvent: {}
+[74.781612] (-) TimerEvent: {}
+[74.885940] (-) TimerEvent: {}
+[74.989741] (-) TimerEvent: {}
+[75.091167] (-) TimerEvent: {}
+[75.192679] (-) TimerEvent: {}
+[75.297722] (-) TimerEvent: {}
+[75.399029] (-) TimerEvent: {}
+[75.494023] (aerobot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp.o\x1b[0m\n'}
+[75.499324] (-) TimerEvent: {}
+[75.602017] (-) TimerEvent: {}
+[75.705680] (-) TimerEvent: {}
+[75.811820] (-) TimerEvent: {}
+[75.914979] (-) TimerEvent: {}
+[76.021768] (-) TimerEvent: {}
+[76.125664] (-) TimerEvent: {}
+[76.228765] (-) TimerEvent: {}
+[76.336042] (-) TimerEvent: {}
+[76.442837] (-) TimerEvent: {}
+[76.544220] (-) TimerEvent: {}
+[76.645735] (-) TimerEvent: {}
+[76.750705] (-) TimerEvent: {}
+[76.852440] (-) TimerEvent: {}
+[76.957620] (-) TimerEvent: {}
+[77.065557] (-) TimerEvent: {}
+[77.167160] (-) TimerEvent: {}
+[77.267984] (-) TimerEvent: {}
+[77.369331] (-) TimerEvent: {}
+[77.471183] (-) TimerEvent: {}
+[77.578311] (-) TimerEvent: {}
+[77.681611] (-) TimerEvent: {}
+[77.785602] (-) TimerEvent: {}
+[77.886395] (-) TimerEvent: {}
+[77.987186] (-) TimerEvent: {}
+[78.088027] (-) TimerEvent: {}
+[78.191315] (-) TimerEvent: {}
+[78.201357] (aerobot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp.o\x1b[0m\n'}
+[78.291581] (-) TimerEvent: {}
+[78.392852] (-) TimerEvent: {}
+[78.494171] (-) TimerEvent: {}
+[78.597117] (-) TimerEvent: {}
+[78.698429] (-) TimerEvent: {}
+[78.799652] (-) TimerEvent: {}
+[78.900947] (-) TimerEvent: {}
+[79.002285] (-) TimerEvent: {}
+[79.103493] (-) TimerEvent: {}
+[79.204828] (-) TimerEvent: {}
+[79.306268] (-) TimerEvent: {}
+[79.407731] (-) TimerEvent: {}
+[79.517746] (-) TimerEvent: {}
+[79.625755] (-) TimerEvent: {}
+[79.728087] (-) TimerEvent: {}
+[79.831527] (-) TimerEvent: {}
+[79.932915] (-) TimerEvent: {}
+[80.034267] (-) TimerEvent: {}
+[80.135599] (-) TimerEvent: {}
+[80.236945] (-) TimerEvent: {}
+[80.338488] (-) TimerEvent: {}
+[80.439928] (-) TimerEvent: {}
+[80.547644] (-) TimerEvent: {}
+[80.649035] (-) TimerEvent: {}
+[80.753105] (-) TimerEvent: {}
+[80.861821] (-) TimerEvent: {}
+[80.965711] (-) TimerEvent: {}
+[81.069669] (-) TimerEvent: {}
+[81.174062] (-) TimerEvent: {}
+[81.275512] (-) TimerEvent: {}
+[81.376741] (-) TimerEvent: {}
+[81.477474] (-) TimerEvent: {}
+[81.579091] (-) TimerEvent: {}
+[81.680782] (-) TimerEvent: {}
+[81.782476] (-) TimerEvent: {}
+[81.883218] (-) TimerEvent: {}
+[81.984365] (-) TimerEvent: {}
+[82.085935] (-) TimerEvent: {}
+[82.122788] (aerobot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[82.185971] (-) TimerEvent: {}
+[82.288433] (-) TimerEvent: {}
+[82.389872] (-) TimerEvent: {}
+[82.491225] (-) TimerEvent: {}
+[82.593265] (-) TimerEvent: {}
+[82.701152] (-) TimerEvent: {}
+[82.806808] (-) TimerEvent: {}
+[82.908195] (-) TimerEvent: {}
+[83.012962] (-) TimerEvent: {}
+[83.115331] (-) TimerEvent: {}
+[83.178829] (aerobot_interfaces) StdoutLine: {'line': b'[ 53%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[83.216061] (-) TimerEvent: {}
+[83.317369] (-) TimerEvent: {}
+[83.386205] (aerobot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[83.417852] (-) TimerEvent: {}
+[83.519135] (-) TimerEvent: {}
+[83.620908] (-) TimerEvent: {}
+[83.722216] (-) TimerEvent: {}
+[83.825583] (-) TimerEvent: {}
+[83.928894] (-) TimerEvent: {}
+[84.032109] (-) TimerEvent: {}
+[84.135401] (-) TimerEvent: {}
+[84.238586] (-) TimerEvent: {}
+[84.345668] (-) TimerEvent: {}
+[84.455898] (-) TimerEvent: {}
+[84.557263] (-) TimerEvent: {}
+[84.658612] (-) TimerEvent: {}
+[84.760667] (-) TimerEvent: {}
+[84.861954] (-) TimerEvent: {}
+[84.965735] (-) TimerEvent: {}
+[85.069635] (-) TimerEvent: {}
+[85.172867] (-) TimerEvent: {}
+[85.274209] (-) TimerEvent: {}
+[85.375387] (-) TimerEvent: {}
+[85.476055] (-) TimerEvent: {}
+[85.576729] (-) TimerEvent: {}
+[85.677392] (-) TimerEvent: {}
+[85.779067] (-) TimerEvent: {}
+[85.884089] (-) TimerEvent: {}
+[85.990980] (-) TimerEvent: {}
+[86.092348] (-) TimerEvent: {}
+[86.127080] (aerobot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aerobot_interfaces/srv/esc_srv__type_support.cpp.o\x1b[0m\n'}
+[86.192791] (-) TimerEvent: {}
+[86.297387] (-) TimerEvent: {}
+[86.399973] (-) TimerEvent: {}
+[86.501328] (-) TimerEvent: {}
+[86.581006] (aerobot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aerobot_interfaces/msg/esc_msg__type_support.cpp.o\x1b[0m\n'}
+[86.601673] (-) TimerEvent: {}
+[86.702946] (-) TimerEvent: {}
+[86.805279] (-) TimerEvent: {}
+[86.906595] (-) TimerEvent: {}
+[87.009277] (-) TimerEvent: {}
+[87.060220] (aerobot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaerobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[87.113721] (-) TimerEvent: {}
+[87.217675] (-) TimerEvent: {}
+[87.319283] (-) TimerEvent: {}
+[87.421018] (-) TimerEvent: {}
+[87.532630] (-) TimerEvent: {}
+[87.546099] (aerobot_interfaces) StdoutLine: {'line': b'[ 64%] Built target aerobot_interfaces__rosidl_typesupport_c\n'}
+[87.632915] (-) TimerEvent: {}
+[87.674110] (aerobot_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[87.733219] (-) TimerEvent: {}
+[87.834742] (-) TimerEvent: {}
+[87.936078] (-) TimerEvent: {}
+[88.037353] (-) TimerEvent: {}
+[88.138751] (-) TimerEvent: {}
+[88.240126] (-) TimerEvent: {}
+[88.341717] (-) TimerEvent: {}
+[88.444119] (-) TimerEvent: {}
+[88.545525] (-) TimerEvent: {}
+[88.648552] (-) TimerEvent: {}
+[88.751613] (-) TimerEvent: {}
+[88.857753] (-) TimerEvent: {}
+[88.959051] (-) TimerEvent: {}
+[89.060239] (-) TimerEvent: {}
+[89.160926] (-) TimerEvent: {}
+[89.261717] (-) TimerEvent: {}
+[89.363001] (-) TimerEvent: {}
+[89.464292] (-) TimerEvent: {}
+[89.569702] (-) TimerEvent: {}
+[89.673724] (-) TimerEvent: {}
+[89.780372] (-) TimerEvent: {}
+[89.883473] (-) TimerEvent: {}
+[89.993585] (-) TimerEvent: {}
+[90.096176] (-) TimerEvent: {}
+[90.197594] (-) TimerEvent: {}
+[90.298819] (-) TimerEvent: {}
+[90.400168] (-) TimerEvent: {}
+[90.503727] (-) TimerEvent: {}
+[90.604988] (-) TimerEvent: {}
+[90.706474] (-) TimerEvent: {}
+[90.808688] (-) TimerEvent: {}
+[90.911632] (-) TimerEvent: {}
+[91.012998] (-) TimerEvent: {}
+[91.114473] (-) TimerEvent: {}
+[91.217743] (-) TimerEvent: {}
+[91.321082] (-) TimerEvent: {}
+[91.385262] (aerobot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aerobot_interfaces/srv/detail/esc_srv__type_support.c.o\x1b[0m\n'}
+[91.421355] (-) TimerEvent: {}
+[91.527833] (-) TimerEvent: {}
+[91.631090] (-) TimerEvent: {}
+[91.732487] (-) TimerEvent: {}
+[91.834073] (-) TimerEvent: {}
+[91.935661] (-) TimerEvent: {}
+[91.994103] (aerobot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aerobot_interfaces/msg/detail/esc_msg__type_support.c.o\x1b[0m\n'}
+[92.035986] (-) TimerEvent: {}
+[92.137385] (-) TimerEvent: {}
+[92.247226] (-) TimerEvent: {}
+[92.350947] (-) TimerEvent: {}
+[92.454701] (-) TimerEvent: {}
+[92.554115] (aerobot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libaerobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[92.554857] (-) TimerEvent: {}
+[92.657622] (-) TimerEvent: {}
+[92.755282] (aerobot_interfaces) StdoutLine: {'line': b'[ 74%] Built target aerobot_interfaces__rosidl_typesupport_introspection_c\n'}
+[92.757789] (-) TimerEvent: {}
+[92.859205] (-) TimerEvent: {}
+[92.934813] (aerobot_interfaces) StdoutLine: {'line': b'[ 74%] Built target aerobot_interfaces\n'}
+[92.959487] (-) TimerEvent: {}
+[93.061810] (-) TimerEvent: {}
+[93.164784] (-) TimerEvent: {}
+[93.240916] (aerobot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[93.265049] (-) TimerEvent: {}
+[93.367414] (-) TimerEvent: {}
+[93.470226] (-) TimerEvent: {}
+[93.571475] (-) TimerEvent: {}
+[93.672786] (-) TimerEvent: {}
+[93.774170] (-) TimerEvent: {}
+[93.875447] (-) TimerEvent: {}
+[93.976844] (-) TimerEvent: {}
+[94.078453] (-) TimerEvent: {}
+[94.179799] (-) TimerEvent: {}
+[94.281089] (-) TimerEvent: {}
+[94.382587] (-) TimerEvent: {}
+[94.483967] (-) TimerEvent: {}
+[94.591249] (-) TimerEvent: {}
+[94.694794] (-) TimerEvent: {}
+[94.805718] (-) TimerEvent: {}
+[94.908969] (-) TimerEvent: {}
+[95.015276] (-) TimerEvent: {}
+[95.116651] (-) TimerEvent: {}
+[95.218016] (-) TimerEvent: {}
+[95.319283] (-) TimerEvent: {}
+[95.420599] (-) TimerEvent: {}
+[95.522136] (-) TimerEvent: {}
+[95.629721] (-) TimerEvent: {}
+[95.732947] (-) TimerEvent: {}
+[95.835926] (-) TimerEvent: {}
+[95.937793] (-) TimerEvent: {}
+[96.041320] (-) TimerEvent: {}
+[96.146856] (-) TimerEvent: {}
+[96.248153] (-) TimerEvent: {}
+[96.349372] (-) TimerEvent: {}
+[96.452697] (-) TimerEvent: {}
+[96.556365] (-) TimerEvent: {}
+[96.662238] (-) TimerEvent: {}
+[96.765223] (-) TimerEvent: {}
+[96.873728] (-) TimerEvent: {}
+[96.975127] (-) TimerEvent: {}
+[97.076436] (-) TimerEvent: {}
+[97.181725] (-) TimerEvent: {}
+[97.283999] (-) TimerEvent: {}
+[97.392139] (-) TimerEvent: {}
+[97.493395] (-) TimerEvent: {}
+[97.594719] (-) TimerEvent: {}
+[97.695958] (-) TimerEvent: {}
+[97.797234] (-) TimerEvent: {}
+[97.898579] (-) TimerEvent: {}
+[98.009800] (-) TimerEvent: {}
+[98.113209] (-) TimerEvent: {}
+[98.214483] (-) TimerEvent: {}
+[98.315854] (-) TimerEvent: {}
+[98.417058] (-) TimerEvent: {}
+[98.521714] (-) TimerEvent: {}
+[98.622935] (-) TimerEvent: {}
+[98.726045] (-) TimerEvent: {}
+[98.827425] (-) TimerEvent: {}
+[98.928674] (-) TimerEvent: {}
+[99.030027] (-) TimerEvent: {}
+[99.131288] (-) TimerEvent: {}
+[99.232539] (-) TimerEvent: {}
+[99.333814] (-) TimerEvent: {}
+[99.435177] (-) TimerEvent: {}
+[99.538220] (-) TimerEvent: {}
+[99.641084] (-) TimerEvent: {}
+[99.741801] (-) TimerEvent: {}
+[99.842506] (-) TimerEvent: {}
+[99.943332] (-) TimerEvent: {}
+[99.994428] (aerobot_interfaces) StdoutLine: {'line': b'[ 76%] Built target aerobot_interfaces__py\n'}
+[100.043508] (-) TimerEvent: {}
+[100.082961] (aerobot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aerobot_interfaces/srv/_esc_srv_s.c.o\x1b[0m\n'}
+[100.143692] (-) TimerEvent: {}
+[100.244449] (-) TimerEvent: {}
+[100.348340] (-) TimerEvent: {}
+[100.449624] (-) TimerEvent: {}
+[100.550897] (-) TimerEvent: {}
+[100.652180] (-) TimerEvent: {}
+[100.754063] (-) TimerEvent: {}
+[100.858529] (-) TimerEvent: {}
+[100.961969] (-) TimerEvent: {}
+[101.063244] (-) TimerEvent: {}
+[101.158457] (aerobot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aerobot_interfaces/msg/_esc_msg_s.c.o\x1b[0m\n'}
+[101.163570] (-) TimerEvent: {}
+[101.266870] (-) TimerEvent: {}
+[101.368178] (-) TimerEvent: {}
+[101.469524] (-) TimerEvent: {}
+[101.570732] (-) TimerEvent: {}
+[101.672052] (-) TimerEvent: {}
+[101.773329] (-) TimerEvent: {}
+[101.874698] (-) TimerEvent: {}
+[101.976033] (-) TimerEvent: {}
+[102.077508] (-) TimerEvent: {}
+[102.178891] (-) TimerEvent: {}
+[102.281673] (-) TimerEvent: {}
+[102.382975] (-) TimerEvent: {}
+[102.484372] (-) TimerEvent: {}
+[102.585789] (-) TimerEvent: {}
+[102.592716] (aerobot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aerobot_interfaces/libaerobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[102.686135] (-) TimerEvent: {}
+[102.789386] (-) TimerEvent: {}
+[102.892817] (-) TimerEvent: {}
+[102.995341] (-) TimerEvent: {}
+[103.054103] (aerobot_interfaces) StdoutLine: {'line': b'[ 84%] Built target aerobot_interfaces__rosidl_generator_py\n'}
+[103.097371] (-) TimerEvent: {}
+[103.199559] (-) TimerEvent: {}
+[103.209001] (aerobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aerobot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[103.299817] (-) TimerEvent: {}
+[103.401066] (-) TimerEvent: {}
+[103.429533] (aerobot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[103.503330] (-) TimerEvent: {}
+[103.618239] (-) TimerEvent: {}
+[103.718935] (-) TimerEvent: {}
+[103.819576] (-) TimerEvent: {}
+[103.920219] (-) TimerEvent: {}
+[104.020907] (-) TimerEvent: {}
+[104.087334] (aerobot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[104.121069] (-) TimerEvent: {}
+[104.221772] (-) TimerEvent: {}
+[104.296140] (aerobot_interfaces) StdoutLine: {'line': b'[ 89%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[104.322055] (-) TimerEvent: {}
+[104.338857] (aerobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aerobot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[104.396582] (aerobot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[104.423216] (-) TimerEvent: {}
+[104.525221] (-) TimerEvent: {}
+[104.627261] (-) TimerEvent: {}
+[104.728859] (-) TimerEvent: {}
+[104.833354] (-) TimerEvent: {}
+[104.937591] (-) TimerEvent: {}
+[104.964592] (aerobot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[105.037775] (-) TimerEvent: {}
+[105.142669] (-) TimerEvent: {}
+[105.169384] (aerobot_interfaces) StdoutLine: {'line': b'[ 94%] Built target aerobot_interfaces__rosidl_typesupport_c__pyext\n'}
+[105.222738] (aerobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aerobot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[105.245660] (-) TimerEvent: {}
+[105.314099] (aerobot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/aerobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[105.345830] (-) TimerEvent: {}
+[105.446500] (-) TimerEvent: {}
+[105.547192] (-) TimerEvent: {}
+[105.647982] (-) TimerEvent: {}
+[105.748985] (-) TimerEvent: {}
+[105.854683] (-) TimerEvent: {}
+[105.965700] (-) TimerEvent: {}
+[106.068638] (-) TimerEvent: {}
+[106.171294] (-) TimerEvent: {}
+[106.273703] (-) TimerEvent: {}
+[106.360377] (aerobot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[106.373969] (-) TimerEvent: {}
+[106.477734] (-) TimerEvent: {}
+[106.580104] (-) TimerEvent: {}
+[106.682517] (-) TimerEvent: {}
+[106.791581] (-) TimerEvent: {}
+[106.868057] (aerobot_interfaces) StdoutLine: {'line': b'[100%] Built target aerobot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[106.891875] (-) TimerEvent: {}
+[107.001756] (-) TimerEvent: {}
+[107.025566] (aerobot_interfaces) CommandEnded: {'returncode': 0}
+[107.102027] (-) TimerEvent: {}
+[107.204140] (-) TimerEvent: {}
+[107.305688] (-) TimerEvent: {}
+[107.407623] (-) TimerEvent: {}
+[107.510864] (-) TimerEvent: {}
+[107.612158] (-) TimerEvent: {}
+[107.719658] (-) TimerEvent: {}
+[107.821834] (-) TimerEvent: {}
+[107.923502] (-) TimerEvent: {}
+[108.024972] (-) TimerEvent: {}
+[108.126311] (-) TimerEvent: {}
+[108.228611] (-) TimerEvent: {}
+[108.329943] (-) TimerEvent: {}
+[108.402896] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'install'}
+[108.430315] (-) TimerEvent: {}
+[108.484092] (aerobot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/aerobot_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/aerobot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 49944 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17ba689c-a8eb-4a38-9db5-fb6c64ab88a9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a16b5b024b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/aerobot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 49944 192.168.0.122 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[108.530595] (-) TimerEvent: {}
+[108.620016] (aerobot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[108.769318] (-) TimerEvent: {}
+[108.772370] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/aerobot_interfaces\n'}
+[108.776492] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces\n'}
+[108.783809] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv\n'}
+[108.787875] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.h\n'}
+[108.790386] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc.h\n'}
+[108.791728] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail\n'}
+[108.809690] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.h\n'}
+[108.810996] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__type_support.h\n'}
+[108.812007] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__functions.h\n'}
+[108.812973] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__functions.c\n'}
+[108.830122] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__struct.h\n'}
+[108.833319] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__type_support.h\n'}
+[108.835212] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__functions.c\n'}
+[108.836481] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__functions.h\n'}
+[108.837600] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg\n'}
+[108.862344] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.h\n'}
+[108.870088] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc.h\n'}
+[108.871262] (-) TimerEvent: {}
+[108.873753] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail\n'}
+[108.875661] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__functions.c\n'}
+[108.887006] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__type_support.h\n'}
+[108.888925] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__functions.h\n'}
+[108.890008] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.h\n'}
+[108.890921] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__struct.h\n'}
+[108.914294] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__functions.h\n'}
+[108.920545] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__type_support.h\n'}
+[108.923132] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__functions.c\n'}
+[108.924332] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[108.925309] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/library_path.sh\n'}
+[108.938812] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/library_path.dsv\n'}
+[108.939981] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_c.so\n'}
+[108.941025] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[108.942320] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces\n'}
+[108.943323] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv\n'}
+[108.944274] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail\n'}
+[108.945190] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[108.979945] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__rosidl_typesupport_fastrtps_c.h\n'}
+[108.985807] (-) TimerEvent: {}
+[108.988302] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg\n'}
+[108.994478] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[108.996115] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail\n'}
+[108.996554] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[108.996928] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__rosidl_typesupport_fastrtps_c.h\n'}
+[108.997264] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[108.997682] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[108.998066] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces\n'}
+[108.998479] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv\n'}
+[108.998853] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail\n'}
+[108.999200] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__type_support.c\n'}
+[109.011941] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__rosidl_typesupport_introspection_c.h\n'}
+[109.012282] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__type_support.c\n'}
+[109.015493] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_introspection_c.h\n'}
+[109.015901] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg\n'}
+[109.016756] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail\n'}
+[109.017190] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__type_support.c\n'}
+[109.017613] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__rosidl_typesupport_introspection_c.h\n'}
+[109.018005] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__type_support.c\n'}
+[109.018369] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_introspection_c.h\n'}
+[109.018723] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[109.019051] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[109.019384] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[109.019749] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_c.so\n'}
+[109.020096] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[109.020522] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces\n'}
+[109.020882] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv\n'}
+[109.021245] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp\n'}
+[109.031424] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc.hpp\n'}
+[109.037932] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail\n'}
+[109.038313] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__builder.hpp\n'}
+[109.038609] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp\n'}
+[109.038940] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp\n'}
+[109.039217] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__traits.hpp\n'}
+[109.039496] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__struct.hpp\n'}
+[109.039770] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp\n'}
+[109.040069] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg\n'}
+[109.040391] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc.hpp\n'}
+[109.040771] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp\n'}
+[109.041116] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail\n'}
+[109.041505] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__builder.hpp\n'}
+[109.041837] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp\n'}
+[109.042121] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__traits.hpp\n'}
+[109.042393] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__struct.hpp\n'}
+[109.042666] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp\n'}
+[109.042939] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp\n'}
+[109.043211] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces\n'}
+[109.043516] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv\n'}
+[109.043839] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail\n'}
+[109.050021] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[109.050463] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/dds_fastrtps\n'}
+[109.050859] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[109.051248] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg\n'}
+[109.051693] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[109.052065] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail\n'}
+[109.052446] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[109.052914] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/dds_fastrtps\n'}
+[109.053269] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[109.061850] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[109.062218] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[109.062509] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces\n'}
+[109.062784] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv\n'}
+[109.063051] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail\n'}
+[109.063321] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[109.063589] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc__type_support.cpp\n'}
+[109.063908] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__type_support.cpp\n'}
+[109.064202] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[109.064673] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg\n'}
+[109.065187] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail\n'}
+[109.065754] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[109.066221] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__type_support.cpp\n'}
+[109.086159] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc__type_support.cpp\n'}
+[109.086865] (-) TimerEvent: {}
+[109.087291] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[109.087950] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[109.088481] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[109.088925] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[109.089267] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[109.089623] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/pythonpath.sh\n'}
+[109.089926] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/pythonpath.dsv\n'}
+[109.090280] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info\n'}
+[109.090617] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[109.097684] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[109.098882] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[109.105659] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[109.117653] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces\n'}
+[109.119033] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/__init__.py\n'}
+[109.125638] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[109.137645] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/libaerobot_interfaces__rosidl_generator_py.so\n'}
+[109.149631] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[109.165659] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[109.166828] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv\n'}
+[109.173679] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/__init__.py\n'}
+[109.174885] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc.py\n'}
+[109.181663] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc_s.c\n'}
+[109.186228] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc_srv_s.c\n'}
+[109.187236] (-) TimerEvent: {}
+[109.188113] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc_srv.py\n'}
+[109.189322] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[109.201629] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[109.213639] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[109.221676] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg\n'}
+[109.253633] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc_msg.py\n'}
+[109.257798] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/__init__.py\n'}
+[109.262225] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc_msg_s.c\n'}
+[109.263319] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc.py\n'}
+[109.273680] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc_s.c\n'}
+[109.287553] (-) TimerEvent: {}
+[109.390184] (-) TimerEvent: {}
+[109.501079] (-) TimerEvent: {}
+[109.604791] (-) TimerEvent: {}
+[109.709776] (-) TimerEvent: {}
+[109.813702] (-) TimerEvent: {}
+[109.915060] (-) TimerEvent: {}
+[109.996402] (aerobot_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces'...\n"}
+[109.998929] (aerobot_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/__init__.py'...\n"}
+[110.000982] (aerobot_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg'...\n"}
+[110.015679] (-) TimerEvent: {}
+[110.047130] (aerobot_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/__init__.py'...\n"}
+[110.048583] (aerobot_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc_msg.py'...\n"}
+[110.064941] (aerobot_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv'...\n"}
+[110.066288] (aerobot_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/__init__.py'...\n"}
+[110.067517] (aerobot_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc_srv.py'...\n"}
+[110.068533] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[110.104859] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[110.105962] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[110.110690] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[110.111825] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[110.112866] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[110.122954] (-) TimerEvent: {}
+[110.127530] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_py.so\n'}
+[110.141206] (aerobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[110.142308] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv.idl\n'}
+[110.143260] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/msg/EscMsg.idl\n'}
+[110.144109] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv.srv\n'}
+[110.161842] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv_Request.msg\n'}
+[110.163122] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv_Response.msg\n'}
+[110.164109] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/msg/EscMsg.msg\n'}
+[110.164966] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/package_run_dependencies/aerobot_interfaces\n'}
+[110.166215] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/parent_prefix_path/aerobot_interfaces\n'}
+[110.167152] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/ament_prefix_path.sh\n'}
+[110.168018] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/ament_prefix_path.dsv\n'}
+[110.168853] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/path.sh\n'}
+[110.170844] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/path.dsv\n'}
+[110.185239] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.bash\n'}
+[110.195622] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.sh\n'}
+[110.196994] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.zsh\n'}
+[110.198507] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.dsv\n'}
+[110.200006] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.dsv\n'}
+[110.201348] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/packages/aerobot_interfaces\n'}
+[110.202835] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_cExport.cmake\n'}
+[110.212501] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[110.213603] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[110.226769] (-) TimerEvent: {}
+[110.227688] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[110.229025] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[110.259450] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[110.260677] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[110.261690] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[110.262749] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[110.263715] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[110.264644] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[110.265639] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[110.266727] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[110.267780] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[110.268624] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[110.269415] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[110.278980] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[110.290771] (aerobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[110.292007] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[110.292887] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[110.317987] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[110.333831] (-) TimerEvent: {}
+[110.334710] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[110.335985] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[110.337143] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[110.339256] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfacesConfig.cmake\n'}
+[110.340273] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfacesConfig-version.cmake\n'}
+[110.341253] (aerobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.xml\n'}
+[110.342419] (aerobot_interfaces) CommandEnded: {'returncode': 0}
+[110.434094] (-) TimerEvent: {}
+[110.535368] (-) TimerEvent: {}
+[110.637742] (-) TimerEvent: {}
+[110.739106] (-) TimerEvent: {}
+[110.841726] (-) TimerEvent: {}
+[110.943067] (-) TimerEvent: {}
+[111.044325] (-) TimerEvent: {}
+[111.145610] (-) TimerEvent: {}
+[111.246843] (-) TimerEvent: {}
+[111.348092] (-) TimerEvent: {}
+[111.449307] (-) TimerEvent: {}
+[111.550541] (-) TimerEvent: {}
+[111.651733] (-) TimerEvent: {}
+[111.752931] (-) TimerEvent: {}
+[111.854250] (-) TimerEvent: {}
+[111.955418] (-) TimerEvent: {}
+[112.058525] (-) TimerEvent: {}
+[112.079433] (aerobot_interfaces) JobEnded: {'identifier': 'aerobot_interfaces', 'rc': 0}
+[112.098392] (-) EventReactorShutdown: {}
