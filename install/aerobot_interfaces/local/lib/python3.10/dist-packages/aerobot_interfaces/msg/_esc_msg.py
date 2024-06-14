@@ -7,8 +7,6 @@
 
 import builtins  # noqa: E402, I100
 
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -57,26 +55,22 @@ class EscMsg(metaclass=Metaclass_EscMsg):
     """Message class 'EscMsg'."""
 
     __slots__ = [
-        '_pin_number',
         '_pulse_width',
     ]
 
     _fields_and_field_types = {
-        'pin_number': 'int8',
-        'pulse_width': 'double',
+        'pulse_width': 'uint8',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.pin_number = kwargs.get('pin_number', int())
-        self.pulse_width = kwargs.get('pulse_width', float())
+        self.pulse_width = kwargs.get('pulse_width', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -107,8 +101,6 @@ class EscMsg(metaclass=Metaclass_EscMsg):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.pin_number != other.pin_number:
-            return False
         if self.pulse_width != other.pulse_width:
             return False
         return True
@@ -119,21 +111,6 @@ class EscMsg(metaclass=Metaclass_EscMsg):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def pin_number(self):
-        """Message field 'pin_number'."""
-        return self._pin_number
-
-    @pin_number.setter
-    def pin_number(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'pin_number' field must be of type 'int'"
-            assert value >= -128 and value < 128, \
-                "The 'pin_number' field must be an integer in [-128, 127]"
-        self._pin_number = value
-
-    @builtins.property
     def pulse_width(self):
         """Message field 'pulse_width'."""
         return self._pulse_width
@@ -142,8 +119,8 @@ class EscMsg(metaclass=Metaclass_EscMsg):
     def pulse_width(self, value):
         if __debug__:
             assert \
-                isinstance(value, float), \
-                "The 'pulse_width' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'pulse_width' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+                isinstance(value, int), \
+                "The 'pulse_width' field must be of type 'int'"
+            assert value >= 0 and value < 256, \
+                "The 'pulse_width' field must be an unsigned integer in [0, 255]"
         self._pulse_width = value

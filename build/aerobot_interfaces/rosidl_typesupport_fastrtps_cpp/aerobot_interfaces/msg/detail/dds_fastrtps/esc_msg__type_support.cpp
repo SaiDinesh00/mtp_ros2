@@ -32,8 +32,6 @@ cdr_serialize(
   const aerobot_interfaces::msg::EscMsg & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: pin_number
-  cdr << ros_message.pin_number;
   // Member: pulse_width
   cdr << ros_message.pulse_width;
   return true;
@@ -45,9 +43,6 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   aerobot_interfaces::msg::EscMsg & ros_message)
 {
-  // Member: pin_number
-  cdr >> ros_message.pin_number;
-
   // Member: pulse_width
   cdr >> ros_message.pulse_width;
 
@@ -67,12 +62,6 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: pin_number
-  {
-    size_t item_size = sizeof(ros_message.pin_number);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: pulse_width
   {
     size_t item_size = sizeof(ros_message.pulse_width);
@@ -103,21 +92,12 @@ max_serialized_size_EscMsg(
   is_plain = true;
 
 
-  // Member: pin_number
+  // Member: pulse_width
   {
     size_t array_size = 1;
 
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: pulse_width
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
   size_t ret_val = current_alignment - initial_alignment;

@@ -4,9 +4,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.9
+// Model version                  : 1.13
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Thu Jun 13 16:47:45 2024
+// C/C++ source code generated on : Fri Jun 14 05:25:54 2024
 //
 #ifdef _MSC_VER
 #pragma warning(push)
@@ -85,7 +85,7 @@ void NodeInterface::initialize(int argc, char * const argv[]) {
 		mExtModeThread = std::make_shared<std::thread>(&NodeInterface::extmodeBackgroundTask, this);
         //create the threads for the rates in the Model
         mBaseRateThread = std::make_shared<std::thread>(&NodeInterface::baseRateTask, this);
-		mSchedulerTimer = SLROSNodePtr->create_wall_timer(std::chrono::nanoseconds(5000000),std::bind(&NodeInterface::schedulerThreadCallback,this));
+		mSchedulerTimer = SLROSNodePtr->create_wall_timer(std::chrono::nanoseconds(10000000),std::bind(&NodeInterface::schedulerThreadCallback,this));
     }
     catch (std::exception& ex) {
         std::cout << ex.what() << std::endl;

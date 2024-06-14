@@ -1,0 +1,26 @@
+[9.952s] Invoking command in '/home/ubuntu/ros2_ws/src/my_ahrs': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ahrs build --build-base /home/ubuntu/ros2_ws/build/my_ahrs/build install --record /home/ubuntu/ros2_ws/build/my_ahrs/install.log --single-version-externally-managed install_data
+[14.048s] running egg_info
+[14.056s] writing ../../build/my_ahrs/my_ahrs.egg-info/PKG-INFO
+[14.067s] writing dependency_links to ../../build/my_ahrs/my_ahrs.egg-info/dependency_links.txt
+[14.068s] writing entry points to ../../build/my_ahrs/my_ahrs.egg-info/entry_points.txt
+[14.069s] writing requirements to ../../build/my_ahrs/my_ahrs.egg-info/requires.txt
+[14.071s] writing top-level names to ../../build/my_ahrs/my_ahrs.egg-info/top_level.txt
+[14.081s] reading manifest file '../../build/my_ahrs/my_ahrs.egg-info/SOURCES.txt'
+[14.093s] writing manifest file '../../build/my_ahrs/my_ahrs.egg-info/SOURCES.txt'
+[14.095s] running build
+[14.096s] running build_py
+[14.103s] copying my_ahrs/madgwick_node.py -> /home/ubuntu/ros2_ws/build/my_ahrs/build/lib/my_ahrs
+[14.104s] running install
+[14.106s] running install_lib
+[14.115s] copying /home/ubuntu/ros2_ws/build/my_ahrs/build/lib/my_ahrs/madgwick_node.py -> /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs
+[14.127s] byte-compiling /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs/madgwick_node.py to madgwick_node.cpython-310.pyc
+[14.133s] running install_data
+[14.151s] running install_egg_info
+[14.163s] removing '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs-0.0.0-py3.10.egg-info' (and everything under it)
+[14.164s] Copying ../../build/my_ahrs/my_ahrs.egg-info to /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs-0.0.0-py3.10.egg-info
+[14.182s] running install_scripts
+[14.459s] Installing cf_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs
+[14.461s] Installing ekf_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs
+[14.462s] Installing mad_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs
+[14.463s] writing list of installed files to '/home/ubuntu/ros2_ws/build/my_ahrs/install.log'
+[14.737s] Invoked command in '/home/ubuntu/ros2_ws/src/my_ahrs' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ahrs build --build-base /home/ubuntu/ros2_ws/build/my_ahrs/build install --record /home/ubuntu/ros2_ws/build/my_ahrs/install.log --single-version-externally-managed install_data

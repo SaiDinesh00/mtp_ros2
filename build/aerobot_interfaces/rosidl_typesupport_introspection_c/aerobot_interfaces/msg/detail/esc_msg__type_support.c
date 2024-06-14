@@ -31,27 +31,10 @@ void aerobot_interfaces__msg__EscMsg__rosidl_typesupport_introspection_c__EscMsg
   aerobot_interfaces__msg__EscMsg__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember aerobot_interfaces__msg__EscMsg__rosidl_typesupport_introspection_c__EscMsg_message_member_array[2] = {
-  {
-    "pin_number",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(aerobot_interfaces__msg__EscMsg, pin_number),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
+static rosidl_typesupport_introspection_c__MessageMember aerobot_interfaces__msg__EscMsg__rosidl_typesupport_introspection_c__EscMsg_message_member_array[1] = {
   {
     "pulse_width",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -71,7 +54,7 @@ static rosidl_typesupport_introspection_c__MessageMember aerobot_interfaces__msg
 static const rosidl_typesupport_introspection_c__MessageMembers aerobot_interfaces__msg__EscMsg__rosidl_typesupport_introspection_c__EscMsg_message_members = {
   "aerobot_interfaces__msg",  // message namespace
   "EscMsg",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(aerobot_interfaces__msg__EscMsg),
   aerobot_interfaces__msg__EscMsg__rosidl_typesupport_introspection_c__EscMsg_message_member_array,  // message members
   aerobot_interfaces__msg__EscMsg__rosidl_typesupport_introspection_c__EscMsg_init_function,  // function to initialize message memory (memory has to be allocated)

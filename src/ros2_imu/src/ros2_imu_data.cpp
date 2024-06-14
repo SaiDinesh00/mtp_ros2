@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.9
+// Model version                  : 1.13
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Thu Jun 13 16:47:37 2024
+// C/C++ source code generated on : Fri Jun 14 05:25:46 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -21,7 +21,16 @@
 // Block parameters (default storage)
 P_ros2_imu_T ros2_imu_P = {
   // Computed Parameter: Out1_Y0
-  //  Referenced by: '<S23>/Out1'
+  //  Referenced by: '<S24>/Out1'
+
+  {
+    0.0,                               // x
+    0.0,                               // y
+    0.0                                // z
+  },
+
+  // Computed Parameter: Out1_Y0_l
+  //  Referenced by: '<S25>/Out1'
 
   {
     0.0,                               // x
@@ -30,6 +39,15 @@ P_ros2_imu_T ros2_imu_P = {
   },
 
   // Computed Parameter: Constant_Value
+  //  Referenced by: '<S23>/Constant'
+
+  {
+    0.0,                               // x
+    0.0,                               // y
+    0.0                                // z
+  },
+
+  // Computed Parameter: Constant_Value_p
   //  Referenced by: '<S22>/Constant'
 
   {
@@ -39,22 +57,6 @@ P_ros2_imu_T ros2_imu_P = {
   },
 
   // Computed Parameter: Constant_Value_f
-  //  Referenced by: '<S7>/Constant'
-
-  {
-    0,                                 // pin_number
-    0.0                                // pulse_width
-  },
-
-  // Computed Parameter: Constant_Value_k
-  //  Referenced by: '<S16>/Constant'
-
-  {
-    0,                                 // pin_number
-    0.0                                // pulse_width
-  },
-
-  // Computed Parameter: Constant_Value_fd
   //  Referenced by: '<S11>/Constant'
 
   {
@@ -93,7 +95,7 @@ P_ros2_imu_T ros2_imu_P = {
     false                              // success
   },
 
-  // Computed Parameter: Constant_Value_k5
+  // Computed Parameter: Constant_Value_k
   //  Referenced by: '<S10>/Constant'
 
   {
@@ -114,23 +116,37 @@ P_ros2_imu_T ros2_imu_P = {
     false                              // success
   },
 
-  // Expression: 0
-  //  Referenced by: '<S4>/Constant1'
+  // Computed Parameter: Constant_Value_nd
+  //  Referenced by: '<S7>/Constant'
 
-  0.0,
+  {
+    0.0                                // data
+  },
+
+  // Computed Parameter: Constant_Value_c
+  //  Referenced by: '<S16>/Constant'
+
+  {
+    0.0                                // data
+  },
 
   // Expression: 1500
-  //  Referenced by: '<S4>/Constant2'
+  //  Referenced by: '<S4>/Constant'
 
   1500.0,
 
   // Expression: 0
-  //  Referenced by: '<S13>/Constant1'
+  //  Referenced by: '<S4>/control1'
 
   0.0,
 
-  // Expression: 1500
+  // Expression: 127
   //  Referenced by: '<S13>/Constant2'
+
+  127.0,
+
+  // Expression: 1500
+  //  Referenced by: '<S13>/Constant1'
 
   1500.0,
 
@@ -162,15 +178,10 @@ P_ros2_imu_T ros2_imu_P = {
   // Computed Parameter: YawMotor_Value
   //  Referenced by: '<Root>/Yaw Motor'
 
-  false,
+  true,
 
   // Computed Parameter: Constant_Value_iy
   //  Referenced by: '<S6>/Constant'
-
-  17,
-
-  // Computed Parameter: Constant_Value_p
-  //  Referenced by: '<S4>/Constant'
 
   17,
 
@@ -186,11 +197,6 @@ P_ros2_imu_T ros2_imu_P = {
 
   // Computed Parameter: Constant1_Value_o
   //  Referenced by: '<S15>/Constant1'
-
-  27,
-
-  // Computed Parameter: Constant_Value_l
-  //  Referenced by: '<S13>/Constant'
 
   27,
 

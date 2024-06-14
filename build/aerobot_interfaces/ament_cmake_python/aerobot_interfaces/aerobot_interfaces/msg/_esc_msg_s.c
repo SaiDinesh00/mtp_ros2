@@ -50,22 +50,13 @@ bool aerobot_interfaces__msg__esc_msg__convert_from_py(PyObject * _pymsg, void *
     assert(strncmp("aerobot_interfaces.msg._esc_msg.EscMsg", full_classname_dest, 38) == 0);
   }
   aerobot_interfaces__msg__EscMsg * ros_message = _ros_message;
-  {  // pin_number
-    PyObject * field = PyObject_GetAttrString(_pymsg, "pin_number");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->pin_number = (int8_t)PyLong_AsLong(field);
-    Py_DECREF(field);
-  }
   {  // pulse_width
     PyObject * field = PyObject_GetAttrString(_pymsg, "pulse_width");
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->pulse_width = PyFloat_AS_DOUBLE(field);
+    assert(PyLong_Check(field));
+    ros_message->pulse_width = (uint8_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
 
@@ -90,20 +81,9 @@ PyObject * aerobot_interfaces__msg__esc_msg__convert_to_py(void * raw_ros_messag
     }
   }
   aerobot_interfaces__msg__EscMsg * ros_message = (aerobot_interfaces__msg__EscMsg *)raw_ros_message;
-  {  // pin_number
-    PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->pin_number);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "pin_number", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // pulse_width
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->pulse_width);
+    field = PyLong_FromUnsignedLong(ros_message->pulse_width);
     {
       int rc = PyObject_SetAttrString(_pymessage, "pulse_width", field);
       Py_DECREF(field);

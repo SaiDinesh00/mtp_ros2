@@ -1,0 +1,38 @@
+[0.458s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_imu': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_imu -- -j4 -l4
+[0.850s] /usr/bin/cmake -S/home/ubuntu/ros2_ws/src/ros2_imu -B/home/ubuntu/ros2_ws/build/ros2_imu --check-build-system CMakeFiles/Makefile.cmake 0
+[1.408s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles /home/ubuntu/ros2_ws/build/ros2_imu//CMakeFiles/progress.marks
+[1.805s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.884s] gmake[1]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[1.909s] /usr/bin/gmake  -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/depend
+[2.166s] gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[2.167s] cd /home/ubuntu/ros2_ws/build/ros2_imu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/ros2_imu /home/ubuntu/ros2_ws/src/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles/ros2_imu.dir/DependInfo.cmake --color=
+[2.512s] [35m[1mConsolidate compiler generated dependencies of target ros2_imu[0m
+[3.753s] gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[3.754s] /usr/bin/gmake  -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/build
+[4.205s] gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[4.206s] gmake[2]: Nothing to be done for 'CMakeFiles/ros2_imu.dir/build'.
+[4.207s] gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[4.357s] [100%] Built target ros2_imu
+[4.358s] gmake[1]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[4.363s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles 0
+[4.711s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_imu' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_imu -- -j4 -l4
+[6.814s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_imu': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_imu
+[7.096s] -- Install configuration: "Release"
+[7.102s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/lib/ros2_imu/ros2_imu
+[7.107s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/package_run_dependencies/ros2_imu
+[7.118s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/parent_prefix_path/ros2_imu
+[7.122s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/ament_prefix_path.sh
+[7.136s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/ament_prefix_path.dsv
+[7.138s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/path.sh
+[7.139s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/path.dsv
+[7.153s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.bash
+[7.156s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.sh
+[7.157s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.zsh
+[7.158s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.dsv
+[7.159s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/package.dsv
+[7.185s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/packages/ros2_imu
+[7.189s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.196s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ros2_imuConfig.cmake
+[7.203s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ros2_imuConfig-version.cmake
+[7.208s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/package.xml
+[7.266s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_imu' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_imu

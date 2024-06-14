@@ -31,6 +31,24 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
+            package='esc_pkg',
+            executable='esc_node',
+            name='esc_node',
+            output='screen'
+        ),
+        Node(
+            package='my_ahrs',
+            executable='cf_node',
+            name='cf_node',
+            output='screen'
+        ),
+        Node(
+            package='my_ahrs',
+            executable='mad_node',
+            name='mad_node',
+            output='screen'
+        ),
+        Node(
             package='my_ahrs',
             executable='ekf_node',
             name='ekf_node',

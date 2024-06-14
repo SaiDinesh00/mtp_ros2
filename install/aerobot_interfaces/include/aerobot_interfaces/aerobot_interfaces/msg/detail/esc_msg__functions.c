@@ -17,7 +17,6 @@ aerobot_interfaces__msg__EscMsg__init(aerobot_interfaces__msg__EscMsg * msg)
   if (!msg) {
     return false;
   }
-  // pin_number
   // pulse_width
   return true;
 }
@@ -28,7 +27,6 @@ aerobot_interfaces__msg__EscMsg__fini(aerobot_interfaces__msg__EscMsg * msg)
   if (!msg) {
     return;
   }
-  // pin_number
   // pulse_width
 }
 
@@ -36,10 +34,6 @@ bool
 aerobot_interfaces__msg__EscMsg__are_equal(const aerobot_interfaces__msg__EscMsg * lhs, const aerobot_interfaces__msg__EscMsg * rhs)
 {
   if (!lhs || !rhs) {
-    return false;
-  }
-  // pin_number
-  if (lhs->pin_number != rhs->pin_number) {
     return false;
   }
   // pulse_width
@@ -57,8 +51,6 @@ aerobot_interfaces__msg__EscMsg__copy(
   if (!input || !output) {
     return false;
   }
-  // pin_number
-  output->pin_number = input->pin_number;
   // pulse_width
   output->pulse_width = input->pulse_width;
   return true;

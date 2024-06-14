@@ -20,8 +20,7 @@ extern "C"
 /// Struct defined in msg/EscMsg in the package aerobot_interfaces.
 typedef struct aerobot_interfaces__msg__EscMsg
 {
-  int8_t pin_number;
-  double pulse_width;
+  uint8_t pulse_width;
 } aerobot_interfaces__msg__EscMsg;
 
 // Struct for a sequence of aerobot_interfaces__msg__EscMsg.

@@ -24,29 +24,13 @@ namespace builder
 class Init_EscMsg_pulse_width
 {
 public:
-  explicit Init_EscMsg_pulse_width(::aerobot_interfaces::msg::EscMsg & msg)
-  : msg_(msg)
+  Init_EscMsg_pulse_width()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
   ::aerobot_interfaces::msg::EscMsg pulse_width(::aerobot_interfaces::msg::EscMsg::_pulse_width_type arg)
   {
     msg_.pulse_width = std::move(arg);
     return std::move(msg_);
-  }
-
-private:
-  ::aerobot_interfaces::msg::EscMsg msg_;
-};
-
-class Init_EscMsg_pin_number
-{
-public:
-  Init_EscMsg_pin_number()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
-  {}
-  Init_EscMsg_pulse_width pin_number(::aerobot_interfaces::msg::EscMsg::_pin_number_type arg)
-  {
-    msg_.pin_number = std::move(arg);
-    return Init_EscMsg_pulse_width(msg_);
   }
 
 private:
@@ -64,7 +48,7 @@ template<>
 inline
 auto build<::aerobot_interfaces::msg::EscMsg>()
 {
-  return aerobot_interfaces::msg::builder::Init_EscMsg_pin_number();
+  return aerobot_interfaces::msg::builder::Init_EscMsg_pulse_width();
 }
 
 }  // namespace aerobot_interfaces

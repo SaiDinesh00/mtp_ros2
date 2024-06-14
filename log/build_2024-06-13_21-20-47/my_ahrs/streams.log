@@ -1,0 +1,26 @@
+[28.392s] Invoking command in '/home/ubuntu/ros2_ws/src/my_ahrs': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ahrs build --build-base /home/ubuntu/ros2_ws/build/my_ahrs/build install --record /home/ubuntu/ros2_ws/build/my_ahrs/install.log --single-version-externally-managed install_data
+[35.293s] running egg_info
+[35.294s] writing ../../build/my_ahrs/my_ahrs.egg-info/PKG-INFO
+[35.301s] writing dependency_links to ../../build/my_ahrs/my_ahrs.egg-info/dependency_links.txt
+[35.304s] writing entry points to ../../build/my_ahrs/my_ahrs.egg-info/entry_points.txt
+[35.305s] writing requirements to ../../build/my_ahrs/my_ahrs.egg-info/requires.txt
+[35.321s] writing top-level names to ../../build/my_ahrs/my_ahrs.egg-info/top_level.txt
+[35.355s] reading manifest file '../../build/my_ahrs/my_ahrs.egg-info/SOURCES.txt'
+[35.372s] writing manifest file '../../build/my_ahrs/my_ahrs.egg-info/SOURCES.txt'
+[35.374s] running build
+[35.375s] running build_py
+[35.378s] copying my_ahrs/complementary_filter.py -> /home/ubuntu/ros2_ws/build/my_ahrs/build/lib/my_ahrs
+[35.380s] running install
+[35.381s] running install_lib
+[35.392s] copying /home/ubuntu/ros2_ws/build/my_ahrs/build/lib/my_ahrs/complementary_filter.py -> /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs
+[35.411s] byte-compiling /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs/complementary_filter.py to complementary_filter.cpython-310.pyc
+[35.422s] running install_data
+[35.429s] running install_egg_info
+[35.447s] removing '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs-0.0.0-py3.10.egg-info' (and everything under it)
+[35.452s] Copying ../../build/my_ahrs/my_ahrs.egg-info to /home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages/my_ahrs-0.0.0-py3.10.egg-info
+[35.472s] running install_scripts
+[35.719s] Installing cf_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs
+[35.725s] Installing ekf_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs
+[35.729s] Installing mad_node script to /home/ubuntu/ros2_ws/install/my_ahrs/lib/my_ahrs
+[35.745s] writing list of installed files to '/home/ubuntu/ros2_ws/build/my_ahrs/install.log'
+[36.813s] Invoked command in '/home/ubuntu/ros2_ws/src/my_ahrs' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ahrs build --build-base /home/ubuntu/ros2_ws/build/my_ahrs/build install --record /home/ubuntu/ros2_ws/build/my_ahrs/install.log --single-version-externally-managed install_data

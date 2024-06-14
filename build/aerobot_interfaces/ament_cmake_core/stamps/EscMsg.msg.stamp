@@ -1,2 +1,1 @@
-int8 pin_number
-float64 pulse_width
+uint8 pulse_width

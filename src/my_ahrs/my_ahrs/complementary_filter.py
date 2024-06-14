@@ -15,11 +15,11 @@ class CFNode(Node): # MODIFY NAME
         
         self.mag_subscriber = self.create_subscription(MagneticField, '/mag/data', self.mag_callback, 10)
         
-        self.orientation_publisher = self.create_publisher(Quaternion, '/orientation', 10)
+        self.orientation_publisher = self.create_publisher(Quaternion, '/orientation_cf', 10)
         
-        self.euler_publisher = self.create_publisher(Vector3, '/euler', 10)
+        self.euler_publisher = self.create_publisher(Vector3, '/euler_cf', 10)
         
-        self.cf_filter = Complementary(gain=0.2)
+        self.cf_filter = Complementary(gain=0.9)
 
         self.mag_data = None
         
@@ -58,9 +58,9 @@ class CFNode(Node): # MODIFY NAME
             
             
     def mag_callback(self, msg):
-        self.mag_data = np.array([msg.magnetic_field.x,
-                                  -msg.magnetic_field.y,
-                                  msg.magnetic_field.z])
+        self.mag_data = np.array([msg.magnetic_field.x*1e-3,
+                                  -msg.magnetic_field.y*1e-3,
+                                  msg.magnetic_field.z*1e-3])
 
 def main(args = None):
     rclpy.init(args=args)

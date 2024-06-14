@@ -22,6 +22,7 @@ find_package(ament_cmake_ros REQUIRED)
 find_package( aerobot_interfaces REQUIRED)
 find_package( geometry_msgs REQUIRED)
 find_package( rclcpp REQUIRED)
+find_package( std_msgs REQUIRED)
 include_directories("include/ros2_imu")
 set (CMAKE_SKIP_BUILD_RPATH false)
 set (CMAKE_BUILD_WITH_INSTALL_RPATH true)
@@ -77,6 +78,7 @@ ament_target_dependencies(
   "aerobot_interfaces"
   "geometry_msgs"
   "rclcpp"
+  "std_msgs"
 )
 target_include_directories(ros2_imu PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -105,4 +107,4 @@ add_custom_command(
 				   )				   
 endforeach(file_i)
 ament_package()
-# Generated on Thu Jun 13 16:47:48 2024
+# Generated on Fri Jun 14 05:25:57 2024

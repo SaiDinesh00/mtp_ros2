@@ -49,11 +49,6 @@ static bool _EscMsg__cdr_serialize(
     return false;
   }
   const _EscMsg__ros_msg_type * ros_message = static_cast<const _EscMsg__ros_msg_type *>(untyped_ros_message);
-  // Field name: pin_number
-  {
-    cdr << ros_message->pin_number;
-  }
-
   // Field name: pulse_width
   {
     cdr << ros_message->pulse_width;
@@ -71,11 +66,6 @@ static bool _EscMsg__cdr_deserialize(
     return false;
   }
   _EscMsg__ros_msg_type * ros_message = static_cast<_EscMsg__ros_msg_type *>(untyped_ros_message);
-  // Field name: pin_number
-  {
-    cdr >> ros_message->pin_number;
-  }
-
   // Field name: pulse_width
   {
     cdr >> ros_message->pulse_width;
@@ -98,12 +88,6 @@ size_t get_serialized_size_aerobot_interfaces__msg__EscMsg(
   (void)padding;
   (void)wchar_size;
 
-  // field.name pin_number
-  {
-    size_t item_size = sizeof(ros_message->pin_number);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name pulse_width
   {
     size_t item_size = sizeof(ros_message->pulse_width);
@@ -139,20 +123,12 @@ size_t max_serialized_size_aerobot_interfaces__msg__EscMsg(
   full_bounded = true;
   is_plain = true;
 
-  // member: pin_number
+  // member: pulse_width
   {
     size_t array_size = 1;
 
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: pulse_width
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
   size_t ret_val = current_alignment - initial_alignment;

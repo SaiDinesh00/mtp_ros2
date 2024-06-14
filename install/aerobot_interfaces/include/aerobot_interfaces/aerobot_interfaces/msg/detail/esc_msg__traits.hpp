@@ -25,13 +25,6 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: pin_number
-  {
-    out << "pin_number: ";
-    rosidl_generator_traits::value_to_yaml(msg.pin_number, out);
-    out << ", ";
-  }
-
   // member: pulse_width
   {
     out << "pulse_width: ";
@@ -44,16 +37,6 @@ inline void to_block_style_yaml(
   const EscMsg & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: pin_number
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "pin_number: ";
-    rosidl_generator_traits::value_to_yaml(msg.pin_number, out);
-    out << "\n";
-  }
-
   // member: pulse_width
   {
     if (indentation > 0) {

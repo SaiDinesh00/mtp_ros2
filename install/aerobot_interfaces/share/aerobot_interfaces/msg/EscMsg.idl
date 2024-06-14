@@ -6,9 +6,7 @@
 module aerobot_interfaces {
   module msg {
     struct EscMsg {
-      int8 pin_number;
-
-      double pulse_width;
+      uint8 pulse_width;
     };
   };
 };

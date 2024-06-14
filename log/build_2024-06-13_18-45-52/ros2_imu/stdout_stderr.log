@@ -1,0 +1,34 @@
+/usr/bin/cmake -S/home/ubuntu/ros2_ws/src/ros2_imu -B/home/ubuntu/ros2_ws/build/ros2_imu --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles /home/ubuntu/ros2_ws/build/ros2_imu//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+/usr/bin/gmake  -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/depend
+gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+cd /home/ubuntu/ros2_ws/build/ros2_imu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/ros2_imu /home/ubuntu/ros2_ws/src/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles/ros2_imu.dir/DependInfo.cmake --color=
+[35m[1mConsolidate compiler generated dependencies of target ros2_imu[0m
+gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+/usr/bin/gmake  -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/build
+gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+gmake[2]: Nothing to be done for 'CMakeFiles/ros2_imu.dir/build'.
+gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+[100%] Built target ros2_imu
+gmake[1]: Leaving directory '/home/ubuntu/ros2_ws/build/ros2_imu'
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles 0
+-- Install configuration: "Release"
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/lib/ros2_imu/ros2_imu
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/package_run_dependencies/ros2_imu
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/parent_prefix_path/ros2_imu
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/package.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ament_index/resource_index/packages/ros2_imu
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ros2_imuConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/cmake/ros2_imuConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_imu/share/ros2_imu/package.xml

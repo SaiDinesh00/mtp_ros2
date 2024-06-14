@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.9
+// Model version                  : 1.13
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Thu Jun 13 16:47:37 2024
+// C/C++ source code generated on : Fri Jun 14 05:25:46 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -71,10 +71,11 @@
 
 // Block signals (default storage)
 struct B_ros2_imu_T {
-  SL_Bus_geometry_msgs_Vector3 In1;    // '<S23>/In1'
-  real_T x;
+  SL_Bus_geometry_msgs_Vector3 In1;    // '<S25>/In1'
+  SL_Bus_geometry_msgs_Vector3 In1_i;  // '<S24>/In1'
   real_T y;
   real_T z;
+  real_T control1;                     // '<S4>/control1'
   uint8_T ServiceCaller_o2;            // '<S12>/ServiceCaller'
   boolean_T Pitchmotor;                // '<Root>/Pitch motor'
   boolean_T YawMotor;                  // '<Root>/Yaw Motor'
@@ -89,15 +90,29 @@ struct DW_ros2_imu_T {
   ros_slros2_internal_block_Ser_T obj_c;// '<S21>/ServiceCaller'
   ros_slros2_internal_block_Ser_T obj_ly;// '<S10>/ServiceCaller'
   ros_slros2_internal_block_Ser_T obj_m;// '<S12>/ServiceCaller'
+  ros_slros2_internal_block_Sub_T obj_a;// '<S23>/SourceBlock'
   ros_slros2_internal_block_Sub_T obj_l0;// '<S22>/SourceBlock'
   real_T y2;                           // '<Root>/Chart1'
   struct {
-    void *LoggedData[3];
+    void *LoggedData[2];
   } Scope_PWORK;                       // '<S3>/Scope'
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace1_PWORK;                // '<S3>/To Workspace1'
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace_PWORK;                 // '<S3>/To Workspace'
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace_PWORK_d;               // '<S4>/To Workspace'
 
   uint32_T is_c1_ros2_imu;             // '<Root>/Chart1'
   uint32_T is_c3_ros2_imu;             // '<Root>/Chart'
-  int8_T EnabledSubsystem_SubsysRanBC; // '<S22>/Enabled Subsystem'
+  int8_T EnabledSubsystem_SubsysRanBC; // '<S23>/Enabled Subsystem'
+  int8_T EnabledSubsystem_SubsysRanBC_m;// '<S22>/Enabled Subsystem'
   int8_T killEsc2_SubsysRanBC;         // '<S2>/killEsc2'
   int8_T controlling2_SubsysRanBC;     // '<S2>/controlling2'
   int8_T sendArmSignal2_SubsysRanBC;   // '<S2>/sendArmSignal2'
@@ -114,19 +129,19 @@ struct DW_ros2_imu_T {
 // Parameters (default storage)
 struct P_ros2_imu_T_ {
   SL_Bus_geometry_msgs_Vector3 Out1_Y0;// Computed Parameter: Out1_Y0
-                                          //  Referenced by: '<S23>/Out1'
+                                          //  Referenced by: '<S24>/Out1'
+
+  SL_Bus_geometry_msgs_Vector3 Out1_Y0_l;// Computed Parameter: Out1_Y0_l
+                                            //  Referenced by: '<S25>/Out1'
 
   SL_Bus_geometry_msgs_Vector3 Constant_Value;// Computed Parameter: Constant_Value
-                                                 //  Referenced by: '<S22>/Constant'
+                                                 //  Referenced by: '<S23>/Constant'
 
-  SL_Bus_aerobot_interfaces_EscMsg Constant_Value_f;// Computed Parameter: Constant_Value_f
-                                                       //  Referenced by: '<S7>/Constant'
+  SL_Bus_geometry_msgs_Vector3 Constant_Value_p;// Computed Parameter: Constant_Value_p
+                                                   //  Referenced by: '<S22>/Constant'
 
-  SL_Bus_aerobot_interfaces_EscMsg Constant_Value_k;// Computed Parameter: Constant_Value_k
-                                                       //  Referenced by: '<S16>/Constant'
-
-  SL_Bus_aerobot_interfaces_EscSrvRequest Constant_Value_fd;// Computed Parameter: Constant_Value_fd
-                                                               //  Referenced by: '<S11>/Constant'
+  SL_Bus_aerobot_interfaces_EscSrvRequest Constant_Value_f;// Computed Parameter: Constant_Value_f
+                                                              //  Referenced by: '<S11>/Constant'
 
   SL_Bus_aerobot_interfaces_EscSrvRequest Constant_Value_a;// Computed Parameter: Constant_Value_a
                                                               //  Referenced by: '<S9>/Constant'
@@ -140,8 +155,8 @@ struct P_ros2_imu_T_ {
   SL_Bus_aerobot_interfaces_EscSrvResponse Constant_Value_d;// Computed Parameter: Constant_Value_d
                                                                //  Referenced by: '<S12>/Constant'
 
-  SL_Bus_aerobot_interfaces_EscSrvResponse Constant_Value_k5;// Computed Parameter: Constant_Value_k5
-                                                                //  Referenced by: '<S10>/Constant'
+  SL_Bus_aerobot_interfaces_EscSrvResponse Constant_Value_k;// Computed Parameter: Constant_Value_k
+                                                               //  Referenced by: '<S10>/Constant'
 
   SL_Bus_aerobot_interfaces_EscSrvResponse Constant_Value_n;// Computed Parameter: Constant_Value_n
                                                                //  Referenced by: '<S21>/Constant'
@@ -149,17 +164,23 @@ struct P_ros2_imu_T_ {
   SL_Bus_aerobot_interfaces_EscSrvResponse Constant_Value_n5;// Computed Parameter: Constant_Value_n5
                                                                 //  Referenced by: '<S19>/Constant'
 
-  real_T Constant1_Value;              // Expression: 0
-                                          //  Referenced by: '<S4>/Constant1'
+  SL_Bus_std_msgs_Int64 Constant_Value_nd;// Computed Parameter: Constant_Value_nd
+                                             //  Referenced by: '<S7>/Constant'
 
-  real_T Constant2_Value;              // Expression: 1500
-                                          //  Referenced by: '<S4>/Constant2'
+  SL_Bus_std_msgs_Int64 Constant_Value_c;// Computed Parameter: Constant_Value_c
+                                            //  Referenced by: '<S16>/Constant'
 
-  real_T Constant1_Value_c;            // Expression: 0
-                                          //  Referenced by: '<S13>/Constant1'
+  real_T Constant_Value_o;             // Expression: 1500
+                                          //  Referenced by: '<S4>/Constant'
 
-  real_T Constant2_Value_g;            // Expression: 1500
+  real_T control1_Value;               // Expression: 0
+                                          //  Referenced by: '<S4>/control1'
+
+  real_T Constant2_Value;              // Expression: 127
                                           //  Referenced by: '<S13>/Constant2'
+
+  real_T Constant1_Value;              // Expression: 1500
+                                          //  Referenced by: '<S13>/Constant1'
 
   boolean_T Constant1_Value_k;         // Computed Parameter: Constant1_Value_k
                                           //  Referenced by: '<S6>/Constant1'
@@ -182,9 +203,6 @@ struct P_ros2_imu_T_ {
   int8_T Constant_Value_iy;            // Computed Parameter: Constant_Value_iy
                                           //  Referenced by: '<S6>/Constant'
 
-  int8_T Constant_Value_p;             // Computed Parameter: Constant_Value_p
-                                          //  Referenced by: '<S4>/Constant'
-
   int8_T Constant_Value_p0;            // Computed Parameter: Constant_Value_p0
                                           //  Referenced by: '<S5>/Constant'
 
@@ -193,9 +211,6 @@ struct P_ros2_imu_T_ {
 
   int8_T Constant1_Value_o;            // Computed Parameter: Constant1_Value_o
                                           //  Referenced by: '<S15>/Constant1'
-
-  int8_T Constant_Value_l;             // Computed Parameter: Constant_Value_l
-                                          //  Referenced by: '<S13>/Constant'
 
   int8_T Constant_Value_pf;            // Computed Parameter: Constant_Value_pf
                                           //  Referenced by: '<S14>/Constant'
@@ -342,14 +357,16 @@ extern volatile boolean_T runModel;
 //  '<S13>'  : 'ros2_imu/Chart1/controlling2'
 //  '<S14>'  : 'ros2_imu/Chart1/killEsc2'
 //  '<S15>'  : 'ros2_imu/Chart1/sendArmSignal2'
-//  '<S16>'  : 'ros2_imu/Chart1/controlling2/Blank Message1'
-//  '<S17>'  : 'ros2_imu/Chart1/controlling2/Publish1'
+//  '<S16>'  : 'ros2_imu/Chart1/controlling2/Blank Message'
+//  '<S17>'  : 'ros2_imu/Chart1/controlling2/Publish'
 //  '<S18>'  : 'ros2_imu/Chart1/killEsc2/Blank Message'
 //  '<S19>'  : 'ros2_imu/Chart1/killEsc2/Call Service'
 //  '<S20>'  : 'ros2_imu/Chart1/sendArmSignal2/Blank Message1'
 //  '<S21>'  : 'ros2_imu/Chart1/sendArmSignal2/Call Service1'
 //  '<S22>'  : 'ros2_imu/Sensor/Subscribe'
-//  '<S23>'  : 'ros2_imu/Sensor/Subscribe/Enabled Subsystem'
+//  '<S23>'  : 'ros2_imu/Sensor/Subscribe1'
+//  '<S24>'  : 'ros2_imu/Sensor/Subscribe/Enabled Subsystem'
+//  '<S25>'  : 'ros2_imu/Sensor/Subscribe1/Enabled Subsystem'
 
 #endif                                 // RTW_HEADER_ros2_imu_h_
 

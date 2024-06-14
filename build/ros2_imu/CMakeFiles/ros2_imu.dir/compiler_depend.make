@@ -853,10 +853,6 @@ CMakeFiles/ros2_imu.dir/src/main.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/ma
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2_imu_types.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_busmsg_conversion.h \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
@@ -865,6 +861,10 @@ CMakeFiles/ros2_imu.dir/src/main.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/ma
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h
 
 CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/ros2_imu.cpp \
@@ -1570,10 +1570,6 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/sr
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_busmsg_conversion.h \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
@@ -1582,6 +1578,10 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/sr
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h \
   /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
@@ -2294,10 +2294,6 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o: /home/ubuntu/ros2_ws/src/ros2_i
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_busmsg_conversion.h \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
@@ -2306,6 +2302,10 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o: /home/ubuntu/ros2_ws/src/ros2_i
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h \
   /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h
@@ -3013,10 +3013,6 @@ CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o: /home/ubuntu/ros2_ws/src/ro
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2_imu_types.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_pubsub.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_busmsg_conversion.h \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
@@ -3025,6 +3021,10 @@ CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o: /home/ubuntu/ros2_ws/src/ro
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h \
   /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
@@ -3973,10 +3973,6 @@ CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o: /home/ubuntu/ros2_ws/src/ro
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_busmsg_conversion.h \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
@@ -3985,6 +3981,10 @@ CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o: /home/ubuntu/ros2_ws/src/ro
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h
 
@@ -4681,10 +4681,6 @@ CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o: /home/ubuntu/ros2_ws/
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp \
-  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
   /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
@@ -4693,6 +4689,10 @@ CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o: /home/ubuntu/ros2_ws/
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2_imu_types.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h \
   /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h
@@ -4822,6 +4822,12 @@ CMakeFiles/ros2_imu.dir/src/updown.c.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/up
 
 /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp:
 
 /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp:
@@ -4829,10 +4835,6 @@ CMakeFiles/ros2_imu.dir/src/updown.c.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/up
 /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp:
 
 /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp:
-
-/home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp:
-
-/home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp:
 
 /usr/include/aarch64-linux-gnu/asm/sockios.h:
 
@@ -5230,6 +5232,8 @@ CMakeFiles/ros2_imu.dir/src/updown.c.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/up
 
 /usr/include/c++/11/bits/std_thread.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
 
 /usr/include/c++/11/bits/move.h:
@@ -5337,8 +5341,6 @@ CMakeFiles/ros2_imu.dir/src/updown.c.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/up
 /usr/include/aarch64-linux-gnu/bits/time.h:
 
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
-
-/home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp:
 
 /usr/include/c++/11/exception:
 
@@ -5841,8 +5843,6 @@ CMakeFiles/ros2_imu.dir/src/updown.c.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/up
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/11/atomic:
-
-/home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp:
 
 /usr/include/c++/11/bits/stl_set.h:
 

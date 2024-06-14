@@ -38,8 +38,7 @@ struct EscMsg_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->pin_number = 0;
-      this->pulse_width = 0.0;
+      this->pulse_width = 0;
     }
   }
 
@@ -49,28 +48,18 @@ struct EscMsg_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->pin_number = 0;
-      this->pulse_width = 0.0;
+      this->pulse_width = 0;
     }
   }
 
   // field types and members
-  using _pin_number_type =
-    int8_t;
-  _pin_number_type pin_number;
   using _pulse_width_type =
-    double;
+    uint8_t;
   _pulse_width_type pulse_width;
 
   // setters for named parameter idiom
-  Type & set__pin_number(
-    const int8_t & _arg)
-  {
-    this->pin_number = _arg;
-    return *this;
-  }
   Type & set__pulse_width(
-    const double & _arg)
+    const uint8_t & _arg)
   {
     this->pulse_width = _arg;
     return *this;
@@ -118,9 +107,6 @@ struct EscMsg_
   // comparison operators
   bool operator==(const EscMsg_ & other) const
   {
-    if (this->pin_number != other.pin_number) {
-      return false;
-    }
     if (this->pulse_width != other.pulse_width) {
       return false;
     }
