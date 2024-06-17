@@ -860,10 +860,26 @@ CMakeFiles/ros2_imu.dir/src/main.cpp.o
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp
@@ -1578,21 +1594,42 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetNaN.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
  /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2_imu_types.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /usr/include/c++/11/math.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2_imu_private.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/multiword_types.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_defines.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2_imu_dt.h
 
 CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o
@@ -2303,16 +2340,34 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetNaN.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
  /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h
 
 CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o
@@ -3023,18 +3078,67 @@ CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetNaN.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
  /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/ros2nodeinterface.h
+
+CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o
+ /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetInf.cpp
+ /usr/include/stdc-predef.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetInf.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
+
+CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o
+ /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetNaN.cpp
+ /usr/include/stdc-predef.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetNaN.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
+
+CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o
+ /home/ubuntu/ros2_ws/src/ros2_imu/src/rt_nonfinite.cpp
+ /usr/include/stdc-predef.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetNaN.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetInf.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtwtypes.h
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h
 
 CMakeFiles/ros2_imu.dir/src/rtiostream_interface.c.o
  /home/ubuntu/ros2_ws/src/ros2_imu/src/rtiostream_interface.c
@@ -3987,10 +4091,26 @@ CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp
@@ -4696,10 +4816,26 @@ CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp

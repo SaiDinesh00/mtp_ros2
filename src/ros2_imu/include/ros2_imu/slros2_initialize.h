@@ -1,5 +1,5 @@
 // Copyright 2022-2023 The MathWorks, Inc.
-// Generated 14-Jun-2024 05:25:54
+// Generated 16-Jun-2024 23:12:07
 #ifndef _SLROS2_INITIALIZE_H_
 #define _SLROS2_INITIALIZE_H_
 #include "ros2_imu_types.h"
@@ -36,9 +36,9 @@ extern SimulinkPublisher<std_msgs::msg::Int64,SL_Bus_std_msgs_Int64> Pub_ros2_im
 // ros2_imu/Chart1/controlling2/Publish
 extern SimulinkPublisher<std_msgs::msg::Int64,SL_Bus_std_msgs_Int64> Pub_ros2_imu_119__185;
 // ros2_imu/Sensor/Subscribe
-extern SimulinkSubscriber<geometry_msgs::msg::Vector3,SL_Bus_geometry_msgs_Vector3> Sub_ros2_imu_107;
+extern SimulinkSubscriber<sensor_msgs::msg::Imu,SL_Bus_sensor_msgs_Imu> Sub_ros2_imu_162;
 // ros2_imu/Sensor/Subscribe1
-extern SimulinkSubscriber<geometry_msgs::msg::Vector3,SL_Bus_geometry_msgs_Vector3> Sub_ros2_imu_135;
+extern SimulinkSubscriber<sensor_msgs::msg::MagneticField,SL_Bus_sensor_msgs_MagneticField> Sub_ros2_imu_163;
 // ros2_imu/Chart/killEsc1/Call Service
 extern SimulinkServiceCaller<aerobot_interfaces::srv::EscSrv,SL_Bus_aerobot_interfaces_EscSrvRequest,SL_Bus_aerobot_interfaces_EscSrvResponse> ServCall_ros2_imu_41__215;
 // ros2_imu/Chart/sendArmSignal1/Call Service

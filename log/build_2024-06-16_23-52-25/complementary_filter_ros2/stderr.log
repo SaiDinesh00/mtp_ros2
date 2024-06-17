@@ -1,0 +1,42 @@
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+In file included from /home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:31:
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2/ros2nodeinterface.h: In constructor 'ros2::matlab::NodeInterface::NodeInterface()':
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2/ros2nodeinterface.h:79:38: warning: 'ros2::matlab::NodeInterface::mExtModeThread' will be initialized after [-Wreorder]
+   79 |         std::shared_ptr<std::thread> mExtModeThread;
+      |                                      ^~~~~~~~~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2/ros2nodeinterface.h:76:15: warning:   'ros2::matlab::Semaphore ros2::matlab::NodeInterface::mStopSem' [-Wreorder]
+   76 |     Semaphore mStopSem;
+      |               ^~~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:43:1: warning:   when initialized here [-Wreorder]
+   43 | NodeInterface::NodeInterface()
+      | ^~~~~~~~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp: In member function 'void ros2::matlab::NodeInterface::initialize(int, char* const*)':
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:67:47: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};
+      |                                               ^~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:67:55: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};
+      |                                                       ^~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:67:63: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};
+      |                                                               ^~~~~~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:67:75: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};
+      |                                                                           ^~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:67:79: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};
+      |                                                                               ^~~~~~~~~~
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ros2nodeinterface.cpp:67:90: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};
+      |                                                                                          ^~~
+In file included from /home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2/slros_busmsg_conversion.h:15,
+                 from /home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/slros_busmsg_conversion.cpp:1:
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2/slros_msgconvert_utils.h: In instantiation of 'void convertToBusFixedPrimitiveArray(BusType&, const MsgType&, const slros::ROSPropertyWarnStatus&) [with BusType = double [9]; MsgType = std::array<double, 9>]':
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/slros_busmsg_conversion.cpp:123:34:   required from here
+/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2/slros_msgconvert_utils.h:543:81: warning: unused parameter 'warnStatus' [-Wunused-parameter]
+  543 |                                             const slros::ROSPropertyWarnStatus& warnStatus) {
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C

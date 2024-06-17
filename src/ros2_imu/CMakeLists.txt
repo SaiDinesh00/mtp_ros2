@@ -20,8 +20,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_ros REQUIRED)
 find_package( aerobot_interfaces REQUIRED)
-find_package( geometry_msgs REQUIRED)
 find_package( rclcpp REQUIRED)
+find_package( sensor_msgs REQUIRED)
 find_package( std_msgs REQUIRED)
 include_directories("include/ros2_imu")
 set (CMAKE_SKIP_BUILD_RPATH false)
@@ -40,6 +40,9 @@ src/main.cpp
 src/ros2_imu.cpp
 src/ros2_imu_data.cpp
 src/ros2nodeinterface.cpp
+src/rtGetInf.cpp
+src/rtGetNaN.cpp
+src/rt_nonfinite.cpp
 src/slros2_initialize.cpp
 src/slros_busmsg_conversion.cpp
 )
@@ -52,7 +55,7 @@ endif()
 target_compile_options(ros2_imu PRIVATE
   $<$<OR:$<COMPILE_LANGUAGE:CXX>,$<COMPILE_LANGUAGE:C>>:
   -DMODEL=ros2_imu
-  -DNUMST=1
+  -DNUMST=2
   -DNCSTATES=0
   -DHAVESTDIO
   -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
@@ -76,8 +79,8 @@ target_compile_options(ros2_imu PRIVATE
 ament_target_dependencies(
   ros2_imu
   "aerobot_interfaces"
-  "geometry_msgs"
   "rclcpp"
+  "sensor_msgs"
   "std_msgs"
 )
 target_include_directories(ros2_imu PUBLIC
@@ -107,4 +110,4 @@ add_custom_command(
 				   )				   
 endforeach(file_i)
 ament_package()
-# Generated on Fri Jun 14 05:25:57 2024
+# Generated on Sun Jun 16 23:12:14 2024

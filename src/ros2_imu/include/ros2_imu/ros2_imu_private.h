@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.13
+// Model version                  : 1.17
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Fri Jun 14 05:25:46 2024
+// C/C++ source code generated on : Sun Jun 16 23:11:51 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -26,6 +26,9 @@
 #ifndef rtmSetTFinal
 #define rtmSetTFinal(rtm, val)         ((rtm)->Timing.tFinal = (val))
 #endif
+
+extern real_T rt_atan2d_snf(real_T u0, real_T u1);
+
 #endif                                 // RTW_HEADER_ros2_imu_private_h_
 
 //

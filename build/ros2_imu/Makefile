@@ -357,6 +357,78 @@ src/ros2nodeinterface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.s
 .PHONY : src/ros2nodeinterface.cpp.s
 
+src/rtGetInf.o: src/rtGetInf.cpp.o
+.PHONY : src/rtGetInf.o
+
+# target to build an object file
+src/rtGetInf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o
+.PHONY : src/rtGetInf.cpp.o
+
+src/rtGetInf.i: src/rtGetInf.cpp.i
+.PHONY : src/rtGetInf.i
+
+# target to preprocess a source file
+src/rtGetInf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.i
+.PHONY : src/rtGetInf.cpp.i
+
+src/rtGetInf.s: src/rtGetInf.cpp.s
+.PHONY : src/rtGetInf.s
+
+# target to generate assembly for a file
+src/rtGetInf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.s
+.PHONY : src/rtGetInf.cpp.s
+
+src/rtGetNaN.o: src/rtGetNaN.cpp.o
+.PHONY : src/rtGetNaN.o
+
+# target to build an object file
+src/rtGetNaN.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o
+.PHONY : src/rtGetNaN.cpp.o
+
+src/rtGetNaN.i: src/rtGetNaN.cpp.i
+.PHONY : src/rtGetNaN.i
+
+# target to preprocess a source file
+src/rtGetNaN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.i
+.PHONY : src/rtGetNaN.cpp.i
+
+src/rtGetNaN.s: src/rtGetNaN.cpp.s
+.PHONY : src/rtGetNaN.s
+
+# target to generate assembly for a file
+src/rtGetNaN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.s
+.PHONY : src/rtGetNaN.cpp.s
+
+src/rt_nonfinite.o: src/rt_nonfinite.cpp.o
+.PHONY : src/rt_nonfinite.o
+
+# target to build an object file
+src/rt_nonfinite.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o
+.PHONY : src/rt_nonfinite.cpp.o
+
+src/rt_nonfinite.i: src/rt_nonfinite.cpp.i
+.PHONY : src/rt_nonfinite.i
+
+# target to preprocess a source file
+src/rt_nonfinite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.i
+.PHONY : src/rt_nonfinite.cpp.i
+
+src/rt_nonfinite.s: src/rt_nonfinite.cpp.s
+.PHONY : src/rt_nonfinite.s
+
+# target to generate assembly for a file
+src/rt_nonfinite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_imu.dir/build.make CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.s
+.PHONY : src/rt_nonfinite.cpp.s
+
 src/rtiostream_interface.o: src/rtiostream_interface.c.o
 .PHONY : src/rtiostream_interface.o
 
@@ -535,6 +607,15 @@ help:
 	@echo "... src/ros2nodeinterface.o"
 	@echo "... src/ros2nodeinterface.i"
 	@echo "... src/ros2nodeinterface.s"
+	@echo "... src/rtGetInf.o"
+	@echo "... src/rtGetInf.i"
+	@echo "... src/rtGetInf.s"
+	@echo "... src/rtGetNaN.o"
+	@echo "... src/rtGetNaN.i"
+	@echo "... src/rtGetNaN.s"
+	@echo "... src/rt_nonfinite.o"
+	@echo "... src/rt_nonfinite.i"
+	@echo "... src/rt_nonfinite.s"
 	@echo "... src/rtiostream_interface.o"
 	@echo "... src/rtiostream_interface.i"
 	@echo "... src/rtiostream_interface.s"

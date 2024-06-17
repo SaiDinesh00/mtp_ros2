@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.003432] (-) JobUnselected: {'identifier': 'aerobot_interfaces'}
+[0.004905] (-) JobUnselected: {'identifier': 'bmm150_sensor'}
+[0.006267] (-) JobUnselected: {'identifier': 'esc_pkg'}
+[0.007543] (-) JobUnselected: {'identifier': 'my_ahrs'}
+[0.008993] (-) JobUnselected: {'identifier': 'ros2_imu'}
+[0.016443] (-) JobUnselected: {'identifier': 'testing_ros'}
+[0.017904] (-) JobUnselected: {'identifier': 'testing_ros2'}
+[0.019629] (lsm6dso) JobQueued: {'identifier': 'lsm6dso', 'dependencies': OrderedDict()}
+[0.029714] (lsm6dso) JobStarted: {'identifier': 'lsm6dso'}
+[0.099458] (-) TimerEvent: {}
+[0.200831] (-) TimerEvent: {}
+[0.302326] (-) TimerEvent: {}
+[0.404849] (-) TimerEvent: {}
+[0.506197] (-) TimerEvent: {}
+[0.607528] (-) TimerEvent: {}
+[0.708907] (-) TimerEvent: {}
+[0.810337] (-) TimerEvent: {}
+[0.911613] (-) TimerEvent: {}
+[1.014090] (-) TimerEvent: {}
+[1.117048] (-) TimerEvent: {}
+[1.218441] (-) TimerEvent: {}
+[1.319866] (-) TimerEvent: {}
+[1.421190] (-) TimerEvent: {}
+[1.524871] (-) TimerEvent: {}
+[1.629070] (-) TimerEvent: {}
+[1.732911] (-) TimerEvent: {}
+[1.838124] (-) TimerEvent: {}
+[1.939277] (-) TimerEvent: {}
+[2.040091] (-) TimerEvent: {}
+[2.141436] (-) TimerEvent: {}
+[2.242757] (-) TimerEvent: {}
+[2.344088] (-) TimerEvent: {}
+[2.445490] (-) TimerEvent: {}
+[2.546738] (-) TimerEvent: {}
+[2.648044] (-) TimerEvent: {}
+[2.749401] (-) TimerEvent: {}
+[2.850729] (-) TimerEvent: {}
+[2.959842] (-) TimerEvent: {}
+[3.061236] (-) TimerEvent: {}
+[3.164862] (-) TimerEvent: {}
+[3.267398] (-) TimerEvent: {}
+[3.368864] (-) TimerEvent: {}
+[3.470278] (-) TimerEvent: {}
+[3.571827] (-) TimerEvent: {}
+[3.673172] (-) TimerEvent: {}
+[3.774491] (-) TimerEvent: {}
+[3.878438] (-) TimerEvent: {}
+[3.979742] (-) TimerEvent: {}
+[4.081151] (-) TimerEvent: {}
+[4.183558] (-) TimerEvent: {}
+[4.286732] (-) TimerEvent: {}
+[4.390199] (-) TimerEvent: {}
+[4.500745] (-) TimerEvent: {}
+[4.604909] (-) TimerEvent: {}
+[4.706959] (-) TimerEvent: {}
+[4.808894] (-) TimerEvent: {}
+[4.910176] (-) TimerEvent: {}
+[5.011426] (-) TimerEvent: {}
+[5.113097] (-) TimerEvent: {}
+[5.219063] (-) TimerEvent: {}
+[5.323820] (-) TimerEvent: {}
+[5.424759] (-) TimerEvent: {}
+[5.526111] (-) TimerEvent: {}
+[5.627376] (-) TimerEvent: {}
+[5.728805] (-) TimerEvent: {}
+[5.830145] (-) TimerEvent: {}
+[5.931563] (-) TimerEvent: {}
+[6.037681] (-) TimerEvent: {}
+[6.139032] (-) TimerEvent: {}
+[6.240331] (-) TimerEvent: {}
+[6.341879] (-) TimerEvent: {}
+[6.445988] (-) TimerEvent: {}
+[6.556865] (-) TimerEvent: {}
+[6.658478] (-) TimerEvent: {}
+[6.759729] (-) TimerEvent: {}
+[6.862272] (-) TimerEvent: {}
+[6.963630] (-) TimerEvent: {}
+[7.065120] (-) TimerEvent: {}
+[7.171840] (-) TimerEvent: {}
+[7.275924] (-) TimerEvent: {}
+[7.377265] (-) TimerEvent: {}
+[7.478625] (-) TimerEvent: {}
+[7.579974] (-) TimerEvent: {}
+[7.681339] (-) TimerEvent: {}
+[7.784373] (-) TimerEvent: {}
+[7.888964] (-) TimerEvent: {}
+[7.991455] (-) TimerEvent: {}
+[8.092814] (-) TimerEvent: {}
+[8.194202] (-) TimerEvent: {}
+[8.295593] (-) TimerEvent: {}
+[8.397087] (-) TimerEvent: {}
+[8.498544] (-) TimerEvent: {}
+[8.601004] (-) TimerEvent: {}
+[8.703287] (-) TimerEvent: {}
+[8.804755] (-) TimerEvent: {}
+[8.907219] (-) TimerEvent: {}
+[9.010088] (-) TimerEvent: {}
+[9.112832] (-) TimerEvent: {}
+[9.216020] (-) TimerEvent: {}
+[9.317389] (-) TimerEvent: {}
+[9.418735] (-) TimerEvent: {}
+[9.520091] (-) TimerEvent: {}
+[9.621469] (-) TimerEvent: {}
+[9.722777] (-) TimerEvent: {}
+[9.824140] (-) TimerEvent: {}
+[9.925557] (-) TimerEvent: {}
+[10.026959] (-) TimerEvent: {}
+[10.128333] (-) TimerEvent: {}
+[10.229663] (-) TimerEvent: {}
+[10.330979] (-) TimerEvent: {}
+[10.432352] (-) TimerEvent: {}
+[10.536925] (-) TimerEvent: {}
+[10.647937] (-) TimerEvent: {}
+[10.749923] (-) TimerEvent: {}
+[10.857014] (-) TimerEvent: {}
+[10.960023] (-) TimerEvent: {}
+[10.990259] (lsm6dso) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lsm6dso', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/lsm6dso/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/lsm6dso/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/lsm6dso', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.106 63361 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.90.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3e07e452-5f62-4880-abbd-87d32d9a51ad.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a16b5b024b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/lsm6dso', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.106 63361 192.168.0.122 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/aerobot_interfaces'}, 'shell': False}
+[11.060525] (-) TimerEvent: {}
+[11.164883] (-) TimerEvent: {}
+[11.266893] (-) TimerEvent: {}
+[11.371602] (-) TimerEvent: {}
+[11.472884] (-) TimerEvent: {}
+[11.581620] (-) TimerEvent: {}
+[11.687518] (-) TimerEvent: {}
+[11.789853] (-) TimerEvent: {}
+[11.891204] (-) TimerEvent: {}
+[11.992555] (-) TimerEvent: {}
+[12.093752] (-) TimerEvent: {}
+[12.194493] (-) TimerEvent: {}
+[12.295840] (-) TimerEvent: {}
+[12.397181] (-) TimerEvent: {}
+[12.500869] (-) TimerEvent: {}
+[12.603996] (-) TimerEvent: {}
+[12.705268] (-) TimerEvent: {}
+[12.806572] (-) TimerEvent: {}
+[12.910619] (-) TimerEvent: {}
+[13.012639] (-) TimerEvent: {}
+[13.113977] (-) TimerEvent: {}
+[13.216281] (-) TimerEvent: {}
+[13.320279] (-) TimerEvent: {}
+[13.422697] (-) TimerEvent: {}
+[13.524975] (-) TimerEvent: {}
+[13.627217] (-) TimerEvent: {}
+[13.728476] (-) TimerEvent: {}
+[13.835163] (-) TimerEvent: {}
+[13.936423] (-) TimerEvent: {}
+[14.038176] (-) TimerEvent: {}
+[14.139651] (-) TimerEvent: {}
+[14.242106] (-) TimerEvent: {}
+[14.343381] (-) TimerEvent: {}
+[14.445842] (-) TimerEvent: {}
+[14.550585] (-) TimerEvent: {}
+[14.654861] (-) TimerEvent: {}
+[14.763536] (-) TimerEvent: {}
+[14.864853] (-) TimerEvent: {}
+[14.968913] (-) TimerEvent: {}
+[15.070163] (-) TimerEvent: {}
+[15.171536] (-) TimerEvent: {}
+[15.272882] (-) TimerEvent: {}
+[15.286828] (lsm6dso) StdoutLine: {'line': b'running egg_info\n'}
+[15.296416] (lsm6dso) StdoutLine: {'line': b'writing ../../build/lsm6dso/lsm6dso.egg-info/PKG-INFO\n'}
+[15.298282] (lsm6dso) StdoutLine: {'line': b'writing dependency_links to ../../build/lsm6dso/lsm6dso.egg-info/dependency_links.txt\n'}
+[15.310077] (lsm6dso) StdoutLine: {'line': b'writing entry points to ../../build/lsm6dso/lsm6dso.egg-info/entry_points.txt\n'}
+[15.311306] (lsm6dso) StdoutLine: {'line': b'writing requirements to ../../build/lsm6dso/lsm6dso.egg-info/requires.txt\n'}
+[15.312362] (lsm6dso) StdoutLine: {'line': b'writing top-level names to ../../build/lsm6dso/lsm6dso.egg-info/top_level.txt\n'}
+[15.329938] (lsm6dso) StdoutLine: {'line': b"reading manifest file '../../build/lsm6dso/lsm6dso.egg-info/SOURCES.txt'\n"}
+[15.341575] (lsm6dso) StdoutLine: {'line': b"writing manifest file '../../build/lsm6dso/lsm6dso.egg-info/SOURCES.txt'\n"}
+[15.343518] (lsm6dso) StdoutLine: {'line': b'running build\n'}
+[15.344873] (lsm6dso) StdoutLine: {'line': b'running build_py\n'}
+[15.347559] (lsm6dso) StdoutLine: {'line': b'copying lsm6dso/sensor.py -> /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso\n'}
+[15.352756] (lsm6dso) StdoutLine: {'line': b'running install\n'}
+[15.354111] (lsm6dso) StdoutLine: {'line': b'running install_lib\n'}
+[15.362946] (lsm6dso) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso/sensor.py -> /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso\n'}
+[15.371350] (lsm6dso) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso/sensor.py to sensor.cpython-310.pyc\n'}
+[15.376292] (-) TimerEvent: {}
+[15.382401] (lsm6dso) StdoutLine: {'line': b'running install_data\n'}
+[15.385095] (lsm6dso) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.392509] (lsm6dso) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.394766] (lsm6dso) StdoutLine: {'line': b'Copying ../../build/lsm6dso/lsm6dso.egg-info to /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso-0.0.0-py3.10.egg-info\n'}
+[15.406162] (lsm6dso) StdoutLine: {'line': b'running install_scripts\n'}
+[15.476437] (-) TimerEvent: {}
+[15.577296] (-) TimerEvent: {}
+[15.583415] (lsm6dso) StdoutLine: {'line': b'Installing lsm6dso script to /home/ubuntu/ros2_ws/install/lsm6dso/lib/lsm6dso\n'}
+[15.593063] (lsm6dso) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/lsm6dso/install.log'\n"}
+[15.677616] (-) TimerEvent: {}
+[15.781066] (-) TimerEvent: {}
+[15.891226] (-) TimerEvent: {}
+[15.906743] (lsm6dso) CommandEnded: {'returncode': 0}
+[15.992147] (-) TimerEvent: {}
+[16.069645] (lsm6dso) JobEnded: {'identifier': 'lsm6dso', 'rc': 0}
+[16.087911] (-) EventReactorShutdown: {}

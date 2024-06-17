@@ -640,14 +640,32 @@ CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o: \
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp \
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp \
  /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp \
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros_msgconvert_utils.h \
  /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/slros2_generic_service.h \
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rtGetNaN.h \
+ /home/ubuntu/ros2_ws/src/ros2_imu/include/ros2_imu/rt_nonfinite.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h

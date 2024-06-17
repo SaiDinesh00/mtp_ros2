@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.13
+// Model version                  : 1.17
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Fri Jun 14 05:25:46 2024
+// C/C++ source code generated on : Sun Jun 16 23:11:51 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)

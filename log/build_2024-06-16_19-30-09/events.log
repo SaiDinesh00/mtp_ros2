@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.012900] (-) JobUnselected: {'identifier': 'aerobot_interfaces'}
+[0.013464] (-) JobUnselected: {'identifier': 'bmm150_sensor'}
+[0.013721] (-) JobUnselected: {'identifier': 'esc_pkg'}
+[0.013958] (-) JobUnselected: {'identifier': 'lsm6dso'}
+[0.014186] (-) JobUnselected: {'identifier': 'my_ahrs'}
+[0.014408] (-) JobUnselected: {'identifier': 'ros2_imu'}
+[0.014624] (-) JobUnselected: {'identifier': 'testing_ros'}
+[0.014848] (-) JobUnselected: {'identifier': 'testing_ros2'}
+[0.015111] (complementary_filter_ros2) JobQueued: {'identifier': 'complementary_filter_ros2', 'dependencies': OrderedDict()}
+[0.015392] (complementary_filter_ros2) JobStarted: {'identifier': 'complementary_filter_ros2'}
+[0.099317] (-) TimerEvent: {}
+[0.196823] (complementary_filter_ros2) JobProgress: {'identifier': 'complementary_filter_ros2', 'progress': 'cmake'}
+[0.203323] (-) TimerEvent: {}
+[0.208917] (complementary_filter_ros2) JobProgress: {'identifier': 'complementary_filter_ros2', 'progress': 'build'}
+[0.217102] (complementary_filter_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/complementary_filter_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/complementary_filter_ros2', 'env': OrderedDict([('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 63624 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/bmm150_sensor:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.0.106 63624 192.168.0.122 22'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[0.304621] (-) TimerEvent: {}
+[0.367496] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/cmake -S/home/ubuntu/ros2_ws/src/complementary_filter_ros2 -B/home/ubuntu/ros2_ws/build/complementary_filter_ros2 --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.405689] (-) TimerEvent: {}
+[0.510929] (-) TimerEvent: {}
+[0.612494] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.613868] (-) TimerEvent: {}
+[0.714464] (-) TimerEvent: {}
+[0.815014] (-) TimerEvent: {}
+[0.915786] (-) TimerEvent: {}
+[1.016557] (-) TimerEvent: {}
+[1.117329] (-) TimerEvent: {}
+[1.218083] (-) TimerEvent: {}
+[1.318789] (-) TimerEvent: {}
+[1.419526] (-) TimerEvent: {}
+[1.520304] (-) TimerEvent: {}
+[1.624627] (-) TimerEvent: {}
+[1.725350] (-) TimerEvent: {}
+[1.826125] (-) TimerEvent: {}
+[1.926871] (-) TimerEvent: {}
+[2.027570] (-) TimerEvent: {}
+[2.128309] (-) TimerEvent: {}
+[2.229090] (-) TimerEvent: {}
+[2.329969] (-) TimerEvent: {}
+[2.390389] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.430040] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.431354] (-) TimerEvent: {}
+[2.532333] (-) TimerEvent: {}
+[2.633947] (-) TimerEvent: {}
+[2.734911] (-) TimerEvent: {}
+[2.836757] (-) TimerEvent: {}
+[2.937656] (-) TimerEvent: {}
+[2.949531] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.031758] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.040767] (-) TimerEvent: {}
+[3.120842] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.141049] (-) TimerEvent: {}
+[3.241769] (-) TimerEvent: {}
+[3.280623] (complementary_filter_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.342036] (-) TimerEvent: {}
+[3.442736] (-) TimerEvent: {}
+[3.517552] (complementary_filter_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.543022] (-) TimerEvent: {}
+[3.643717] (-) TimerEvent: {}
+[3.744485] (-) TimerEvent: {}
+[3.845174] (-) TimerEvent: {}
+[3.952228] (-) TimerEvent: {}
+[4.052949] (-) TimerEvent: {}
+[4.153473] (-) TimerEvent: {}
+[4.241585] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.253756] (-) TimerEvent: {}
+[4.263414] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.354049] (-) TimerEvent: {}
+[4.454746] (-) TimerEvent: {}
+[4.555407] (-) TimerEvent: {}
+[4.656132] (-) TimerEvent: {}
+[4.756866] (-) TimerEvent: {}
+[4.857543] (-) TimerEvent: {}
+[4.958241] (-) TimerEvent: {}
+[5.058954] (-) TimerEvent: {}
+[5.159659] (-) TimerEvent: {}
+[5.260341] (-) TimerEvent: {}
+[5.364539] (-) TimerEvent: {}
+[5.466332] (-) TimerEvent: {}
+[5.567032] (-) TimerEvent: {}
+[5.667716] (-) TimerEvent: {}
+[5.768438] (-) TimerEvent: {}
+[5.869185] (-) TimerEvent: {}
+[5.969853] (-) TimerEvent: {}
+[6.070583] (-) TimerEvent: {}
+[6.167955] (complementary_filter_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.172073] (-) TimerEvent: {}
+[6.276671] (-) TimerEvent: {}
+[6.377409] (-) TimerEvent: {}
+[6.478090] (-) TimerEvent: {}
+[6.579341] (-) TimerEvent: {}
+[6.680622] (-) TimerEvent: {}
+[6.781383] (-) TimerEvent: {}
+[6.882092] (-) TimerEvent: {}
+[6.982842] (-) TimerEvent: {}
+[7.083618] (-) TimerEvent: {}
+[7.184453] (-) TimerEvent: {}
+[7.285179] (-) TimerEvent: {}
+[7.385903] (-) TimerEvent: {}
+[7.486605] (-) TimerEvent: {}
+[7.587157] (-) TimerEvent: {}
+[7.687856] (-) TimerEvent: {}
+[7.788636] (-) TimerEvent: {}
+[7.890062] (-) TimerEvent: {}
+[7.992716] (-) TimerEvent: {}
+[8.093495] (-) TimerEvent: {}
+[8.097590] (complementary_filter_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.193940] (-) TimerEvent: {}
+[8.294836] (-) TimerEvent: {}
+[8.395532] (-) TimerEvent: {}
+[8.496231] (-) TimerEvent: {}
+[8.596958] (-) TimerEvent: {}
+[8.699495] (-) TimerEvent: {}
+[8.800199] (-) TimerEvent: {}
+[8.901430] (-) TimerEvent: {}
+[9.002202] (-) TimerEvent: {}
+[9.104635] (-) TimerEvent: {}
+[9.205383] (-) TimerEvent: {}
+[9.306167] (-) TimerEvent: {}
+[9.406929] (-) TimerEvent: {}
+[9.507629] (-) TimerEvent: {}
+[9.608352] (-) TimerEvent: {}
+[9.709164] (-) TimerEvent: {}
+[9.809851] (-) TimerEvent: {}
+[9.910551] (-) TimerEvent: {}
+[10.011239] (-) TimerEvent: {}
+[10.111990] (-) TimerEvent: {}
+[10.212792] (-) TimerEvent: {}
+[10.313571] (-) TimerEvent: {}
+[10.416687] (-) TimerEvent: {}
+[10.520688] (-) TimerEvent: {}
+[10.621446] (-) TimerEvent: {}
+[10.694253] (complementary_filter_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.724635] (-) TimerEvent: {}
+[10.825215] (-) TimerEvent: {}
+[10.889176] (complementary_filter_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[10.925511] (-) TimerEvent: {}
+[10.949072] (complementary_filter_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/complementary_filter_ros2\n'}
+[11.001383] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/complementary_filter_ros2/CMakeFiles /home/ubuntu/ros2_ws/build/complementary_filter_ros2//CMakeFiles/progress.marks\n'}
+[11.025760] (-) TimerEvent: {}
+[11.100171] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[11.116328] (complementary_filter_ros2) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'\n"}
+[11.117763] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/complementary_filter_ros2.dir/build.make CMakeFiles/complementary_filter_ros2.dir/depend\n'}
+[11.129083] (-) TimerEvent: {}
+[11.137938] (complementary_filter_ros2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'\n"}
+[11.139178] (complementary_filter_ros2) StdoutLine: {'line': b'cd /home/ubuntu/ros2_ws/build/complementary_filter_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/complementary_filter_ros2 /home/ubuntu/ros2_ws/src/complementary_filter_ros2 /home/ubuntu/ros2_ws/build/complementary_filter_ros2 /home/ubuntu/ros2_ws/build/complementary_filter_ros2 /home/ubuntu/ros2_ws/build/complementary_filter_ros2/CMakeFiles/complementary_filter_ros2.dir/DependInfo.cmake --color=\n'}
+[11.231130] (-) TimerEvent: {}
+[11.332642] (-) TimerEvent: {}
+[11.434009] (-) TimerEvent: {}
+[11.535429] (-) TimerEvent: {}
+[11.636056] (-) TimerEvent: {}
+[11.736760] (-) TimerEvent: {}
+[11.837858] (-) TimerEvent: {}
+[11.841608] (complementary_filter_ros2) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target complementary_filter_ros2\n'}
+[11.852026] (complementary_filter_ros2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'\n"}
+[11.855315] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/complementary_filter_ros2.dir/build.make CMakeFiles/complementary_filter_ros2.dir/build\n'}
+[11.939233] (-) TimerEvent: {}
+[11.940915] (complementary_filter_ros2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'\n"}
+[12.028354] (complementary_filter_ros2) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/complementary_filter_ros2.dir/src/ext_svr.c.o\n'}
+[12.042208] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"complementary_filter_ros2\\" -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2 -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=complementary_filter_ros2 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/complementary_filter_ros2.dir/src/ext_svr.c.o -MF CMakeFiles/complementary_filter_ros2.dir/src/ext_svr.c.o.d -o CMakeFiles/complementary_filter_ros2.dir/src/ext_svr.c.o -c /home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/ext_svr.c\n'}
+[12.044186] (-) TimerEvent: {}
+[12.125575] (complementary_filter_ros2) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[12.145108] (-) TimerEvent: {}
+[12.250849] (-) TimerEvent: {}
+[12.351574] (-) TimerEvent: {}
+[12.452444] (-) TimerEvent: {}
+[12.553187] (-) TimerEvent: {}
+[12.653968] (-) TimerEvent: {}
+[12.754694] (-) TimerEvent: {}
+[12.855417] (-) TimerEvent: {}
+[12.956256] (-) TimerEvent: {}
+[13.057574] (-) TimerEvent: {}
+[13.158357] (-) TimerEvent: {}
+[13.261106] (-) TimerEvent: {}
+[13.362109] (-) TimerEvent: {}
+[13.462838] (-) TimerEvent: {}
+[13.563615] (-) TimerEvent: {}
+[13.664656] (-) TimerEvent: {}
+[13.765480] (-) TimerEvent: {}
+[13.877941] (-) TimerEvent: {}
+[13.978655] (-) TimerEvent: {}
+[14.080761] (-) TimerEvent: {}
+[14.181581] (-) TimerEvent: {}
+[14.282302] (-) TimerEvent: {}
+[14.382854] (-) TimerEvent: {}
+[14.483593] (-) TimerEvent: {}
+[14.584330] (-) TimerEvent: {}
+[14.685295] (-) TimerEvent: {}
+[14.786000] (-) TimerEvent: {}
+[14.796517] (complementary_filter_ros2) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/complementary_filter_ros2.dir/src/updown.c.o\n'}
+[14.806841] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"complementary_filter_ros2\\" -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2 -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=complementary_filter_ros2 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/complementary_filter_ros2.dir/src/updown.c.o -MF CMakeFiles/complementary_filter_ros2.dir/src/updown.c.o.d -o CMakeFiles/complementary_filter_ros2.dir/src/updown.c.o -c /home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/updown.c\n'}
+[14.866390] (complementary_filter_ros2) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[14.888696] (-) TimerEvent: {}
+[14.989417] (-) TimerEvent: {}
+[15.090095] (-) TimerEvent: {}
+[15.190829] (-) TimerEvent: {}
+[15.291962] (-) TimerEvent: {}
+[15.392717] (-) TimerEvent: {}
+[15.493473] (-) TimerEvent: {}
+[15.594237] (-) TimerEvent: {}
+[15.694970] (-) TimerEvent: {}
+[15.795737] (-) TimerEvent: {}
+[15.896559] (-) TimerEvent: {}
+[15.997285] (-) TimerEvent: {}
+[16.098045] (-) TimerEvent: {}
+[16.198792] (-) TimerEvent: {}
+[16.303243] (-) TimerEvent: {}
+[16.404017] (-) TimerEvent: {}
+[16.504784] (-) TimerEvent: {}
+[16.605533] (-) TimerEvent: {}
+[16.706253] (-) TimerEvent: {}
+[16.807023] (-) TimerEvent: {}
+[16.907759] (-) TimerEvent: {}
+[17.008536] (-) TimerEvent: {}
+[17.109272] (-) TimerEvent: {}
+[17.210024] (-) TimerEvent: {}
+[17.312809] (-) TimerEvent: {}
+[17.413696] (-) TimerEvent: {}
+[17.514513] (-) TimerEvent: {}
+[17.615101] (-) TimerEvent: {}
+[17.715625] (-) TimerEvent: {}
+[17.734963] (complementary_filter_ros2) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/complementary_filter_ros2.dir/src/rtiostream_utils.c.o\n'}
+[17.742935] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"complementary_filter_ros2\\" -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2 -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=complementary_filter_ros2 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/complementary_filter_ros2.dir/src/rtiostream_utils.c.o -MF CMakeFiles/complementary_filter_ros2.dir/src/rtiostream_utils.c.o.d -o CMakeFiles/complementary_filter_ros2.dir/src/rtiostream_utils.c.o -c /home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/rtiostream_utils.c\n'}
+[17.816040] (-) TimerEvent: {}
+[17.848260] (complementary_filter_ros2) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[17.916331] (-) TimerEvent: {}
+[18.017203] (-) TimerEvent: {}
+[18.117909] (-) TimerEvent: {}
+[18.218687] (-) TimerEvent: {}
+[18.278824] (complementary_filter_ros2) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/complementary_filter_ros2.dir/src/complementary_filter_ros2.cpp.o\n'}
+[18.291426] (complementary_filter_ros2) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"complementary_filter_ros2\\" -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include/complementary_filter_ros2 -I/home/ubuntu/ros2_ws/src/complementary_filter_ros2/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=complementary_filter_ros2 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/complementary_filter_ros2.dir/src/complementary_filter_ros2.cpp.o -MF CMakeFiles/complementary_filter_ros2.dir/src/complementary_filter_ros2.cpp.o.d -o CMakeFiles/complementary_filter_ros2.dir/src/complementary_filter_ros2.cpp.o -c /home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/complementary_filter_ros2.cpp\n'}
+[18.320652] (-) TimerEvent: {}
+[18.421385] (-) TimerEvent: {}
+[18.525911] (-) TimerEvent: {}
+[18.626634] (-) TimerEvent: {}
+[18.727348] (-) TimerEvent: {}
+[18.828010] (-) TimerEvent: {}
+[18.930141] (-) TimerEvent: {}
+[19.030860] (-) TimerEvent: {}
+[19.131518] (-) TimerEvent: {}
+[19.233360] (-) TimerEvent: {}
+[19.334073] (-) TimerEvent: {}
+[19.434753] (-) TimerEvent: {}
+[19.535419] (-) TimerEvent: {}
+[19.636085] (-) TimerEvent: {}
+[19.736815] (-) TimerEvent: {}
+[19.837528] (-) TimerEvent: {}
+[19.938241] (-) TimerEvent: {}
+[20.038922] (-) TimerEvent: {}
+[20.139624] (-) TimerEvent: {}
+[20.240334] (-) TimerEvent: {}
+[20.341076] (-) TimerEvent: {}
+[20.441769] (-) TimerEvent: {}
+[20.543189] (-) TimerEvent: {}
+[20.643916] (-) TimerEvent: {}
+[20.744812] (-) TimerEvent: {}
+[20.845568] (-) TimerEvent: {}
+[20.946263] (-) TimerEvent: {}
+[21.046854] (-) TimerEvent: {}
+[21.147388] (-) TimerEvent: {}
+[21.248079] (-) TimerEvent: {}
+[21.348811] (-) TimerEvent: {}
+[21.449498] (-) TimerEvent: {}
+[21.550178] (-) TimerEvent: {}
+[21.650867] (-) TimerEvent: {}
+[21.751648] (-) TimerEvent: {}
+[21.852595] (-) TimerEvent: {}
+[21.953335] (-) TimerEvent: {}
+[22.054093] (-) TimerEvent: {}
+[22.154784] (-) TimerEvent: {}
+[22.255507] (-) TimerEvent: {}
+[22.356205] (-) TimerEvent: {}
+[22.456980] (-) TimerEvent: {}
+[22.557668] (-) TimerEvent: {}
+[22.658396] (-) TimerEvent: {}
+[22.759091] (-) TimerEvent: {}
+[22.860660] (-) TimerEvent: {}
+[22.961345] (-) TimerEvent: {}
+[23.062067] (-) TimerEvent: {}
+[23.162848] (-) TimerEvent: {}
+[23.263624] (-) TimerEvent: {}
+[23.337518] (complementary_filter_ros2) StderrLine: {'line': b'/home/ubuntu/ros2_ws/src/complementary_filter_ros2/src/complementary_filter_ros2.cpp:24:10: fatal error: emmintrin.h: No such file or directory\n'}
+[23.339722] (complementary_filter_ros2) StderrLine: {'line': b'   24 | #include <emmintrin.h>\n'}
+[23.341153] (complementary_filter_ros2) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~\n'}
+[23.350441] (complementary_filter_ros2) StderrLine: {'line': b'compilation terminated.\n'}
+[23.364178] (-) TimerEvent: {}
+[23.385187] (complementary_filter_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/complementary_filter_ros2.dir/build.make:163: CMakeFiles/complementary_filter_ros2.dir/src/complementary_filter_ros2.cpp.o] Error 1\n'}
+[23.386524] (complementary_filter_ros2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'\n"}
+[23.398999] (complementary_filter_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/complementary_filter_ros2.dir/all] Error 2\n'}
+[23.400417] (complementary_filter_ros2) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[23.401409] (complementary_filter_ros2) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/ubuntu/ros2_ws/build/complementary_filter_ros2'\n"}
+[23.427803] (complementary_filter_ros2) CommandEnded: {'returncode': 2}
+[23.464663] (-) TimerEvent: {}
+[23.565380] (-) TimerEvent: {}
+[23.666509] (-) TimerEvent: {}
+[23.767255] (-) TimerEvent: {}
+[23.873449] (-) TimerEvent: {}
+[23.974159] (-) TimerEvent: {}
+[24.076628] (-) TimerEvent: {}
+[24.188907] (-) TimerEvent: {}
+[24.292269] (-) TimerEvent: {}
+[24.340963] (complementary_filter_ros2) JobEnded: {'identifier': 'complementary_filter_ros2', 'rc': 2}
+[24.353589] (-) EventReactorShutdown: {}

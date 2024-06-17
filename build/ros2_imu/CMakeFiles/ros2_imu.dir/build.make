@@ -212,10 +212,52 @@ CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_ws/src/ros2_imu/src/ros2nodeinterface.cpp -o CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.s
 
+CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o: CMakeFiles/ros2_imu.dir/flags.make
+CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetInf.cpp
+CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o: CMakeFiles/ros2_imu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o -MF CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetInf.cpp
+
+CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetInf.cpp > CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.i
+
+CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetInf.cpp -o CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.s
+
+CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o: CMakeFiles/ros2_imu.dir/flags.make
+CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetNaN.cpp
+CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o: CMakeFiles/ros2_imu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o -MF CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetNaN.cpp
+
+CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetNaN.cpp > CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.i
+
+CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_ws/src/ros2_imu/src/rtGetNaN.cpp -o CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.s
+
+CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o: CMakeFiles/ros2_imu.dir/flags.make
+CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/rt_nonfinite.cpp
+CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o: CMakeFiles/ros2_imu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o -MF CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/rt_nonfinite.cpp
+
+CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_ws/src/ros2_imu/src/rt_nonfinite.cpp > CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.i
+
+CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_ws/src/ros2_imu/src/rt_nonfinite.cpp -o CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.s
+
 CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o: CMakeFiles/ros2_imu.dir/flags.make
 CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/slros2_initialize.cpp
 CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o: CMakeFiles/ros2_imu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o -MF CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/slros2_initialize.cpp
 
 CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.i: cmake_force
@@ -229,7 +271,7 @@ CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.s: cmake_force
 CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o: CMakeFiles/ros2_imu.dir/flags.make
 CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o: /home/ubuntu/ros2_ws/src/ros2_imu/src/slros_busmsg_conversion.cpp
 CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o: CMakeFiles/ros2_imu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o -MF CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o.d -o CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o -c /home/ubuntu/ros2_ws/src/ros2_imu/src/slros_busmsg_conversion.cpp
 
 CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.i: cmake_force
@@ -252,6 +294,9 @@ ros2_imu_OBJECTS = \
 "CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o" \
 "CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o" \
 "CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o" \
+"CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o" \
+"CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o" \
+"CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o" \
 "CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o" \
 "CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o"
 
@@ -268,6 +313,9 @@ ros2_imu: CMakeFiles/ros2_imu.dir/src/main.cpp.o
 ros2_imu: CMakeFiles/ros2_imu.dir/src/ros2_imu.cpp.o
 ros2_imu: CMakeFiles/ros2_imu.dir/src/ros2_imu_data.cpp.o
 ros2_imu: CMakeFiles/ros2_imu.dir/src/ros2nodeinterface.cpp.o
+ros2_imu: CMakeFiles/ros2_imu.dir/src/rtGetInf.cpp.o
+ros2_imu: CMakeFiles/ros2_imu.dir/src/rtGetNaN.cpp.o
+ros2_imu: CMakeFiles/ros2_imu.dir/src/rt_nonfinite.cpp.o
 ros2_imu: CMakeFiles/ros2_imu.dir/src/slros2_initialize.cpp.o
 ros2_imu: CMakeFiles/ros2_imu.dir/src/slros_busmsg_conversion.cpp.o
 ros2_imu: CMakeFiles/ros2_imu.dir/build.make
@@ -277,25 +325,14 @@ ros2_imu: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfa
 ros2_imu: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_cpp.so
 ros2_imu: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_cpp.so
 ros2_imu: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_py.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 ros2_imu: /opt/ros/humble/lib/librclcpp.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 ros2_imu: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_c.so
 ros2_imu: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_c.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 ros2_imu: /opt/ros/humble/lib/liblibstatistics_collector.so
 ros2_imu: /opt/ros/humble/lib/librcl.so
 ros2_imu: /opt/ros/humble/lib/librmw_implementation.so
@@ -321,36 +358,55 @@ ros2_imu: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
 ros2_imu: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 ros2_imu: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
 ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+ros2_imu: /opt/ros/humble/lib/libtracetools.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 ros2_imu: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 ros2_imu: /opt/ros/humble/lib/librmw.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 ros2_imu: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-ros2_imu: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+ros2_imu: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+ros2_imu: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+ros2_imu: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+ros2_imu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 ros2_imu: /opt/ros/humble/lib/librosidl_typesupport_c.so
 ros2_imu: /opt/ros/humble/lib/librosidl_runtime_c.so
 ros2_imu: /opt/ros/humble/lib/librcpputils.so
 ros2_imu: /opt/ros/humble/lib/librcutils.so
-ros2_imu: /opt/ros/humble/lib/libtracetools.so
 ros2_imu: CMakeFiles/ros2_imu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ros2_imu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws/build/ros2_imu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ros2_imu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ros2_imu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

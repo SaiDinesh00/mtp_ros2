@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.13
+// Model version                  : 1.17
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Fri Jun 14 05:25:46 2024
+// C/C++ source code generated on : Sun Jun 16 23:11:51 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -19,9 +19,19 @@
 #include "ros2_imu.h"
 #include "ros2_imu_types.h"
 #include "rtwtypes.h"
+#include <math.h>
+#include "ros2_imu_private.h"
 #include "rmw/qos_profiles.h"
 #include <stddef.h>
-#include "ros2_imu_private.h"
+
+extern "C"
+{
+
+#include "rt_nonfinite.h"
+
+}
+
+#include "rt_defines.h"
 #include "ros2_imu_dt.h"
 
 // Named constants for Chart: '<Root>/Chart'
@@ -53,13 +63,68 @@ static void ros2_imu_SystemCore_setup_jy(ros_slros2_internal_block_Ser_T *obj);
 static void ros2_imu_SystemCore_setup_jy4(ros_slros2_internal_block_Ser_T *obj);
 static void ros2_imu_SystemCore_setup_jy4g(ros_slros2_internal_block_Pub_T *obj);
 static void ros2_imu_SystemCore_setup_jy4g0(ros_slros2_internal_block_Ser_T *obj);
-static void ros2_i_SystemCore_setup_jy4g0dg(ros_slros2_internal_block_Sub_T *obj);
 static void ros2_im_SystemCore_setup_jy4g0d(ros_slros2_internal_block_Sub_T *obj);
+static void ros2_i_SystemCore_setup_jy4g0dg(ros_slros2_internal_block_Sub_T *obj);
+static void rate_scheduler(void);
+
+//
+//         This function updates active task flag for each subrate.
+//         The function is called at model base rate, hence the
+//         generated code self-manages all its subrates.
+//
+static void rate_scheduler(void)
+{
+  // Compute which subrates run during the next base time step.  Subrates
+  //  are an integer multiple of the base rate counter.  Therefore, the subtask
+  //  counter is reset when it reaches its limit (zero means run).
+
+  (ros2_imu_M->Timing.TaskCounters.TID[1])++;
+  if ((ros2_imu_M->Timing.TaskCounters.TID[1]) > 4) {// Sample time: [0.05s, 0.0s] 
+    ros2_imu_M->Timing.TaskCounters.TID[1] = 0;
+  }
+}
+
+real_T rt_atan2d_snf(real_T u0, real_T u1)
+{
+  real_T y;
+  if (rtIsNaN(u0) || rtIsNaN(u1)) {
+    y = (rtNaN);
+  } else if (rtIsInf(u0) && rtIsInf(u1)) {
+    int32_T tmp;
+    int32_T tmp_0;
+    if (u0 > 0.0) {
+      tmp = 1;
+    } else {
+      tmp = -1;
+    }
+
+    if (u1 > 0.0) {
+      tmp_0 = 1;
+    } else {
+      tmp_0 = -1;
+    }
+
+    y = atan2(static_cast<real_T>(tmp), static_cast<real_T>(tmp_0));
+  } else if (u1 == 0.0) {
+    if (u0 > 0.0) {
+      y = RT_PI / 2.0;
+    } else if (u0 < 0.0) {
+      y = -(RT_PI / 2.0);
+    } else {
+      y = 0.0;
+    }
+  } else {
+    y = atan2(u0, u1);
+  }
+
+  return y;
+}
+
 static void ros2_imu_SystemCore_setup(ros_slros2_internal_block_Ser_T *obj)
 {
   rmw_qos_profile_t qos_profile;
-  char_T b_zeroDelimTopic[5];
-  static const char_T b_zeroDelimTopic_0[5] = "/arm";
+  char_T b_zeroDelimTopic[11];
+  static const char_T b_zeroDelimTopic_0[11] = "/arm_pitch";
 
   // Start for MATLABSystem: '<S12>/ServiceCaller'
   obj->isInitialized = 1;
@@ -69,7 +134,7 @@ static void ros2_imu_SystemCore_setup(ros_slros2_internal_block_Ser_T *obj)
   SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)1.0,
                  RMW_QOS_POLICY_DURABILITY_VOLATILE,
                  RMW_QOS_POLICY_RELIABILITY_RELIABLE);
-  for (int32_T i = 0; i < 5; i++) {
+  for (int32_T i = 0; i < 11; i++) {
     // Start for MATLABSystem: '<S12>/ServiceCaller'
     b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
   }
@@ -105,8 +170,8 @@ static void ros2_imu_SystemCore_setup_j(ros_slros2_internal_block_Pub_T *obj)
 static void ros2_imu_SystemCore_setup_jy(ros_slros2_internal_block_Ser_T *obj)
 {
   rmw_qos_profile_t qos_profile;
-  char_T b_zeroDelimTopic[5];
-  static const char_T b_zeroDelimTopic_0[5] = "/arm";
+  char_T b_zeroDelimTopic[11];
+  static const char_T b_zeroDelimTopic_0[11] = "/arm_pitch";
 
   // Start for MATLABSystem: '<S10>/ServiceCaller'
   obj->isInitialized = 1;
@@ -116,7 +181,7 @@ static void ros2_imu_SystemCore_setup_jy(ros_slros2_internal_block_Ser_T *obj)
   SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)1.0,
                  RMW_QOS_POLICY_DURABILITY_VOLATILE,
                  RMW_QOS_POLICY_RELIABILITY_RELIABLE);
-  for (int32_T i = 0; i < 5; i++) {
+  for (int32_T i = 0; i < 11; i++) {
     // Start for MATLABSystem: '<S10>/ServiceCaller'
     b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
   }
@@ -129,8 +194,8 @@ static void ros2_imu_SystemCore_setup_jy(ros_slros2_internal_block_Ser_T *obj)
 static void ros2_imu_SystemCore_setup_jy4(ros_slros2_internal_block_Ser_T *obj)
 {
   rmw_qos_profile_t qos_profile;
-  char_T b_zeroDelimTopic[5];
-  static const char_T b_zeroDelimTopic_0[5] = "/arm";
+  char_T b_zeroDelimTopic[9];
+  static const char_T b_zeroDelimTopic_0[9] = "/arm_yaw";
 
   // Start for MATLABSystem: '<S21>/ServiceCaller'
   obj->isInitialized = 1;
@@ -140,7 +205,7 @@ static void ros2_imu_SystemCore_setup_jy4(ros_slros2_internal_block_Ser_T *obj)
   SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)1.0,
                  RMW_QOS_POLICY_DURABILITY_VOLATILE,
                  RMW_QOS_POLICY_RELIABILITY_RELIABLE);
-  for (int32_T i = 0; i < 5; i++) {
+  for (int32_T i = 0; i < 9; i++) {
     // Start for MATLABSystem: '<S21>/ServiceCaller'
     b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
   }
@@ -176,8 +241,8 @@ static void ros2_imu_SystemCore_setup_jy4g(ros_slros2_internal_block_Pub_T *obj)
 static void ros2_imu_SystemCore_setup_jy4g0(ros_slros2_internal_block_Ser_T *obj)
 {
   rmw_qos_profile_t qos_profile;
-  char_T b_zeroDelimTopic[5];
-  static const char_T b_zeroDelimTopic_0[5] = "/arm";
+  char_T b_zeroDelimTopic[9];
+  static const char_T b_zeroDelimTopic_0[9] = "/arm_yaw";
 
   // Start for MATLABSystem: '<S19>/ServiceCaller'
   obj->isInitialized = 1;
@@ -187,7 +252,7 @@ static void ros2_imu_SystemCore_setup_jy4g0(ros_slros2_internal_block_Ser_T *obj
   SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)1.0,
                  RMW_QOS_POLICY_DURABILITY_VOLATILE,
                  RMW_QOS_POLICY_RELIABILITY_RELIABLE);
-  for (int32_T i = 0; i < 5; i++) {
+  for (int32_T i = 0; i < 9; i++) {
     // Start for MATLABSystem: '<S19>/ServiceCaller'
     b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
   }
@@ -197,49 +262,49 @@ static void ros2_imu_SystemCore_setup_jy4g0(ros_slros2_internal_block_Ser_T *obj
   obj->isSetupComplete = true;
 }
 
-static void ros2_i_SystemCore_setup_jy4g0dg(ros_slros2_internal_block_Sub_T *obj)
-{
-  rmw_qos_profile_t qos_profile;
-  char_T b_zeroDelimTopic[11];
-  static const char_T b_zeroDelimTopic_0[11] = "/euler_mad";
-
-  // Start for MATLABSystem: '<S23>/SourceBlock'
-  obj->isInitialized = 1;
-  qos_profile = rmw_qos_profile_default;
-
-  // Start for MATLABSystem: '<S23>/SourceBlock'
-  SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)10.0,
-                 RMW_QOS_POLICY_DURABILITY_VOLATILE,
-                 RMW_QOS_POLICY_RELIABILITY_RELIABLE);
-  for (int32_T i = 0; i < 11; i++) {
-    // Start for MATLABSystem: '<S23>/SourceBlock'
-    b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
-  }
-
-  Sub_ros2_imu_135.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
-  obj->isSetupComplete = true;
-}
-
 static void ros2_im_SystemCore_setup_jy4g0d(ros_slros2_internal_block_Sub_T *obj)
 {
   rmw_qos_profile_t qos_profile;
   char_T b_zeroDelimTopic[10];
-  static const char_T b_zeroDelimTopic_0[10] = "/euler_cf";
+  static const char_T b_zeroDelimTopic_0[10] = "/imu/data";
 
-  // Start for MATLABSystem: '<S22>/SourceBlock'
+  // Start for MATLABSystem: '<S23>/SourceBlock'
   obj->isInitialized = 1;
   qos_profile = rmw_qos_profile_default;
 
-  // Start for MATLABSystem: '<S22>/SourceBlock'
-  SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)10.0,
+  // Start for MATLABSystem: '<S23>/SourceBlock'
+  SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)1.0,
                  RMW_QOS_POLICY_DURABILITY_VOLATILE,
                  RMW_QOS_POLICY_RELIABILITY_RELIABLE);
   for (int32_T i = 0; i < 10; i++) {
-    // Start for MATLABSystem: '<S22>/SourceBlock'
+    // Start for MATLABSystem: '<S23>/SourceBlock'
     b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
   }
 
-  Sub_ros2_imu_107.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
+  Sub_ros2_imu_162.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
+  obj->isSetupComplete = true;
+}
+
+static void ros2_i_SystemCore_setup_jy4g0dg(ros_slros2_internal_block_Sub_T *obj)
+{
+  rmw_qos_profile_t qos_profile;
+  char_T b_zeroDelimTopic[10];
+  static const char_T b_zeroDelimTopic_0[10] = "/mag/data";
+
+  // Start for MATLABSystem: '<S24>/SourceBlock'
+  obj->isInitialized = 1;
+  qos_profile = rmw_qos_profile_default;
+
+  // Start for MATLABSystem: '<S24>/SourceBlock'
+  SET_QOS_VALUES(qos_profile, RMW_QOS_POLICY_HISTORY_KEEP_LAST, (size_t)1.0,
+                 RMW_QOS_POLICY_DURABILITY_VOLATILE,
+                 RMW_QOS_POLICY_RELIABILITY_RELIABLE);
+  for (int32_T i = 0; i < 10; i++) {
+    // Start for MATLABSystem: '<S24>/SourceBlock'
+    b_zeroDelimTopic[i] = b_zeroDelimTopic_0[i];
+  }
+
+  Sub_ros2_imu_163.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
   obj->isSetupComplete = true;
 }
 
@@ -249,9 +314,11 @@ void ros2_imu_step(void)
   SL_Bus_aerobot_interfaces_EscSrvRequest rtb_BusAssignment1;
   SL_Bus_aerobot_interfaces_EscSrvRequest rtb_BusAssignment_h;
   SL_Bus_aerobot_interfaces_EscSrvResponse b_varargout_1;
-  SL_Bus_geometry_msgs_Vector3 b_varargout_2;
   SL_Bus_std_msgs_Int64 rtb_BusAssignment;
   SL_Bus_std_msgs_Int64 rtb_BusAssignment_hl;
+  real_T rtb_MathFunction1;
+  real_T rtb_Switch_idx_1;
+  real_T rtb_Switch_idx_2;
   boolean_T serverAvailableOnTime;
 
   // Reset subsysRan breadcrumbs
@@ -273,17 +340,78 @@ void ros2_imu_step(void)
   srClearBC(ros2_imu_DW.killEsc2_SubsysRanBC);
 
   // Reset subsysRan breadcrumbs
-  srClearBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC_m);
+  srClearBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC_a);
 
   // Reset subsysRan breadcrumbs
   srClearBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC);
 
+  // MATLABSystem: '<S23>/SourceBlock'
+  serverAvailableOnTime = Sub_ros2_imu_162.getLatestMessage
+    (&ros2_imu_B.b_varargout_2);
+
+  // Outputs for Enabled SubSystem: '<S23>/Enabled Subsystem' incorporates:
+  //   EnablePort: '<S26>/Enable'
+
+  // Start for MATLABSystem: '<S23>/SourceBlock'
+  if (serverAvailableOnTime) {
+    // SignalConversion generated from: '<S26>/In1'
+    ros2_imu_B.In1 = ros2_imu_B.b_varargout_2;
+    srUpdateBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC_a);
+  }
+
+  // End of Start for MATLABSystem: '<S23>/SourceBlock'
+  // End of Outputs for SubSystem: '<S23>/Enabled Subsystem'
+
+  // Sum: '<S29>/Sum of Elements' incorporates:
+  //   Math: '<S29>/Math Function'
+  //   SignalConversion generated from: '<S29>/Math Function'
+
+  rtb_MathFunction1 = (ros2_imu_B.In1.linear_acceleration.x *
+                       ros2_imu_B.In1.linear_acceleration.x +
+                       ros2_imu_B.In1.linear_acceleration.y *
+                       ros2_imu_B.In1.linear_acceleration.y) +
+    ros2_imu_B.In1.linear_acceleration.z * ros2_imu_B.In1.linear_acceleration.z;
+
+  // Math: '<S29>/Math Function1' incorporates:
+  //   Sum: '<S29>/Sum of Elements'
+  //
+  //  About '<S29>/Math Function1':
+  //   Operator: sqrt
+
+  if (rtb_MathFunction1 < 0.0) {
+    rtb_MathFunction1 = -sqrt(fabs(rtb_MathFunction1));
+  } else {
+    rtb_MathFunction1 = sqrt(rtb_MathFunction1);
+  }
+
+  // End of Math: '<S29>/Math Function1'
+
+  // Switch: '<S29>/Switch' incorporates:
+  //   Constant: '<S29>/Constant'
+  //   Product: '<S29>/Product'
+  //   SignalConversion generated from: '<S29>/Math Function'
+
+  if (rtb_MathFunction1 > ros2_imu_P.NormalizeVector_maxzero) {
+    rtb_Switch_idx_1 = ros2_imu_B.In1.linear_acceleration.y;
+    rtb_Switch_idx_2 = ros2_imu_B.In1.linear_acceleration.z;
+  } else {
+    rtb_Switch_idx_1 = ros2_imu_B.In1.linear_acceleration.y * 0.0;
+    rtb_Switch_idx_2 = ros2_imu_B.In1.linear_acceleration.z * 0.0;
+    rtb_MathFunction1 = ros2_imu_P.Constant_Value_n1;
+  }
+
+  // End of Switch: '<S29>/Switch'
+
+  // Trigonometry: '<S28>/Atan2' incorporates:
+  //   Product: '<S29>/Divide'
+
+  ros2_imu_B.Theta = rt_atan2d_snf(rtb_Switch_idx_1 / rtb_MathFunction1,
+    rtb_Switch_idx_2 / rtb_MathFunction1);
+
   // Constant: '<Root>/Pitch motor'
   ros2_imu_B.Pitchmotor = ros2_imu_P.Pitchmotor_Value;
 
-  // Chart: '<Root>/Chart' incorporates:
-  //   Constant: '<S4>/control1'
-
+  // Chart: '<Root>/Chart'
   if (ros2_imu_DW.is_active_c3_ros2_imu == 0U) {
     ros2_imu_DW.is_active_c3_ros2_imu = 1U;
     ros2_imu_DW.is_c3_ros2_imu = ros2_imu_IN_Init;
@@ -336,7 +464,7 @@ void ros2_imu_step(void)
         //   Constant: '<S5>/Constant'
         //   Constant: '<S5>/Constant1'
 
-        rtb_BusAssignment_h.pin_number = ros2_imu_P.Constant_Value_p0;
+        rtb_BusAssignment_h.pin_number = ros2_imu_P.Constant_Value_p;
         rtb_BusAssignment_h.state = ros2_imu_P.Constant1_Value_e;
 
         // Outputs for Atomic SubSystem: '<S5>/Call Service'
@@ -353,15 +481,18 @@ void ros2_imu_step(void)
         // End of Outputs for SubSystem: '<S1>/killEsc1'
       } else {
         // Outputs for Function Call SubSystem: '<S1>/controlling1'
-        ros2_imu_B.control1 = ros2_imu_P.control1_Value;
-
         // BusAssignment: '<S4>/Bus Assignment' incorporates:
         //   Constant: '<S4>/Constant'
         //   Constant: '<S4>/control1'
+        //   Constant: '<S4>/pitch perturb'
+        //   Gain: '<S4>/Gain'
         //   Sum: '<S4>/Add'
+        //   Sum: '<S4>/Add1'
+        //   Trigonometry: '<S4>/Sin'
 
-        rtb_BusAssignment_hl.data = ros2_imu_P.Constant_Value_o +
-          ros2_imu_B.control1;
+        rtb_BusAssignment_hl.data = ros2_imu_P.Constant_Value_o -
+          ((ros2_imu_P.pitchperturb_Value + ros2_imu_P.control1_Value) + sin
+           (ros2_imu_P.Gain_Gain * ros2_imu_B.Theta));
 
         // MATLABSystem: '<S8>/SinkBlock'
         Pub_ros2_imu_41__183.publish(&rtb_BusAssignment_hl);
@@ -389,7 +520,6 @@ void ros2_imu_step(void)
   }
 
   // End of Chart: '<Root>/Chart'
-
   // Constant: '<Root>/Yaw Motor'
   ros2_imu_B.YawMotor = ros2_imu_P.YawMotor_Value;
 
@@ -457,10 +587,12 @@ void ros2_imu_step(void)
         // BusAssignment: '<S13>/Bus Assignment' incorporates:
         //   Constant: '<S13>/Constant1'
         //   Constant: '<S13>/Constant2'
+        //   Constant: '<S13>/yaw perturb'
         //   Sum: '<S13>/Add'
+        //   Sum: '<S13>/Add1'
 
-        rtb_BusAssignment.data = ros2_imu_P.Constant1_Value -
-          ros2_imu_P.Constant2_Value;
+        rtb_BusAssignment.data = (ros2_imu_P.yawperturb_Value +
+          ros2_imu_P.Constant2_Value) + ros2_imu_P.Constant1_Value;
 
         // MATLABSystem: '<S17>/SinkBlock'
         Pub_ros2_imu_119__185.publish(&rtb_BusAssignment);
@@ -488,50 +620,38 @@ void ros2_imu_step(void)
   }
 
   // End of Chart: '<Root>/Chart1'
+  if (ros2_imu_M->Timing.TaskCounters.TID[1] == 0) {
+    // MATLABSystem: '<S24>/SourceBlock'
+    serverAvailableOnTime = Sub_ros2_imu_163.getLatestMessage
+      (&ros2_imu_B.b_varargout_2_m);
 
-  // MATLABSystem: '<S23>/SourceBlock'
-  serverAvailableOnTime = Sub_ros2_imu_135.getLatestMessage(&b_varargout_2);
+    // Outputs for Enabled SubSystem: '<S24>/Enabled Subsystem' incorporates:
+    //   EnablePort: '<S27>/Enable'
 
-  // Outputs for Enabled SubSystem: '<S23>/Enabled Subsystem' incorporates:
-  //   EnablePort: '<S25>/Enable'
+    // Start for MATLABSystem: '<S24>/SourceBlock'
+    if (serverAvailableOnTime) {
+      // SignalConversion generated from: '<S27>/In1'
+      ros2_imu_B.In1_b = ros2_imu_B.b_varargout_2_m;
+      srUpdateBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC);
+    }
 
-  // Start for MATLABSystem: '<S23>/SourceBlock'
-  if (serverAvailableOnTime) {
-    // SignalConversion generated from: '<S25>/In1'
-    ros2_imu_B.In1 = b_varargout_2;
-    srUpdateBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC);
+    // End of Start for MATLABSystem: '<S24>/SourceBlock'
+    // End of Outputs for SubSystem: '<S24>/Enabled Subsystem'
+
+    // Trigonometry: '<S22>/Atan2'
+    ros2_imu_B.Atan2 = rt_atan2d_snf(ros2_imu_B.In1_b.magnetic_field.x,
+      ros2_imu_B.In1_b.magnetic_field.y);
   }
-
-  // End of Start for MATLABSystem: '<S23>/SourceBlock'
-  // End of Outputs for SubSystem: '<S23>/Enabled Subsystem'
-
-  // SignalConversion generated from: '<S3>/Bus Selector1'
-  ros2_imu_B.y = ros2_imu_B.In1.y;
-
-  // MATLABSystem: '<S22>/SourceBlock'
-  serverAvailableOnTime = Sub_ros2_imu_107.getLatestMessage(&b_varargout_2);
-
-  // Outputs for Enabled SubSystem: '<S22>/Enabled Subsystem' incorporates:
-  //   EnablePort: '<S24>/Enable'
-
-  // Start for MATLABSystem: '<S22>/SourceBlock'
-  if (serverAvailableOnTime) {
-    // SignalConversion generated from: '<S24>/In1'
-    ros2_imu_B.In1_i = b_varargout_2;
-    srUpdateBC(ros2_imu_DW.EnabledSubsystem_SubsysRanBC_m);
-  }
-
-  // End of Start for MATLABSystem: '<S22>/SourceBlock'
-  // End of Outputs for SubSystem: '<S22>/Enabled Subsystem'
-
-  // SignalConversion generated from: '<S3>/Bus Selector'
-  ros2_imu_B.z = ros2_imu_B.In1_i.z;
 
   // External mode
-  rtExtModeUploadCheckTrigger(1);
+  rtExtModeUploadCheckTrigger(2);
 
   {                                    // Sample time: [0.01s, 0.0s]
     rtExtModeUpload(0, (real_T)ros2_imu_M->Timing.taskTime0);
+  }
+
+  if (ros2_imu_M->Timing.TaskCounters.TID[1] == 0) {// Sample time: [0.05s, 0.0s] 
+    rtExtModeUpload(1, (real_T)((ros2_imu_M->Timing.clockTick1) * 0.05));
   }
 
   // signal main to stop simulation
@@ -555,25 +675,39 @@ void ros2_imu_step(void)
 
   ros2_imu_M->Timing.taskTime0 =
     ((time_T)(++ros2_imu_M->Timing.clockTick0)) * ros2_imu_M->Timing.stepSize0;
+  if (ros2_imu_M->Timing.TaskCounters.TID[1] == 0) {
+    // Update absolute timer for sample time: [0.05s, 0.0s]
+    // The "clockTick1" counts the number of times the code of this task has
+    //  been executed. The resolution of this integer timer is 0.05, which is the step size
+    //  of the task. Size of "clockTick1" ensures timer will not overflow during the
+    //  application lifespan selected.
+
+    ros2_imu_M->Timing.clockTick1++;
+  }
+
+  rate_scheduler();
 }
 
 // Model initialize function
 void ros2_imu_initialize(void)
 {
   // Registration code
+
+  // initialize non-finites
+  rt_InitInfAndNaN(sizeof(real_T));
   rtmSetTFinal(ros2_imu_M, -1);
   ros2_imu_M->Timing.stepSize0 = 0.01;
 
   // External mode info
-  ros2_imu_M->Sizes.checksums[0] = (260081135U);
-  ros2_imu_M->Sizes.checksums[1] = (1944773954U);
-  ros2_imu_M->Sizes.checksums[2] = (41118350U);
-  ros2_imu_M->Sizes.checksums[3] = (3310945535U);
+  ros2_imu_M->Sizes.checksums[0] = (2199806912U);
+  ros2_imu_M->Sizes.checksums[1] = (1308447422U);
+  ros2_imu_M->Sizes.checksums[2] = (2948224293U);
+  ros2_imu_M->Sizes.checksums[3] = (2105424795U);
 
   {
     static const sysRanDType rtAlwaysEnabled = SUBSYS_RAN_BC_ENABLE;
     static RTWExtModeInfo rt_ExtModeInfo;
-    static const sysRanDType *systemRan[23];
+    static const sysRanDType *systemRan[24];
     ros2_imu_M->extModeInfo = (&rt_ExtModeInfo);
     rteiSetSubSystemActiveVectorAddresses(&rt_ExtModeInfo, systemRan);
     systemRan[0] = &rtAlwaysEnabled;
@@ -595,10 +729,11 @@ void ros2_imu_initialize(void)
     systemRan[16] = (sysRanDType *)&ros2_imu_DW.sendArmSignal2_SubsysRanBC;
     systemRan[17] = (sysRanDType *)&ros2_imu_DW.sendArmSignal2_SubsysRanBC;
     systemRan[18] = &rtAlwaysEnabled;
-    systemRan[19] = (sysRanDType *)&ros2_imu_DW.EnabledSubsystem_SubsysRanBC_m;
+    systemRan[19] = (sysRanDType *)&ros2_imu_DW.EnabledSubsystem_SubsysRanBC_a;
     systemRan[20] = &rtAlwaysEnabled;
     systemRan[21] = (sysRanDType *)&ros2_imu_DW.EnabledSubsystem_SubsysRanBC;
     systemRan[22] = &rtAlwaysEnabled;
+    systemRan[23] = &rtAlwaysEnabled;
     rteiSetModelMappingInfoPtr(ros2_imu_M->extModeInfo,
       &ros2_imu_M->SpecialInfo.mappingInfo);
     rteiSetChecksumsPtr(ros2_imu_M->extModeInfo, ros2_imu_M->Sizes.checksums);
@@ -609,7 +744,7 @@ void ros2_imu_initialize(void)
   {
     static DataTypeTransInfo dtInfo;
     ros2_imu_M->SpecialInfo.mappingInfo = (&dtInfo);
-    dtInfo.numDataTypes = 26;
+    dtInfo.numDataTypes = 32;
     dtInfo.dataTypeSizes = &rtDataTypeSizes[0];
     dtInfo.dataTypeNames = &rtDataTypeNames[0];
 
@@ -625,6 +760,14 @@ void ros2_imu_initialize(void)
 
   // Start for Constant: '<Root>/Yaw Motor'
   ros2_imu_B.YawMotor = ros2_imu_P.YawMotor_Value;
+
+  // SystemInitialize for Enabled SubSystem: '<S23>/Enabled Subsystem'
+  // SystemInitialize for SignalConversion generated from: '<S26>/In1' incorporates:
+  //   Outport: '<S26>/Out1'
+
+  ros2_imu_B.In1 = ros2_imu_P.Out1_Y0;
+
+  // End of SystemInitialize for SubSystem: '<S23>/Enabled Subsystem'
   ros2_imu_DW.y1 = ros2_imu_P.Chart_y1;
 
   // SystemInitialize for Chart: '<Root>/Chart' incorporates:
@@ -635,6 +778,10 @@ void ros2_imu_initialize(void)
   ros2_imu_SystemCore_setup(&ros2_imu_DW.obj_m);
 
   // End of SystemInitialize for SubSystem: '<S6>/Call Service'
+
+  // SystemInitialize for Chart: '<Root>/Chart' incorporates:
+  //   SubSystem: '<S1>/controlling1'
+
   // Start for MATLABSystem: '<S8>/SinkBlock'
   ros2_imu_SystemCore_setup_j(&ros2_imu_DW.obj_i);
 
@@ -671,32 +818,31 @@ void ros2_imu_initialize(void)
 
   // End of SystemInitialize for SubSystem: '<S14>/Call Service'
 
-  // SystemInitialize for Enabled SubSystem: '<S23>/Enabled Subsystem'
-  // SystemInitialize for SignalConversion generated from: '<S25>/In1' incorporates:
-  //   Outport: '<S25>/Out1'
+  // SystemInitialize for Enabled SubSystem: '<S24>/Enabled Subsystem'
+  // SystemInitialize for SignalConversion generated from: '<S27>/In1' incorporates:
+  //   Outport: '<S27>/Out1'
 
-  ros2_imu_B.In1 = ros2_imu_P.Out1_Y0_l;
+  ros2_imu_B.In1_b = ros2_imu_P.Out1_Y0_k;
 
-  // End of SystemInitialize for SubSystem: '<S23>/Enabled Subsystem'
-
-  // SystemInitialize for Enabled SubSystem: '<S22>/Enabled Subsystem'
-  // SystemInitialize for SignalConversion generated from: '<S24>/In1' incorporates:
-  //   Outport: '<S24>/Out1'
-
-  ros2_imu_B.In1_i = ros2_imu_P.Out1_Y0;
-
-  // End of SystemInitialize for SubSystem: '<S22>/Enabled Subsystem'
+  // End of SystemInitialize for SubSystem: '<S24>/Enabled Subsystem'
 
   // Start for MATLABSystem: '<S23>/SourceBlock'
-  ros2_i_SystemCore_setup_jy4g0dg(&ros2_imu_DW.obj_a);
+  ros2_im_SystemCore_setup_jy4g0d(&ros2_imu_DW.obj_lg);
 
-  // Start for MATLABSystem: '<S22>/SourceBlock'
-  ros2_im_SystemCore_setup_jy4g0d(&ros2_imu_DW.obj_l0);
+  // Start for MATLABSystem: '<S24>/SourceBlock'
+  ros2_i_SystemCore_setup_jy4g0dg(&ros2_imu_DW.obj_lh);
 }
 
 // Model terminate function
 void ros2_imu_terminate(void)
 {
+  // Terminate for MATLABSystem: '<S23>/SourceBlock'
+  if (!ros2_imu_DW.obj_lg.matlabCodegenIsDeleted) {
+    ros2_imu_DW.obj_lg.matlabCodegenIsDeleted = true;
+  }
+
+  // End of Terminate for MATLABSystem: '<S23>/SourceBlock'
+
   // Terminate for Chart: '<Root>/Chart' incorporates:
   //   SubSystem: '<S1>/sendArmSignal1'
 
@@ -718,6 +864,10 @@ void ros2_imu_terminate(void)
   }
 
   // End of Terminate for MATLABSystem: '<S8>/SinkBlock'
+
+  // Terminate for Chart: '<Root>/Chart' incorporates:
+  //   SubSystem: '<S1>/killEsc1'
+
   // Terminate for Atomic SubSystem: '<S5>/Call Service'
   // Terminate for MATLABSystem: '<S10>/ServiceCaller'
   if (!ros2_imu_DW.obj_ly.matlabCodegenIsDeleted) {
@@ -761,19 +911,12 @@ void ros2_imu_terminate(void)
   // End of Terminate for MATLABSystem: '<S19>/ServiceCaller'
   // End of Terminate for SubSystem: '<S14>/Call Service'
 
-  // Terminate for MATLABSystem: '<S23>/SourceBlock'
-  if (!ros2_imu_DW.obj_a.matlabCodegenIsDeleted) {
-    ros2_imu_DW.obj_a.matlabCodegenIsDeleted = true;
+  // Terminate for MATLABSystem: '<S24>/SourceBlock'
+  if (!ros2_imu_DW.obj_lh.matlabCodegenIsDeleted) {
+    ros2_imu_DW.obj_lh.matlabCodegenIsDeleted = true;
   }
 
-  // End of Terminate for MATLABSystem: '<S23>/SourceBlock'
-
-  // Terminate for MATLABSystem: '<S22>/SourceBlock'
-  if (!ros2_imu_DW.obj_l0.matlabCodegenIsDeleted) {
-    ros2_imu_DW.obj_l0.matlabCodegenIsDeleted = true;
-  }
-
-  // End of Terminate for MATLABSystem: '<S22>/SourceBlock'
+  // End of Terminate for MATLABSystem: '<S24>/SourceBlock'
 }
 
 //

@@ -1,0 +1,24 @@
+[12.820s] Invoking command in '/home/ubuntu/ros2_ws/src/esc_pkg': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu PYTHONPATH=/home/ubuntu/ros2_ws/build/esc_pkg/prefix_override:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esc_pkg build --build-base /home/ubuntu/ros2_ws/build/esc_pkg/build install --record /home/ubuntu/ros2_ws/build/esc_pkg/install.log --single-version-externally-managed install_data
+[17.273s] running egg_info
+[17.282s] writing ../../build/esc_pkg/esc_pkg.egg-info/PKG-INFO
+[17.289s] writing dependency_links to ../../build/esc_pkg/esc_pkg.egg-info/dependency_links.txt
+[17.290s] writing entry points to ../../build/esc_pkg/esc_pkg.egg-info/entry_points.txt
+[17.294s] writing requirements to ../../build/esc_pkg/esc_pkg.egg-info/requires.txt
+[17.302s] writing top-level names to ../../build/esc_pkg/esc_pkg.egg-info/top_level.txt
+[17.319s] reading manifest file '../../build/esc_pkg/esc_pkg.egg-info/SOURCES.txt'
+[17.334s] writing manifest file '../../build/esc_pkg/esc_pkg.egg-info/SOURCES.txt'
+[17.335s] running build
+[17.337s] running build_py
+[17.338s] copying esc_pkg/esc_node.py -> /home/ubuntu/ros2_ws/build/esc_pkg/build/lib/esc_pkg
+[17.340s] running install
+[17.341s] running install_lib
+[17.356s] copying /home/ubuntu/ros2_ws/build/esc_pkg/build/lib/esc_pkg/esc_node.py -> /home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages/esc_pkg
+[17.357s] byte-compiling /home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages/esc_pkg/esc_node.py to esc_node.cpython-310.pyc
+[17.365s] running install_data
+[17.372s] running install_egg_info
+[17.387s] removing '/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages/esc_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[17.392s] Copying ../../build/esc_pkg/esc_pkg.egg-info to /home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages/esc_pkg-0.0.0-py3.10.egg-info
+[17.411s] running install_scripts
+[17.635s] Installing esc_node script to /home/ubuntu/ros2_ws/install/esc_pkg/lib/esc_pkg
+[17.637s] writing list of installed files to '/home/ubuntu/ros2_ws/build/esc_pkg/install.log'
+[17.865s] Invoked command in '/home/ubuntu/ros2_ws/src/esc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu PYTHONPATH=/home/ubuntu/ros2_ws/build/esc_pkg/prefix_override:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esc_pkg build --build-base /home/ubuntu/ros2_ws/build/esc_pkg/build install --record /home/ubuntu/ros2_ws/build/esc_pkg/install.log --single-version-externally-managed install_data

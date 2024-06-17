@@ -4,6 +4,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
 from geometry_msgs.msg import Vector3
+import numpy as np
 
 class LSM6DSO(Node): 
     def __init__(self):
@@ -12,7 +13,7 @@ class LSM6DSO(Node):
         # LSM6DSO Register addresses
         self.WHO_AM_I = 0x0F
         self.CTRL1_XL = 0x10
-        self.CTRL2_G = 0x11
+        self.CTRL2_G  = 0x4C
         self.OUTX_L_G = 0x22
         self.OUTX_H_G = 0x23
         self.OUTY_L_G = 0x24
@@ -27,8 +28,10 @@ class LSM6DSO(Node):
         self.OUTZ_H_A = 0x2D
         
         self.bus = smbus2.SMBus(1)  # 1 indicates /dev/i2c-1
-        self.sensitivity_gyro = 70.0 / 1000 # (mdps / LSB)
+        self.sensitivity_gyro = 70.0 / 1000 # (dps / LSB)
         self.sensitivity_acc = 0.061 / 1000 # (milligravity / LSB)
+        self.gyr_conv = (np.pi/180) # (mdps 2 rad/s)
+        self.acc_conv = 9.81 # (g 2 mps2)
         
         self.acc_msg = Vector3()
         self.imu_msg = Imu()
@@ -68,7 +71,7 @@ class LSM6DSO(Node):
         gyro_z = self.read_word_2c(self.OUTZ_L_G)
         
         gyro_raw = [gyro_x, gyro_y, gyro_z]
-        gyro_conv = [a* self.sensitivity_gyro for a in gyro_raw]
+        gyro_conv = [a*self.sensitivity_gyro*self.gyr_conv for a in gyro_raw]
         self.gyro_msg.x = gyro_conv[0] 
         self.gyro_msg.y = gyro_conv[1]
         self.gyro_msg.z = gyro_conv[2]
@@ -79,7 +82,7 @@ class LSM6DSO(Node):
         acc_z = self.read_word_2c(self.OUTZ_L_A)
         
         acc_raw = [acc_x, acc_y, acc_z]
-        acc_conv = [a*self.sensitivity_acc for a in acc_raw]
+        acc_conv = [a*self.sensitivity_acc*self.acc_conv for a in acc_raw]
         acc_conv = acc_conv 
         self.acc_msg.x = acc_conv[0]
         self.acc_msg.y = acc_conv[1]

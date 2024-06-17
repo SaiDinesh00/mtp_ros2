@@ -4,9 +4,9 @@
 //
 // Code generated for Simulink model 'ros2_imu'.
 //
-// Model version                  : 1.13
+// Model version                  : 1.17
 // Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
-// C/C++ source code generated on : Fri Jun 14 05:25:54 2024
+// C/C++ source code generated on : Sun Jun 16 23:12:08 2024
 //
 #ifndef _ROS2_MATLAB_NODEINTERFACE_
 #define _ROS2_MATLAB_NODEINTERFACE_
@@ -30,7 +30,8 @@
 #include "ros2_imu_types.h"
 #include "slros_busmsg_conversion.h"
 #include "aerobot_interfaces/srv/esc_srv.hpp"
-#include "geometry_msgs/msg/vector3.hpp"
+#include "sensor_msgs/msg/imu.hpp"
+#include "sensor_msgs/msg/magnetic_field.hpp"
 #include "std_msgs/msg/int64.hpp"
 extern rclcpp::Node::SharedPtr SLROSNodePtr;
 namespace ros2 {

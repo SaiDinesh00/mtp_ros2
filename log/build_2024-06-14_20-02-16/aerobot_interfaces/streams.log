@@ -1,0 +1,179 @@
+[0.127s] Invoking command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/aerobot_interfaces -- -j4 -l4
+[0.893s] [  2%] Built target aerobot_interfaces__cpp
+[1.297s] [  2%] Built target ament_cmake_python_copy_aerobot_interfaces
+[1.505s] [ 12%] Built target aerobot_interfaces__rosidl_typesupport_introspection_cpp
+[1.790s] [ 23%] Built target aerobot_interfaces__rosidl_typesupport_cpp
+[7.903s] running egg_info
+[7.915s] writing aerobot_interfaces.egg-info/PKG-INFO
+[7.916s] writing dependency_links to aerobot_interfaces.egg-info/dependency_links.txt
+[7.930s] writing top-level names to aerobot_interfaces.egg-info/top_level.txt
+[7.950s] reading manifest file 'aerobot_interfaces.egg-info/SOURCES.txt'
+[7.961s] writing manifest file 'aerobot_interfaces.egg-info/SOURCES.txt'
+[8.227s] [ 23%] Built target ament_cmake_python_build_aerobot_interfaces_egg
+[8.593s] [ 33%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.939s] [ 43%] Built target aerobot_interfaces__rosidl_generator_c
+[9.285s] [ 53%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_c
+[9.801s] [ 64%] Built target aerobot_interfaces__rosidl_typesupport_c
+[10.059s] [ 74%] Built target aerobot_interfaces__rosidl_typesupport_introspection_c
+[10.299s] [ 74%] Built target aerobot_interfaces
+[10.569s] [ 76%] Built target aerobot_interfaces__py
+[10.931s] [ 84%] Built target aerobot_interfaces__rosidl_generator_py
+[11.252s] [ 89%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.648s] [ 94%] Built target aerobot_interfaces__rosidl_typesupport_c__pyext
+[12.147s] [100%] Built target aerobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.316s] Invoked command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/aerobot_interfaces -- -j4 -l4
+[14.399s] Invoking command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/aerobot_interfaces
+[14.515s] -- Install configuration: ""
+[14.521s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/aerobot_interfaces
+[14.524s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces
+[14.528s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv
+[14.532s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.h
+[14.535s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail
+[14.539s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.h
+[14.543s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__functions.c
+[14.547s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__type_support.h
+[14.551s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__functions.h
+[14.554s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg
+[14.558s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.h
+[14.561s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail
+[14.565s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__functions.c
+[14.570s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.h
+[14.579s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__functions.h
+[14.583s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__type_support.h
+[14.587s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.591s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/library_path.sh
+[14.606s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/library_path.dsv
+[14.613s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_c.so
+[14.619s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces
+[14.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv
+[14.627s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail
+[14.631s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h
+[14.655s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg
+[14.661s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.668s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail
+[14.672s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_fastrtps_c.h
+[14.685s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.701s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces
+[14.705s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv
+[14.709s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail
+[14.723s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__type_support.c
+[14.727s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_introspection_c.h
+[14.730s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg
+[14.734s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail
+[14.738s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__type_support.c
+[14.742s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_introspection_c.h
+[14.746s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.752s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_c.so
+[14.764s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_c.so
+[14.770s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces
+[14.775s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv
+[14.780s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/esc_srv.hpp
+[14.783s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail
+[14.787s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__traits.hpp
+[14.792s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__builder.hpp
+[14.795s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__struct.hpp
+[14.798s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg
+[14.803s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/esc_msg.hpp
+[14.816s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail
+[14.820s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__struct.hpp
+[14.826s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__builder.hpp
+[14.834s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__traits.hpp
+[14.837s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces
+[14.841s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv
+[14.845s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail
+[14.850s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/dds_fastrtps
+[14.867s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[14.870s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg
+[14.885s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.911s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail
+[14.924s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/dds_fastrtps
+[14.929s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[14.942s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.955s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces
+[14.964s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv
+[14.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail
+[14.968s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__type_support.cpp
+[14.970s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_introspection_cpp.hpp
+[14.973s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg
+[14.974s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail
+[14.976s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__type_support.cpp
+[14.978s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/include/aerobot_interfaces/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_introspection_cpp.hpp
+[14.980s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.985s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_typesupport_cpp.so
+[14.993s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/pythonpath.sh
+[14.997s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/pythonpath.dsv
+[14.999s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info
+[15.001s] -- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.007s] -- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.010s] -- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[15.014s] -- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[15.023s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces
+[15.025s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/__init__.py
+[15.027s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[15.029s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/libaerobot_interfaces__rosidl_generator_py.so
+[15.043s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[15.044s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.046s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv
+[15.048s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/__init__.py
+[15.050s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc_srv_s.c
+[15.052s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv/_esc_srv.py
+[15.056s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_c.c
+[15.057s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.059s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[15.061s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg
+[15.062s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc_msg.py
+[15.065s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/__init__.py
+[15.068s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg/_esc_msg_s.c
+[15.827s] Listing '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces'...
+[15.828s] Listing '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/msg'...
+[15.836s] Listing '/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/srv'...
+[15.915s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[15.934s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[15.951s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages/aerobot_interfaces/aerobot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[15.991s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/libaerobot_interfaces__rosidl_generator_py.so
+[16.003s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv.idl
+[16.011s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/msg/EscMsg.idl
+[16.020s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv.srv
+[16.028s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv_Request.msg
+[16.035s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/srv/EscSrv_Response.msg
+[16.039s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/msg/EscMsg.msg
+[16.048s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/package_run_dependencies/aerobot_interfaces
+[16.053s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/parent_prefix_path/aerobot_interfaces
+[16.056s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/ament_prefix_path.sh
+[16.071s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/ament_prefix_path.dsv
+[16.075s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/path.sh
+[16.088s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/environment/path.dsv
+[16.092s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.bash
+[16.096s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.sh
+[16.105s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.zsh
+[16.109s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/local_setup.dsv
+[16.113s] -- Installing: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.dsv
+[16.128s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/ament_index/resource_index/packages/aerobot_interfaces
+[16.133s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_cExport.cmake
+[16.137s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.153s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.158s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.163s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.167s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.172s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cExport.cmake
+[16.176s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.182s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_cppExport.cmake
+[16.198s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.205s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.213s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.218s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.237s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cppExport.cmake
+[16.241s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.254s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_pyExport.cmake
+[16.258s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/export_aerobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.265s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.271s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.276s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.285s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.296s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.306s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.323s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfacesConfig.cmake
+[16.325s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/cmake/aerobot_interfacesConfig-version.cmake
+[16.326s] -- Up-to-date: /home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.xml
+[16.347s] Invoked command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/aerobot_interfaces
