@@ -25,12 +25,6 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
-            package='lsm6dso',
-            executable='calibrate_gyro',
-            name='calibrate',
-            output='screen'
-        ),
-        Node(
             package='bmm150_sensor',
             executable='bmm150',
             name='mag_node',
@@ -42,26 +36,5 @@ def generate_launch_description():
             name='esc_node',
             output='screen'
         ),
-        Node(
-            package='my_ahrs',
-            executable='cf_node',
-            name='cf_node',
-            output='screen'
-        ),
-        Node(
-            package='my_ahrs',
-            executable='mad_node',
-            name='mad_node',
-            output='screen'
-        ),
-        Node(
-            package='my_ahrs',
-            executable='ekf_node',
-            name='ekf_node',
-            output='screen',
-            parameters=[
-                {'imu_topic': LaunchConfiguration('imu_topic')},
-                {'mag_topic': LaunchConfiguration('mag_topic')}
-            ]
-        ),
+        
     ])
