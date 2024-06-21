@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.015183] (aerobot_interfaces) JobQueued: {'identifier': 'aerobot_interfaces', 'dependencies': OrderedDict()}
+[0.015660] (bmm150_sensor) JobQueued: {'identifier': 'bmm150_sensor', 'dependencies': OrderedDict()}
+[0.015928] (lsm6dso) JobQueued: {'identifier': 'lsm6dso', 'dependencies': OrderedDict()}
+[0.016184] (my_ahrs) JobQueued: {'identifier': 'my_ahrs', 'dependencies': OrderedDict()}
+[0.016458] (testing_ros) JobQueued: {'identifier': 'testing_ros', 'dependencies': OrderedDict()}
+[0.016735] (testing_ros2) JobQueued: {'identifier': 'testing_ros2', 'dependencies': OrderedDict()}
+[0.017001] (complementary_filter_ros2) JobQueued: {'identifier': 'complementary_filter_ros2', 'dependencies': OrderedDict([('aerobot_interfaces', '/home/ubuntu/ros2_ws/install/aerobot_interfaces')])}
+[0.017286] (esc_pkg) JobQueued: {'identifier': 'esc_pkg', 'dependencies': OrderedDict([('aerobot_interfaces', '/home/ubuntu/ros2_ws/install/aerobot_interfaces')])}
+[0.017556] (pid_control_aerobot) JobQueued: {'identifier': 'pid_control_aerobot', 'dependencies': OrderedDict([('aerobot_interfaces', '/home/ubuntu/ros2_ws/install/aerobot_interfaces')])}
+[0.017805] (ros2_imu) JobQueued: {'identifier': 'ros2_imu', 'dependencies': OrderedDict([('aerobot_interfaces', '/home/ubuntu/ros2_ws/install/aerobot_interfaces')])}
+[0.018104] (aerobot_interfaces) JobStarted: {'identifier': 'aerobot_interfaces'}
+[0.102810] (-) TimerEvent: {}
+[0.216039] (bmm150_sensor) JobStarted: {'identifier': 'bmm150_sensor'}
+[0.218184] (-) TimerEvent: {}
+[0.322544] (-) TimerEvent: {}
+[0.366596] (lsm6dso) JobStarted: {'identifier': 'lsm6dso'}
+[0.430691] (-) TimerEvent: {}
+[0.466588] (my_ahrs) JobStarted: {'identifier': 'my_ahrs'}
+[0.531813] (-) TimerEvent: {}
+[0.590601] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'cmake'}
+[0.626592] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'build'}
+[0.627187] (aerobot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/aerobot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/aerobot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 51776 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ec95b0cc-832d-4dc9-b05e-cca1cfb8c45c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a16b5b024b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/bmm150_sensor:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/aerobot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 51776 192.168.0.122 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[0.682851] (-) TimerEvent: {}
+[0.791931] (-) TimerEvent: {}
+[0.896284] (-) TimerEvent: {}
+[1.008931] (-) TimerEvent: {}
+[1.121760] (-) TimerEvent: {}
+[1.226200] (-) TimerEvent: {}
+[1.330607] (-) TimerEvent: {}
+[1.433904] (-) TimerEvent: {}
+[1.537286] (-) TimerEvent: {}
+[1.641340] (-) TimerEvent: {}
+[1.744594] (-) TimerEvent: {}
+[1.846719] (-) TimerEvent: {}
+[1.956752] (-) TimerEvent: {}
+[2.061790] (-) TimerEvent: {}
+[2.164608] (-) TimerEvent: {}
+[2.268113] (-) TimerEvent: {}
+[2.374619] (-) TimerEvent: {}
+[2.481330] (-) TimerEvent: {}
+[2.584705] (-) TimerEvent: {}
+[2.689056] (-) TimerEvent: {}
+[2.791572] (-) TimerEvent: {}
+[2.895115] (-) TimerEvent: {}
+[3.002583] (-) TimerEvent: {}
+[3.116198] (-) TimerEvent: {}
+[3.219240] (-) TimerEvent: {}
+[3.326647] (-) TimerEvent: {}
+[3.430684] (-) TimerEvent: {}
+[3.534584] (-) TimerEvent: {}
+[3.637397] (-) TimerEvent: {}
+[3.742644] (-) TimerEvent: {}
+[3.847156] (-) TimerEvent: {}
+[3.951300] (-) TimerEvent: {}
+[4.056857] (-) TimerEvent: {}
+[4.161091] (-) TimerEvent: {}
+[4.266623] (-) TimerEvent: {}
+[4.370682] (-) TimerEvent: {}
+[4.474582] (-) TimerEvent: {}
+[4.576277] (-) TimerEvent: {}
+[4.678054] (-) TimerEvent: {}
+[4.781542] (-) TimerEvent: {}
+[4.888289] (-) TimerEvent: {}
+[4.996244] (-) TimerEvent: {}
+[5.099159] (-) TimerEvent: {}
+[5.202269] (-) TimerEvent: {}
+[5.305142] (-) TimerEvent: {}
+[5.408054] (-) TimerEvent: {}
+[5.516032] (-) TimerEvent: {}
+[5.623262] (-) TimerEvent: {}
+[5.727712] (-) TimerEvent: {}
+[5.837781] (-) TimerEvent: {}
+[5.942489] (-) TimerEvent: {}
+[6.046555] (-) TimerEvent: {}
+[6.154641] (-) TimerEvent: {}
+[6.258093] (-) TimerEvent: {}
+[6.361450] (-) TimerEvent: {}
+[6.470413] (-) TimerEvent: {}
+[6.578550] (-) TimerEvent: {}
+[6.680272] (-) TimerEvent: {}
+[6.781705] (-) TimerEvent: {}
+[6.883369] (-) TimerEvent: {}
+[6.984868] (-) TimerEvent: {}
+[7.086666] (-) TimerEvent: {}
+[7.198552] (-) TimerEvent: {}
+[7.304668] (-) TimerEvent: {}
+[7.417487] (-) TimerEvent: {}
+[7.522007] (-) TimerEvent: {}
+[7.624905] (-) TimerEvent: {}
+[7.727675] (-) TimerEvent: {}
+[7.835336] (-) TimerEvent: {}
+[7.939273] (-) TimerEvent: {}
+[8.043412] (-) TimerEvent: {}
+[8.152069] (-) TimerEvent: {}
+[8.255158] (-) TimerEvent: {}
+[8.360421] (-) TimerEvent: {}
+[8.467615] (-) TimerEvent: {}
+[8.574556] (-) TimerEvent: {}
+[8.676062] (-) TimerEvent: {}
+[8.777629] (-) TimerEvent: {}
+[8.879181] (-) TimerEvent: {}
+[8.980748] (-) TimerEvent: {}
+[9.082537] (-) TimerEvent: {}
+[9.184084] (-) TimerEvent: {}
+[9.285694] (-) TimerEvent: {}
+[9.388242] (-) TimerEvent: {}
+[9.489749] (-) TimerEvent: {}
+[9.591290] (-) TimerEvent: {}
+[9.692723] (-) TimerEvent: {}
+[9.794364] (-) TimerEvent: {}
+[9.895922] (-) TimerEvent: {}
+[9.997285] (-) TimerEvent: {}
+[10.101085] (-) TimerEvent: {}
+[10.202639] (-) TimerEvent: {}
+[10.307475] (-) TimerEvent: {}
+[10.409950] (-) TimerEvent: {}
+[10.511480] (-) TimerEvent: {}
+[10.612928] (-) TimerEvent: {}
+[10.714452] (-) TimerEvent: {}
+[10.817999] (-) TimerEvent: {}
+[10.919558] (-) TimerEvent: {}
+[11.020966] (-) TimerEvent: {}
+[11.123847] (-) TimerEvent: {}
+[11.227356] (-) TimerEvent: {}
+[11.328876] (-) TimerEvent: {}
+[11.433658] (-) TimerEvent: {}
+[11.535306] (-) TimerEvent: {}
+[11.639032] (-) TimerEvent: {}
+[11.740563] (-) TimerEvent: {}
+[11.842382] (-) TimerEvent: {}
+[11.945011] (-) TimerEvent: {}
+[12.050807] (-) TimerEvent: {}
+[12.153085] (aerobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.157001] (-) TimerEvent: {}
+[12.160754] (aerobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[12.162736] (aerobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.173208] (aerobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.175287] (aerobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.176543] (aerobot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.177732] (aerobot_interfaces) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[12.184098] (aerobot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[12.185316] (aerobot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[12.186274] (aerobot_interfaces) StderrLine: {'line': b'  aerobot_interfaces --arguments-file\n'}
+[12.216413] (aerobot_interfaces) StderrLine: {'line': b'  /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter__arguments__aerobot_interfaces.json\n'}
+[12.217552] (aerobot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[12.218619] (aerobot_interfaces) StderrLine: {'line': b'  /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces\n'}
+[12.219789] (aerobot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[12.220829] (aerobot_interfaces) StderrLine: {'line': b'  /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces.idls)\n'}
+[12.221774] (aerobot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[12.228466] (aerobot_interfaces) StderrLine: {'line': b'\n'}
+[12.229671] (aerobot_interfaces) StderrLine: {'line': b"  Error processing 'geometry_msgs/msg/Point params' of\n"}
+[12.231007] (aerobot_interfaces) StderrLine: {'line': b"  'aerobot_interfaces/Calibrate_Response': 'geometry_msgs/msg/Point'\n"}
+[12.232214] (aerobot_interfaces) StderrLine: {'line': b'\n'}
+[12.233229] (aerobot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[12.234280] (aerobot_interfaces) StderrLine: {'line': b'\n'}
+[12.263596] (-) TimerEvent: {}
+[12.272425] (aerobot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[12.273790] (aerobot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[12.275144] (aerobot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[12.277116] (aerobot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[12.279513] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[12.280968] (aerobot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[12.282413] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[12.283799] (aerobot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[12.285098] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[12.286271] (aerobot_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[12.303742] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[12.304839] (aerobot_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[12.305849] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string\n'}
+[12.307026] (aerobot_interfaces) StderrLine: {'line': b'      response_message = parse_message_string(\n'}
+[12.308149] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[12.309303] (aerobot_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[12.322571] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[12.324549] (aerobot_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[12.326264] (aerobot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 190, in __init__\n'}
+[12.327622] (aerobot_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(type_string)\n'}
+[12.328652] (aerobot_interfaces) StderrLine: {'line': b'\n'}
+[12.329953] (aerobot_interfaces) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: geometry_msgs/msg/Point\n'}
+[12.351594] (aerobot_interfaces) StderrLine: {'line': b'\n'}
+[12.352814] (aerobot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[12.354066] (aerobot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[12.355320] (aerobot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[12.356577] (aerobot_interfaces) StderrLine: {'line': b'\n'}
+[12.357686] (aerobot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[12.358926] (aerobot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1179: cmake_check_build_system] Error 1\n'}
+[12.359827] (aerobot_interfaces) CommandEnded: {'returncode': 2}
+[12.372548] (-) TimerEvent: {}
+[12.488662] (-) TimerEvent: {}
+[12.591489] (-) TimerEvent: {}
+[12.698614] (-) TimerEvent: {}
+[12.802373] (-) TimerEvent: {}
+[12.906019] (-) TimerEvent: {}
+[13.010111] (-) TimerEvent: {}
+[13.112890] (-) TimerEvent: {}
+[13.218673] (-) TimerEvent: {}
+[13.322228] (-) TimerEvent: {}
+[13.428045] (-) TimerEvent: {}
+[13.538982] (-) TimerEvent: {}
+[13.645380] (-) TimerEvent: {}
+[13.749027] (-) TimerEvent: {}
+[13.852499] (-) TimerEvent: {}
+[13.956038] (-) TimerEvent: {}
+[14.059626] (-) TimerEvent: {}
+[14.163053] (-) TimerEvent: {}
+[14.268707] (-) TimerEvent: {}
+[14.372291] (-) TimerEvent: {}
+[14.480804] (-) TimerEvent: {}
+[14.584087] (-) TimerEvent: {}
+[14.691395] (-) TimerEvent: {}
+[14.793452] (-) TimerEvent: {}
+[14.897897] (-) TimerEvent: {}
+[15.002575] (-) TimerEvent: {}
+[15.104157] (-) TimerEvent: {}
+[15.208978] (-) TimerEvent: {}
+[15.312502] (-) TimerEvent: {}
+[15.418844] (-) TimerEvent: {}
+[15.520287] (-) TimerEvent: {}
+[15.621836] (-) TimerEvent: {}
+[15.723484] (-) TimerEvent: {}
+[15.824945] (-) TimerEvent: {}
+[15.926494] (-) TimerEvent: {}
+[16.028094] (-) TimerEvent: {}
+[16.129499] (-) TimerEvent: {}
+[16.230971] (-) TimerEvent: {}
+[16.332522] (-) TimerEvent: {}
+[16.435051] (-) TimerEvent: {}
+[16.536604] (-) TimerEvent: {}
+[16.639174] (-) TimerEvent: {}
+[16.741515] (-) TimerEvent: {}
+[16.843057] (-) TimerEvent: {}
+[16.944568] (-) TimerEvent: {}
+[17.046011] (-) TimerEvent: {}
+[17.147552] (-) TimerEvent: {}
+[17.249064] (-) TimerEvent: {}
+[17.353043] (-) TimerEvent: {}
+[17.454609] (-) TimerEvent: {}
+[17.556323] (-) TimerEvent: {}
+[17.661255] (-) TimerEvent: {}
+[17.766404] (-) TimerEvent: {}
+[17.870195] (-) TimerEvent: {}
+[17.982568] (-) TimerEvent: {}
+[18.095624] (-) TimerEvent: {}
+[18.205494] (-) TimerEvent: {}
+[18.314974] (-) TimerEvent: {}
+[18.417423] (-) TimerEvent: {}
+[18.433837] (aerobot_interfaces) JobEnded: {'identifier': 'aerobot_interfaces', 'rc': 2}
+[18.554751] (-) TimerEvent: {}
+[18.610567] (lsm6dso) JobEnded: {'identifier': 'lsm6dso', 'rc': 'SIGINT'}
+[18.630755] (my_ahrs) JobEnded: {'identifier': 'my_ahrs', 'rc': 'SIGINT'}
+[18.658996] (-) TimerEvent: {}
+[18.762625] (-) TimerEvent: {}
+[18.868000] (-) TimerEvent: {}
+[18.969351] (-) TimerEvent: {}
+[19.070784] (-) TimerEvent: {}
+[19.172131] (-) TimerEvent: {}
+[19.273483] (-) TimerEvent: {}
+[19.374993] (-) TimerEvent: {}
+[19.476592] (-) TimerEvent: {}
+[19.577935] (-) TimerEvent: {}
+[19.679262] (-) TimerEvent: {}
+[19.782258] (-) TimerEvent: {}
+[19.885810] (-) TimerEvent: {}
+[19.989068] (-) TimerEvent: {}
+[20.090419] (-) TimerEvent: {}
+[20.191769] (-) TimerEvent: {}
+[20.295040] (-) TimerEvent: {}
+[20.396423] (-) TimerEvent: {}
+[20.497802] (-) TimerEvent: {}
+[20.599174] (-) TimerEvent: {}
+[20.700565] (-) TimerEvent: {}
+[20.804905] (-) TimerEvent: {}
+[20.908668] (-) TimerEvent: {}
+[21.012201] (-) TimerEvent: {}
+[21.116397] (-) TimerEvent: {}
+[21.220232] (-) TimerEvent: {}
+[21.321711] (-) TimerEvent: {}
+[21.423117] (-) TimerEvent: {}
+[21.524962] (-) TimerEvent: {}
+[21.628972] (-) TimerEvent: {}
+[21.730750] (-) TimerEvent: {}
+[21.833996] (-) TimerEvent: {}
+[21.937155] (-) TimerEvent: {}
+[22.038578] (-) TimerEvent: {}
+[22.139989] (-) TimerEvent: {}
+[22.241292] (-) TimerEvent: {}
+[22.342743] (-) TimerEvent: {}
+[22.444329] (-) TimerEvent: {}
+[22.548536] (-) TimerEvent: {}
+[22.650078] (-) TimerEvent: {}
+[22.751686] (-) TimerEvent: {}
+[22.853021] (-) TimerEvent: {}
+[22.954654] (-) TimerEvent: {}
+[23.058659] (-) TimerEvent: {}
+[23.162574] (-) TimerEvent: {}
+[23.263913] (-) TimerEvent: {}
+[23.367155] (-) TimerEvent: {}
+[23.470201] (-) TimerEvent: {}
+[23.572526] (-) TimerEvent: {}
+[23.673847] (-) TimerEvent: {}
+[23.775602] (-) TimerEvent: {}
+[23.877080] (-) TimerEvent: {}
+[23.979157] (-) TimerEvent: {}
+[24.081484] (-) TimerEvent: {}
+[24.183280] (-) TimerEvent: {}
+[24.221842] (bmm150_sensor) JobEnded: {'identifier': 'bmm150_sensor', 'rc': 'SIGINT'}
+[24.237170] (testing_ros) JobSkipped: {'identifier': 'testing_ros'}
+[24.237653] (testing_ros2) JobSkipped: {'identifier': 'testing_ros2'}
+[24.237999] (complementary_filter_ros2) JobSkipped: {'identifier': 'complementary_filter_ros2'}
+[24.238301] (esc_pkg) JobSkipped: {'identifier': 'esc_pkg'}
+[24.238664] (pid_control_aerobot) JobSkipped: {'identifier': 'pid_control_aerobot'}
+[24.238941] (ros2_imu) JobSkipped: {'identifier': 'ros2_imu'}
+[24.239175] (-) EventReactorShutdown: {}

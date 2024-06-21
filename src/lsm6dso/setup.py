@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "lsm6dso = lsm6dso.sensor:main"
+            "lsm6dso = lsm6dso.sensor:main",
+            "calibrate_gyro = lsm6dso.calibrate:main"
         ],
     },
 )

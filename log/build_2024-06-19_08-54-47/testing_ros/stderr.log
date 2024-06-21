@@ -1,0 +1,8 @@
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-fpermissive[m[K’ is valid for C++/ObjC++ but not for C
+[01m[K/home/ubuntu/ros2_ws/src/testing_ros/src/testing_ros.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kemmintrin.h: No such file or directory
+   23 | #include [01;31m[K<emmintrin.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/testing_ros.dir/build.make:261: CMakeFiles/testing_ros.dir/src/testing_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/testing_ros.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

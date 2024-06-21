@@ -79,6 +79,7 @@ rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_type
 rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/aerobot_interfaces/srv/EscSrv.idl
 rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/aerobot_interfaces/msg/EscMsg.idl
+rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/aerobot_interfaces/srv/Calibrate.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
@@ -90,6 +91,12 @@ rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__rosidl_type
 
 rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp
 
 CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp.o: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp
@@ -119,16 +126,32 @@ CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp -o CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp.s
 
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o -MF CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o.d -o CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o -c /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp
+
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp > CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.i
+
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp -o CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.s
+
 # Object files for target aerobot_interfaces__rosidl_typesupport_fastrtps_c
 aerobot_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp.o" \
-"CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp.o"
+"CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp.o" \
+"CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o"
 
 # External object files for target aerobot_interfaces__rosidl_typesupport_fastrtps_c
 aerobot_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp.o
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp.o
+libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp.o
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -138,7 +161,7 @@ libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/lib
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libaerobot_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,6 +174,8 @@ CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/aerobot_interfaces/msg/detail/esc_msg__type_support_c.cpp
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/calibrate__type_support_c.cpp
 CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/aerobot_interfaces/srv/detail/esc_srv__type_support_c.cpp
 	cd /home/ubuntu/ros2_ws/build/aerobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/aerobot_interfaces /home/ubuntu/ros2_ws/src/aerobot_interfaces /home/ubuntu/ros2_ws/build/aerobot_interfaces /home/ubuntu/ros2_ws/build/aerobot_interfaces /home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles/aerobot_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)

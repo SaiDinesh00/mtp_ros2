@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aerobot_interfaces/srv/Calibrate.srv
+// generated code does not contain a copyright notice
+
+
+module aerobot_interfaces {
+  module srv {
+    struct Calibrate_Request {
+      boolean get_calibration_parameters;
+    };
+    struct Calibrate_Response {
+      double x;
+
+      double y;
+
+      double z;
+    };
+  };
+};

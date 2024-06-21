@@ -25,6 +25,12 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
+            package='lsm6dso',
+            executable='calibrate_gyro',
+            name='calibrate',
+            output='screen'
+        ),
+        Node(
             package='bmm150_sensor',
             executable='bmm150',
             name='mag_node',

@@ -364,6 +364,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aerobot_interfaces/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces/srv/Calibrate.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aerobot_interfaces/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws/src/aerobot_interfaces/srv/EscSrv.srv")
 endif()
 
@@ -377,6 +381,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aerobot_interfaces/msg" TYPE FILE FILES "/home/ubuntu/ros2_ws/src/aerobot_interfaces/msg/EscMsg.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aerobot_interfaces/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws/src/aerobot_interfaces/srv/Calibrate.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aerobot_interfaces/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_cmake/srv/Calibrate_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aerobot_interfaces/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_cmake/srv/Calibrate_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -70,6 +70,9 @@ CMakeFiles/aerobot_interfaces: /home/ubuntu/ros2_ws/src/aerobot_interfaces/srv/E
 CMakeFiles/aerobot_interfaces: rosidl_cmake/srv/EscSrv_Request.msg
 CMakeFiles/aerobot_interfaces: rosidl_cmake/srv/EscSrv_Response.msg
 CMakeFiles/aerobot_interfaces: /home/ubuntu/ros2_ws/src/aerobot_interfaces/msg/EscMsg.msg
+CMakeFiles/aerobot_interfaces: /home/ubuntu/ros2_ws/src/aerobot_interfaces/srv/Calibrate.srv
+CMakeFiles/aerobot_interfaces: rosidl_cmake/srv/Calibrate_Request.msg
+CMakeFiles/aerobot_interfaces: rosidl_cmake/srv/Calibrate_Response.msg
 
 aerobot_interfaces: CMakeFiles/aerobot_interfaces
 aerobot_interfaces: CMakeFiles/aerobot_interfaces.dir/build.make

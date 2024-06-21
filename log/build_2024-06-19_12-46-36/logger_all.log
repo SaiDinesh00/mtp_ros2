@@ -1,0 +1,395 @@
+[1.767s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--allow-overriding', 'aerobot_interfaces']
+[1.769s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['aerobot_interfaces'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb8b15990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb8c2aa70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb8c2aa70>>, mixin_verb=('build',))
+[4.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[4.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extension 'ignore'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extension 'ignore_ament_install'
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extensions ['colcon_pkg']
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extension 'colcon_pkg'
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extensions ['colcon_meta']
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extension 'colcon_meta'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extensions ['ros']
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerobot_interfaces) by extension 'ros'
+[5.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerobot_interfaces' with type 'ros.ament_cmake' and name 'aerobot_interfaces'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extensions ['ignore', 'ignore_ament_install']
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extension 'ignore'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extension 'ignore_ament_install'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extensions ['colcon_pkg']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extension 'colcon_pkg'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extensions ['colcon_meta']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extension 'colcon_meta'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extensions ['ros']
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmm150_sensor) by extension 'ros'
+[5.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bmm150_sensor' with type 'ros.ament_python' and name 'bmm150_sensor'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extensions ['ignore', 'ignore_ament_install']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extension 'ignore'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extension 'ignore_ament_install'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extensions ['colcon_pkg']
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extension 'colcon_pkg'
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extensions ['colcon_meta']
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extension 'colcon_meta'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extensions ['ros']
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/esc_pkg) by extension 'ros'
+[5.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/esc_pkg' with type 'ros.ament_python' and name 'esc_pkg'
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extensions ['ignore', 'ignore_ament_install']
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extension 'ignore'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extension 'ignore_ament_install'
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extensions ['colcon_pkg']
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extension 'colcon_pkg'
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extensions ['colcon_meta']
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extension 'colcon_meta'
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extensions ['ros']
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/lsm6dso) by extension 'ros'
+[5.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lsm6dso' with type 'ros.ament_python' and name 'lsm6dso'
+[5.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extensions ['ignore', 'ignore_ament_install']
+[5.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extension 'ignore'
+[5.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extension 'ignore_ament_install'
+[5.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extensions ['colcon_pkg']
+[5.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extension 'colcon_pkg'
+[5.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extensions ['colcon_meta']
+[5.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extension 'colcon_meta'
+[5.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extensions ['ros']
+[5.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ahrs) by extension 'ros'
+[5.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_ahrs' with type 'ros.ament_python' and name 'my_ahrs'
+[5.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extensions ['ignore', 'ignore_ament_install']
+[5.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extension 'ignore'
+[5.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extension 'ignore_ament_install'
+[5.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extensions ['colcon_pkg']
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extension 'colcon_pkg'
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extensions ['colcon_meta']
+[5.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extension 'colcon_meta'
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extensions ['ros']
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled1) by extension 'ros'
+[5.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/untitled1' with type 'ros.ament_cmake' and name 'untitled1'
+[5.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.641s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/ubuntu/ros2_ws/install
+[5.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 184 installed packages in /opt/ros/humble
+[5.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.082s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'cmake_args' from command line to 'None'
+[6.083s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[6.083s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.084s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[6.084s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[6.084s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'aerobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.086s] DEBUG:colcon.colcon_core.verb:Building package 'aerobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/aerobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/aerobot_interfaces', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/aerobot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[6.090s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'cmake_args' from command line to 'None'
+[6.091s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'cmake_target' from command line to 'None'
+[6.091s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.092s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'cmake_clean_cache' from command line to 'False'
+[6.092s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'cmake_clean_first' from command line to 'False'
+[6.093s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'cmake_force_configure' from command line to 'False'
+[6.093s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'ament_cmake_args' from command line to 'None'
+[6.094s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'catkin_cmake_args' from command line to 'None'
+[6.094s] Level 5:colcon.colcon_core.verb:set package 'bmm150_sensor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.095s] DEBUG:colcon.colcon_core.verb:Building package 'bmm150_sensor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/bmm150_sensor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/bmm150_sensor', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/bmm150_sensor', 'symlink_install': False, 'test_result_base': None}
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'cmake_args' from command line to 'None'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'cmake_target' from command line to 'None'
+[6.101s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.101s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'cmake_clean_cache' from command line to 'False'
+[6.101s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'cmake_clean_first' from command line to 'False'
+[6.102s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'cmake_force_configure' from command line to 'False'
+[6.102s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'ament_cmake_args' from command line to 'None'
+[6.102s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'catkin_cmake_args' from command line to 'None'
+[6.103s] Level 5:colcon.colcon_core.verb:set package 'lsm6dso' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.103s] DEBUG:colcon.colcon_core.verb:Building package 'lsm6dso' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/lsm6dso', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/lsm6dso', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/lsm6dso', 'symlink_install': False, 'test_result_base': None}
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'cmake_args' from command line to 'None'
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'cmake_target' from command line to 'None'
+[6.109s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.109s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.109s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'cmake_clean_first' from command line to 'False'
+[6.110s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'cmake_force_configure' from command line to 'False'
+[6.110s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'ament_cmake_args' from command line to 'None'
+[6.110s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.111s] Level 5:colcon.colcon_core.verb:set package 'my_ahrs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.111s] DEBUG:colcon.colcon_core.verb:Building package 'my_ahrs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/my_ahrs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/my_ahrs', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/my_ahrs', 'symlink_install': False, 'test_result_base': None}
+[6.116s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'cmake_target' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[6.120s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[6.120s] Level 5:colcon.colcon_core.verb:set package 'esc_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.120s] DEBUG:colcon.colcon_core.verb:Building package 'esc_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/esc_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/esc_pkg', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/esc_pkg', 'symlink_install': False, 'test_result_base': None}
+[6.125s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'cmake_args' from command line to 'None'
+[6.126s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'cmake_target' from command line to 'None'
+[6.126s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.127s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'cmake_clean_cache' from command line to 'False'
+[6.127s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'cmake_clean_first' from command line to 'False'
+[6.127s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'cmake_force_configure' from command line to 'False'
+[6.128s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'ament_cmake_args' from command line to 'None'
+[6.128s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'catkin_cmake_args' from command line to 'None'
+[6.128s] Level 5:colcon.colcon_core.verb:set package 'untitled1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.129s] DEBUG:colcon.colcon_core.verb:Building package 'untitled1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/untitled1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/untitled1', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/untitled1', 'symlink_install': False, 'test_result_base': None}
+[6.130s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.139s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.141s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/aerobot_interfaces' with build type 'ament_cmake'
+[6.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/aerobot_interfaces'
+[6.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/bmm150_sensor' with build type 'ament_python'
+[6.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('bmm150_sensor', 'ament_prefix_path')
+[6.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/hook/ament_prefix_path.ps1'
+[6.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/hook/ament_prefix_path.dsv'
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/hook/ament_prefix_path.sh'
+[6.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.448s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/lsm6dso' with build type 'ament_python'
+[6.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('lsm6dso', 'ament_prefix_path')
+[6.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/hook/ament_prefix_path.ps1'
+[6.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/hook/ament_prefix_path.dsv'
+[6.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/hook/ament_prefix_path.sh'
+[6.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.566s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.656s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/my_ahrs' with build type 'ament_python'
+[6.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ahrs', 'ament_prefix_path')
+[6.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/hook/ament_prefix_path.ps1'
+[6.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/hook/ament_prefix_path.dsv'
+[6.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/hook/ament_prefix_path.sh'
+[6.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/aerobot_interfaces -- -j4 -l4
+[13.056s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/bmm150_sensor'
+[13.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.389s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/lsm6dso'
+[18.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.304s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/my_ahrs'
+[25.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/lsm6dso': PYTHONPATH=/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lsm6dso build --build-base /home/ubuntu/ros2_ws/build/lsm6dso/build install --record /home/ubuntu/ros2_ws/build/lsm6dso/install.log --single-version-externally-managed install_data
+[41.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/bmm150_sensor': PYTHONPATH=/home/ubuntu/ros2_ws/build/bmm150_sensor/prefix_override:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bmm150_sensor build --build-base /home/ubuntu/ros2_ws/build/bmm150_sensor/build install --record /home/ubuntu/ros2_ws/build/bmm150_sensor/install.log --single-version-externally-managed install_data
+[46.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/my_ahrs': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ahrs build --build-base /home/ubuntu/ros2_ws/build/my_ahrs/build install --record /home/ubuntu/ros2_ws/build/my_ahrs/install.log --single-version-externally-managed install_data
+[53.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/lsm6dso' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lsm6dso build --build-base /home/ubuntu/ros2_ws/build/lsm6dso/build install --record /home/ubuntu/ros2_ws/build/lsm6dso/install.log --single-version-externally-managed install_data
+[53.402s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso' for CMake module files
+[53.441s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso' for CMake config files
+[53.520s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso/lib'
+[53.536s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso/bin'
+[53.559s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso/lib/pkgconfig/lsm6dso.pc'
+[53.593s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages'
+[53.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('lsm6dso', 'pythonpath')
+[53.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/hook/pythonpath.ps1'
+[53.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/hook/pythonpath.dsv'
+[53.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/hook/pythonpath.sh'
+[53.763s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/lsm6dso/bin'
+[53.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lsm6dso)
+[53.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/package.ps1'
+[53.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/package.dsv'
+[53.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/package.sh'
+[54.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/package.bash'
+[54.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso/package.zsh'
+[54.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/lsm6dso/share/colcon-core/packages/lsm6dso)
+[56.538s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor' for CMake module files
+[56.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/bmm150_sensor' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/bmm150_sensor/prefix_override:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bmm150_sensor build --build-base /home/ubuntu/ros2_ws/build/bmm150_sensor/build install --record /home/ubuntu/ros2_ws/build/bmm150_sensor/install.log --single-version-externally-managed install_data
+[56.572s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor' for CMake config files
+[56.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor/lib'
+[56.639s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor/bin'
+[56.641s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/pkgconfig/bmm150_sensor.pc'
+[56.652s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages'
+[56.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('bmm150_sensor', 'pythonpath')
+[56.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/hook/pythonpath.ps1'
+[56.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/hook/pythonpath.dsv'
+[56.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/hook/pythonpath.sh'
+[56.771s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bmm150_sensor/bin'
+[56.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bmm150_sensor)
+[56.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/package.ps1'
+[56.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/package.dsv'
+[56.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/package.sh'
+[56.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/package.bash'
+[56.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bmm150_sensor/share/bmm150_sensor/package.zsh'
+[56.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/bmm150_sensor/share/colcon-core/packages/bmm150_sensor)
+[61.547s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs' for CMake module files
+[61.560s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs' for CMake config files
+[61.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/my_ahrs' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_ahrs/prefix_override:/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ahrs build --build-base /home/ubuntu/ros2_ws/build/my_ahrs/build install --record /home/ubuntu/ros2_ws/build/my_ahrs/install.log --single-version-externally-managed install_data
+[61.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs/lib'
+[61.593s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs/bin'
+[61.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs/lib/pkgconfig/my_ahrs.pc'
+[61.618s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages'
+[61.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ahrs', 'pythonpath')
+[61.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/hook/pythonpath.ps1'
+[61.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/hook/pythonpath.dsv'
+[61.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/hook/pythonpath.sh'
+[61.666s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_ahrs/bin'
+[61.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_ahrs)
+[61.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/package.ps1'
+[61.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/package.dsv'
+[61.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/package.sh'
+[61.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/package.bash'
+[61.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_ahrs/share/my_ahrs/package.zsh'
+[61.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/my_ahrs/share/colcon-core/packages/my_ahrs)
+[234.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/aerobot_interfaces -- -j4 -l4
+[237.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/aerobot_interfaces
+[239.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aerobot_interfaces)
+[239.105s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces' for CMake module files
+[239.159s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces' for CMake config files
+[239.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/aerobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/aerobot_interfaces
+[239.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('aerobot_interfaces', 'cmake_prefix_path')
+[239.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/cmake_prefix_path.ps1'
+[239.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/cmake_prefix_path.dsv'
+[239.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/cmake_prefix_path.sh'
+[239.232s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib'
+[239.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('aerobot_interfaces', 'ld_library_path_lib')
+[239.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/ld_library_path_lib.ps1'
+[239.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/ld_library_path_lib.dsv'
+[239.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/ld_library_path_lib.sh'
+[239.254s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/bin'
+[239.255s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/pkgconfig/aerobot_interfaces.pc'
+[239.258s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/python3.10/site-packages'
+[239.261s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/bin'
+[239.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.ps1'
+[239.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.dsv'
+[239.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.sh'
+[239.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.bash'
+[239.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.zsh'
+[239.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/colcon-core/packages/aerobot_interfaces)
+[242.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aerobot_interfaces)
+[242.789s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces' for CMake module files
+[242.823s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces' for CMake config files
+[242.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('aerobot_interfaces', 'cmake_prefix_path')
+[242.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/cmake_prefix_path.ps1'
+[242.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/cmake_prefix_path.dsv'
+[242.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/cmake_prefix_path.sh'
+[242.869s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib'
+[242.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('aerobot_interfaces', 'ld_library_path_lib')
+[242.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/ld_library_path_lib.ps1'
+[242.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/ld_library_path_lib.dsv'
+[242.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/hook/ld_library_path_lib.sh'
+[242.933s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/bin'
+[242.934s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/pkgconfig/aerobot_interfaces.pc'
+[242.936s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib/python3.10/site-packages'
+[242.940s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/aerobot_interfaces/bin'
+[242.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.ps1'
+[242.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.dsv'
+[242.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.sh'
+[243.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.bash'
+[243.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/aerobot_interfaces/package.zsh'
+[243.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/aerobot_interfaces/share/colcon-core/packages/aerobot_interfaces)
+[243.042s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/esc_pkg' with build type 'ament_python'
+[243.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('esc_pkg', 'ament_prefix_path')
+[243.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/hook/ament_prefix_path.ps1'
+[243.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/hook/ament_prefix_path.dsv'
+[243.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/hook/ament_prefix_path.sh'
+[243.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[243.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[243.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/untitled1' with build type 'ament_cmake'
+[243.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/untitled1'
+[243.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[243.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[249.843s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/esc_pkg'
+[249.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[249.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[250.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/untitled1': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/untitled1 -- -j4 -l4
+[260.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/esc_pkg': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2 PYTHONPATH=/home/ubuntu/ros2_ws/build/esc_pkg/prefix_override:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esc_pkg build --build-base /home/ubuntu/ros2_ws/build/esc_pkg/build install --record /home/ubuntu/ros2_ws/build/esc_pkg/install.log --single-version-externally-managed install_data
+[269.656s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg' for CMake module files
+[269.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/esc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2 PYTHONPATH=/home/ubuntu/ros2_ws/build/esc_pkg/prefix_override:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esc_pkg build --build-base /home/ubuntu/ros2_ws/build/esc_pkg/build install --record /home/ubuntu/ros2_ws/build/esc_pkg/install.log --single-version-externally-managed install_data
+[269.718s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg' for CMake config files
+[269.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg/lib'
+[269.794s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg/bin'
+[269.826s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg/lib/pkgconfig/esc_pkg.pc'
+[269.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages'
+[269.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('esc_pkg', 'pythonpath')
+[269.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/hook/pythonpath.ps1'
+[269.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/hook/pythonpath.dsv'
+[269.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/hook/pythonpath.sh'
+[269.996s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/esc_pkg/bin'
+[269.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(esc_pkg)
+[270.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/package.ps1'
+[270.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/package.dsv'
+[270.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/package.sh'
+[270.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/package.bash'
+[270.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/esc_pkg/share/esc_pkg/package.zsh'
+[270.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/esc_pkg/share/colcon-core/packages/esc_pkg)
+[353.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/untitled1' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/untitled1 -- -j4 -l4
+[354.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(untitled1)
+[354.906s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1' for CMake module files
+[354.923s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1' for CMake config files
+[354.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('untitled1', 'cmake_prefix_path')
+[354.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/hook/cmake_prefix_path.ps1'
+[354.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/hook/cmake_prefix_path.dsv'
+[354.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/hook/cmake_prefix_path.sh'
+[354.975s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1/lib'
+[354.976s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1/bin'
+[354.976s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1/lib/pkgconfig/untitled1.pc'
+[354.979s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1/lib/python3.10/site-packages'
+[354.981s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/untitled1/bin'
+[354.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/package.ps1'
+[354.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/package.dsv'
+[355.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/package.sh'
+[355.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/package.bash'
+[355.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/untitled1/share/untitled1/package.zsh'
+[355.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/untitled1/share/colcon-core/packages/untitled1)
+[355.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[355.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[355.046s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[355.060s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[355.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[355.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[355.147s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[355.147s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[355.160s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[355.169s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[355.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[355.197s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[355.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[355.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[355.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[355.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[355.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[355.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[355.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[355.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

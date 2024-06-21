@@ -1,0 +1,1126 @@
+[0.000000] (-) TimerEvent: {}
+[0.002283] (-) JobUnselected: {'identifier': 'aerobot_interfaces'}
+[0.003887] (-) JobUnselected: {'identifier': 'bmm150_sensor'}
+[0.005227] (-) JobUnselected: {'identifier': 'complementary_filter_ros2'}
+[0.005792] (-) JobUnselected: {'identifier': 'esc_pkg'}
+[0.006612] (-) JobUnselected: {'identifier': 'lsm6dso'}
+[0.007150] (-) JobUnselected: {'identifier': 'my_ahrs'}
+[0.007449] (calibrate_gyro) JobQueued: {'identifier': 'calibrate_gyro', 'dependencies': OrderedDict()}
+[0.007828] (calibrate_gyro) JobStarted: {'identifier': 'calibrate_gyro'}
+[0.096709] (-) TimerEvent: {}
+[0.117088] (calibrate_gyro) JobProgress: {'identifier': 'calibrate_gyro', 'progress': 'cmake'}
+[0.120270] (calibrate_gyro) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/calibrate_gyro', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/calibrate_gyro'], 'cwd': '/home/ubuntu/ros2_ws/build/calibrate_gyro', 'env': OrderedDict([('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 59341 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/bmm150_sensor:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ros2_ws/build/calibrate_gyro'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.0.106 59341 192.168.0.122 22'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/lsm6dso:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[0.197051] (-) TimerEvent: {}
+[0.297940] (-) TimerEvent: {}
+[0.398728] (-) TimerEvent: {}
+[0.499814] (-) TimerEvent: {}
+[0.600625] (-) TimerEvent: {}
+[0.701440] (-) TimerEvent: {}
+[0.802371] (-) TimerEvent: {}
+[0.903258] (-) TimerEvent: {}
+[0.928145] (calibrate_gyro) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.003554] (-) TimerEvent: {}
+[1.104371] (-) TimerEvent: {}
+[1.205143] (-) TimerEvent: {}
+[1.305911] (-) TimerEvent: {}
+[1.406694] (-) TimerEvent: {}
+[1.507571] (-) TimerEvent: {}
+[1.608548] (-) TimerEvent: {}
+[1.613116] (calibrate_gyro) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.708648] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.710139] (-) TimerEvent: {}
+[1.810806] (-) TimerEvent: {}
+[1.911844] (-) TimerEvent: {}
+[2.012698] (-) TimerEvent: {}
+[2.113501] (-) TimerEvent: {}
+[2.214262] (-) TimerEvent: {}
+[2.315117] (-) TimerEvent: {}
+[2.415973] (-) TimerEvent: {}
+[2.516917] (-) TimerEvent: {}
+[2.605406] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.617274] (-) TimerEvent: {}
+[2.703123] (calibrate_gyro) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.708272] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.719982] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.721438] (-) TimerEvent: {}
+[2.789601] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.821841] (-) TimerEvent: {}
+[2.924095] (-) TimerEvent: {}
+[3.024865] (-) TimerEvent: {}
+[3.125830] (-) TimerEvent: {}
+[3.226653] (-) TimerEvent: {}
+[3.328138] (-) TimerEvent: {}
+[3.428910] (-) TimerEvent: {}
+[3.529749] (-) TimerEvent: {}
+[3.630708] (-) TimerEvent: {}
+[3.731495] (-) TimerEvent: {}
+[3.832450] (-) TimerEvent: {}
+[3.920466] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.932784] (-) TimerEvent: {}
+[4.010635] (calibrate_gyro) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.013532] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.020866] (calibrate_gyro) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.033091] (-) TimerEvent: {}
+[4.118627] (calibrate_gyro) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.133381] (-) TimerEvent: {}
+[4.234140] (-) TimerEvent: {}
+[4.334929] (-) TimerEvent: {}
+[4.435801] (-) TimerEvent: {}
+[4.536684] (-) TimerEvent: {}
+[4.637671] (-) TimerEvent: {}
+[4.738690] (-) TimerEvent: {}
+[4.839811] (-) TimerEvent: {}
+[4.940586] (-) TimerEvent: {}
+[5.041408] (-) TimerEvent: {}
+[5.142443] (-) TimerEvent: {}
+[5.243328] (-) TimerEvent: {}
+[5.344191] (-) TimerEvent: {}
+[5.445059] (-) TimerEvent: {}
+[5.545936] (-) TimerEvent: {}
+[5.648063] (-) TimerEvent: {}
+[5.748999] (-) TimerEvent: {}
+[5.850041] (-) TimerEvent: {}
+[5.950810] (-) TimerEvent: {}
+[6.051684] (-) TimerEvent: {}
+[6.152663] (-) TimerEvent: {}
+[6.253771] (-) TimerEvent: {}
+[6.354514] (-) TimerEvent: {}
+[6.455315] (-) TimerEvent: {}
+[6.556382] (-) TimerEvent: {}
+[6.569697] (calibrate_gyro) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.656656] (-) TimerEvent: {}
+[6.757458] (-) TimerEvent: {}
+[6.858273] (-) TimerEvent: {}
+[6.959005] (-) TimerEvent: {}
+[7.059813] (-) TimerEvent: {}
+[7.160528] (-) TimerEvent: {}
+[7.261494] (-) TimerEvent: {}
+[7.362491] (-) TimerEvent: {}
+[7.463425] (-) TimerEvent: {}
+[7.564310] (-) TimerEvent: {}
+[7.665085] (-) TimerEvent: {}
+[7.765845] (-) TimerEvent: {}
+[7.866725] (-) TimerEvent: {}
+[7.967515] (-) TimerEvent: {}
+[8.068368] (-) TimerEvent: {}
+[8.169155] (-) TimerEvent: {}
+[8.270828] (-) TimerEvent: {}
+[8.371597] (-) TimerEvent: {}
+[8.473060] (-) TimerEvent: {}
+[8.573904] (-) TimerEvent: {}
+[8.606749] (calibrate_gyro) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.674273] (-) TimerEvent: {}
+[8.775142] (-) TimerEvent: {}
+[8.876036] (-) TimerEvent: {}
+[8.946855] (calibrate_gyro) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.976741] (-) TimerEvent: {}
+[9.077474] (-) TimerEvent: {}
+[9.178251] (-) TimerEvent: {}
+[9.279009] (-) TimerEvent: {}
+[9.380303] (-) TimerEvent: {}
+[9.481559] (-) TimerEvent: {}
+[9.582326] (-) TimerEvent: {}
+[9.683250] (-) TimerEvent: {}
+[9.784124] (-) TimerEvent: {}
+[9.884843] (-) TimerEvent: {}
+[9.985551] (-) TimerEvent: {}
+[10.086320] (-) TimerEvent: {}
+[10.168680] (calibrate_gyro) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.186597] (-) TimerEvent: {}
+[10.291035] (-) TimerEvent: {}
+[10.349425] (calibrate_gyro) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.391327] (-) TimerEvent: {}
+[10.492181] (-) TimerEvent: {}
+[10.572363] (calibrate_gyro) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.592440] (-) TimerEvent: {}
+[10.693178] (-) TimerEvent: {}
+[10.793932] (-) TimerEvent: {}
+[10.864744] (calibrate_gyro) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.894232] (-) TimerEvent: {}
+[10.995775] (-) TimerEvent: {}
+[11.096891] (-) TimerEvent: {}
+[11.197663] (-) TimerEvent: {}
+[11.299933] (calibrate_gyro) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.301447] (-) TimerEvent: {}
+[11.402065] (-) TimerEvent: {}
+[11.502803] (-) TimerEvent: {}
+[11.603585] (-) TimerEvent: {}
+[11.704380] (-) TimerEvent: {}
+[11.805127] (-) TimerEvent: {}
+[11.905864] (-) TimerEvent: {}
+[12.006670] (-) TimerEvent: {}
+[12.107472] (-) TimerEvent: {}
+[12.208337] (-) TimerEvent: {}
+[12.308973] (-) TimerEvent: {}
+[12.409536] (-) TimerEvent: {}
+[12.510308] (-) TimerEvent: {}
+[12.549084] (calibrate_gyro) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.610643] (-) TimerEvent: {}
+[12.645196] (calibrate_gyro) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.710943] (-) TimerEvent: {}
+[12.811997] (-) TimerEvent: {}
+[12.912810] (-) TimerEvent: {}
+[13.013816] (-) TimerEvent: {}
+[13.114591] (-) TimerEvent: {}
+[13.216877] (-) TimerEvent: {}
+[13.317635] (-) TimerEvent: {}
+[13.418353] (-) TimerEvent: {}
+[13.521023] (-) TimerEvent: {}
+[13.621846] (-) TimerEvent: {}
+[13.722610] (-) TimerEvent: {}
+[13.823368] (-) TimerEvent: {}
+[13.924295] (-) TimerEvent: {}
+[14.025104] (-) TimerEvent: {}
+[14.125923] (-) TimerEvent: {}
+[14.189356] (calibrate_gyro) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[14.226215] (-) TimerEvent: {}
+[14.326993] (-) TimerEvent: {}
+[14.427830] (-) TimerEvent: {}
+[14.528722] (-) TimerEvent: {}
+[14.574709] (calibrate_gyro) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[14.631905] (-) TimerEvent: {}
+[14.732758] (-) TimerEvent: {}
+[14.833572] (-) TimerEvent: {}
+[14.934453] (-) TimerEvent: {}
+[15.035273] (-) TimerEvent: {}
+[15.136084] (-) TimerEvent: {}
+[15.236851] (-) TimerEvent: {}
+[15.300734] (calibrate_gyro) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.337130] (-) TimerEvent: {}
+[15.437868] (-) TimerEvent: {}
+[15.538598] (-) TimerEvent: {}
+[15.605175] (calibrate_gyro) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.638953] (-) TimerEvent: {}
+[15.739938] (-) TimerEvent: {}
+[15.841945] (-) TimerEvent: {}
+[15.942691] (-) TimerEvent: {}
+[16.043414] (-) TimerEvent: {}
+[16.145047] (-) TimerEvent: {}
+[16.245783] (-) TimerEvent: {}
+[16.329556] (calibrate_gyro) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.334558] (calibrate_gyro) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.346206] (-) TimerEvent: {}
+[16.446948] (-) TimerEvent: {}
+[16.547725] (-) TimerEvent: {}
+[16.648661] (-) TimerEvent: {}
+[16.749521] (-) TimerEvent: {}
+[16.854605] (-) TimerEvent: {}
+[16.955423] (-) TimerEvent: {}
+[17.056531] (-) TimerEvent: {}
+[17.157419] (-) TimerEvent: {}
+[17.258300] (-) TimerEvent: {}
+[17.359097] (-) TimerEvent: {}
+[17.399334] (calibrate_gyro) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[17.411775] (calibrate_gyro) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[17.459424] (-) TimerEvent: {}
+[17.560688] (-) TimerEvent: {}
+[17.661598] (-) TimerEvent: {}
+[17.762329] (-) TimerEvent: {}
+[17.863206] (-) TimerEvent: {}
+[17.967267] (-) TimerEvent: {}
+[18.068104] (-) TimerEvent: {}
+[18.169007] (-) TimerEvent: {}
+[18.271088] (-) TimerEvent: {}
+[18.372056] (-) TimerEvent: {}
+[18.472900] (-) TimerEvent: {}
+[18.573685] (-) TimerEvent: {}
+[18.674510] (-) TimerEvent: {}
+[18.775344] (-) TimerEvent: {}
+[18.876348] (-) TimerEvent: {}
+[18.977110] (-) TimerEvent: {}
+[19.077867] (-) TimerEvent: {}
+[19.178694] (-) TimerEvent: {}
+[19.279482] (-) TimerEvent: {}
+[19.380503] (-) TimerEvent: {}
+[19.484579] (-) TimerEvent: {}
+[19.585360] (-) TimerEvent: {}
+[19.623108] (calibrate_gyro) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[19.685690] (-) TimerEvent: {}
+[19.786483] (-) TimerEvent: {}
+[19.887220] (-) TimerEvent: {}
+[19.988042] (-) TimerEvent: {}
+[20.088814] (-) TimerEvent: {}
+[20.189571] (-) TimerEvent: {}
+[20.290349] (-) TimerEvent: {}
+[20.391109] (-) TimerEvent: {}
+[20.491784] (-) TimerEvent: {}
+[20.592374] (-) TimerEvent: {}
+[20.693186] (-) TimerEvent: {}
+[20.793964] (-) TimerEvent: {}
+[20.894739] (-) TimerEvent: {}
+[20.995502] (-) TimerEvent: {}
+[21.096310] (-) TimerEvent: {}
+[21.197184] (-) TimerEvent: {}
+[21.298947] (-) TimerEvent: {}
+[21.399774] (-) TimerEvent: {}
+[21.500688] (-) TimerEvent: {}
+[21.601529] (-) TimerEvent: {}
+[21.702393] (-) TimerEvent: {}
+[21.803280] (-) TimerEvent: {}
+[21.904316] (-) TimerEvent: {}
+[21.997267] (calibrate_gyro) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.004600] (-) TimerEvent: {}
+[22.105420] (-) TimerEvent: {}
+[22.206209] (-) TimerEvent: {}
+[22.221181] (calibrate_gyro) StdoutLine: {'line': b'-- Generating done\n'}
+[22.246764] (calibrate_gyro) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/calibrate_gyro\n'}
+[22.306615] (-) TimerEvent: {}
+[22.314247] (calibrate_gyro) CommandEnded: {'returncode': 0}
+[22.319193] (calibrate_gyro) JobProgress: {'identifier': 'calibrate_gyro', 'progress': 'build'}
+[22.331561] (calibrate_gyro) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/calibrate_gyro', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/calibrate_gyro', 'env': OrderedDict([('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 59341 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/bmm150_sensor:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ros2_ws/build/calibrate_gyro'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.0.106 59341 192.168.0.122 22'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/lsm6dso:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[22.406925] (-) TimerEvent: {}
+[22.425474] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cmake -S/home/ubuntu/ros2_ws/src/calibrate_gyro -B/home/ubuntu/ros2_ws/build/calibrate_gyro --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[22.507266] (-) TimerEvent: {}
+[22.604824] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/calibrate_gyro/CMakeFiles /home/ubuntu/ros2_ws/build/calibrate_gyro//CMakeFiles/progress.marks\n'}
+[22.612248] (-) TimerEvent: {}
+[22.713124] (-) TimerEvent: {}
+[22.717042] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[22.777856] (calibrate_gyro) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/ubuntu/ros2_ws/build/calibrate_gyro'\n"}
+[22.780466] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/calibrate_gyro.dir/build.make CMakeFiles/calibrate_gyro.dir/depend\n'}
+[22.813506] (-) TimerEvent: {}
+[22.825241] (calibrate_gyro) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/calibrate_gyro'\n"}
+[22.828193] (calibrate_gyro) StdoutLine: {'line': b'cd /home/ubuntu/ros2_ws/build/calibrate_gyro && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/calibrate_gyro /home/ubuntu/ros2_ws/src/calibrate_gyro /home/ubuntu/ros2_ws/build/calibrate_gyro /home/ubuntu/ros2_ws/build/calibrate_gyro /home/ubuntu/ros2_ws/build/calibrate_gyro/CMakeFiles/calibrate_gyro.dir/DependInfo.cmake --color=\n'}
+[22.913818] (-) TimerEvent: {}
+[23.016734] (-) TimerEvent: {}
+[23.115922] (calibrate_gyro) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/calibrate_gyro'\n"}
+[23.117599] (-) TimerEvent: {}
+[23.126657] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/calibrate_gyro.dir/build.make CMakeFiles/calibrate_gyro.dir/build\n'}
+[23.208488] (calibrate_gyro) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/calibrate_gyro'\n"}
+[23.218939] (-) TimerEvent: {}
+[23.320017] (-) TimerEvent: {}
+[23.421105] (-) TimerEvent: {}
+[23.427339] (calibrate_gyro) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/calibrate_gyro.dir/src/ext_svr.c.o\n'}
+[23.463562] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/calibrate_gyro.dir/src/ext_svr.c.o -MF CMakeFiles/calibrate_gyro.dir/src/ext_svr.c.o.d -o CMakeFiles/calibrate_gyro.dir/src/ext_svr.c.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/ext_svr.c\n'}
+[23.470776] (calibrate_gyro) StdoutLine: {'line': b'[ 23%] Building C object CMakeFiles/calibrate_gyro.dir/src/rtiostream_interface.c.o\n'}
+[23.476827] (calibrate_gyro) StdoutLine: {'line': b'[ 23%] Building C object CMakeFiles/calibrate_gyro.dir/src/ext_work.c.o\n'}
+[23.495359] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/calibrate_gyro.dir/src/rtiostream_interface.c.o -MF CMakeFiles/calibrate_gyro.dir/src/rtiostream_interface.c.o.d -o CMakeFiles/calibrate_gyro.dir/src/rtiostream_interface.c.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/rtiostream_interface.c\n'}
+[23.501580] (calibrate_gyro) StdoutLine: {'line': b'[ 30%] Building C object CMakeFiles/calibrate_gyro.dir/src/updown.c.o\n'}
+[23.521396] (-) TimerEvent: {}
+[23.537162] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/calibrate_gyro.dir/src/ext_work.c.o -MF CMakeFiles/calibrate_gyro.dir/src/ext_work.c.o.d -o CMakeFiles/calibrate_gyro.dir/src/ext_work.c.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/ext_work.c\n'}
+[23.566780] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/calibrate_gyro.dir/src/updown.c.o -MF CMakeFiles/calibrate_gyro.dir/src/updown.c.o.d -o CMakeFiles/calibrate_gyro.dir/src/updown.c.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/updown.c\n'}
+[23.576936] (calibrate_gyro) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[23.612417] (calibrate_gyro) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[23.621812] (-) TimerEvent: {}
+[23.630664] (calibrate_gyro) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[23.682996] (calibrate_gyro) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[23.722159] (-) TimerEvent: {}
+[23.823032] (-) TimerEvent: {}
+[23.923953] (-) TimerEvent: {}
+[24.024899] (-) TimerEvent: {}
+[24.125665] (-) TimerEvent: {}
+[24.226466] (-) TimerEvent: {}
+[24.327164] (-) TimerEvent: {}
+[24.428122] (-) TimerEvent: {}
+[24.528904] (-) TimerEvent: {}
+[24.629723] (-) TimerEvent: {}
+[24.731497] (-) TimerEvent: {}
+[24.832363] (-) TimerEvent: {}
+[24.933271] (-) TimerEvent: {}
+[25.034194] (-) TimerEvent: {}
+[25.135212] (-) TimerEvent: {}
+[25.236103] (-) TimerEvent: {}
+[25.335349] (calibrate_gyro) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/calibrate_gyro.dir/src/rtiostream_tcpip.c.o\n'}
+[25.337064] (-) TimerEvent: {}
+[25.371570] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/calibrate_gyro.dir/src/rtiostream_tcpip.c.o -MF CMakeFiles/calibrate_gyro.dir/src/rtiostream_tcpip.c.o.d -o CMakeFiles/calibrate_gyro.dir/src/rtiostream_tcpip.c.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/rtiostream_tcpip.c\n'}
+[25.437420] (-) TimerEvent: {}
+[25.484976] (calibrate_gyro) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[25.537761] (-) TimerEvent: {}
+[25.638771] (-) TimerEvent: {}
+[25.739697] (-) TimerEvent: {}
+[25.840603] (-) TimerEvent: {}
+[25.858567] (calibrate_gyro) StdoutLine: {'line': b'[ 46%] Building C object CMakeFiles/calibrate_gyro.dir/src/rtiostream_utils.c.o\n'}
+[25.870881] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/cc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu99 -MD -MT CMakeFiles/calibrate_gyro.dir/src/rtiostream_utils.c.o -MF CMakeFiles/calibrate_gyro.dir/src/rtiostream_utils.c.o.d -o CMakeFiles/calibrate_gyro.dir/src/rtiostream_utils.c.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/rtiostream_utils.c\n'}
+[25.940922] (-) TimerEvent: {}
+[26.016147] (calibrate_gyro) StderrLine: {'line': b"cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C\n"}
+[26.041271] (-) TimerEvent: {}
+[26.142094] (-) TimerEvent: {}
+[26.242866] (-) TimerEvent: {}
+[26.343768] (-) TimerEvent: {}
+[26.444610] (-) TimerEvent: {}
+[26.545582] (-) TimerEvent: {}
+[26.577886] (calibrate_gyro) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro.cpp.o\n'}
+[26.606066] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro.cpp.o -MF CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro.cpp.o.d -o CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro.cpp.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/calibrate_gyro.cpp\n'}
+[26.645903] (-) TimerEvent: {}
+[26.746821] (-) TimerEvent: {}
+[26.847773] (-) TimerEvent: {}
+[26.948599] (-) TimerEvent: {}
+[27.049452] (-) TimerEvent: {}
+[27.150265] (-) TimerEvent: {}
+[27.251071] (-) TimerEvent: {}
+[27.352504] (-) TimerEvent: {}
+[27.453343] (-) TimerEvent: {}
+[27.554182] (-) TimerEvent: {}
+[27.654820] (-) TimerEvent: {}
+[27.759929] (-) TimerEvent: {}
+[27.860710] (-) TimerEvent: {}
+[27.935135] (calibrate_gyro) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro_data.cpp.o\n'}
+[27.948732] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro_data.cpp.o -MF CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro_data.cpp.o.d -o CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro_data.cpp.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/calibrate_gyro_data.cpp\n'}
+[27.961074] (-) TimerEvent: {}
+[28.021496] (calibrate_gyro) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/calibrate_gyro.dir/src/main.cpp.o\n'}
+[28.031911] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/calibrate_gyro.dir/src/main.cpp.o -MF CMakeFiles/calibrate_gyro.dir/src/main.cpp.o.d -o CMakeFiles/calibrate_gyro.dir/src/main.cpp.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/main.cpp\n'}
+[28.061459] (-) TimerEvent: {}
+[28.162629] (-) TimerEvent: {}
+[28.263431] (-) TimerEvent: {}
+[28.364371] (-) TimerEvent: {}
+[28.465175] (-) TimerEvent: {}
+[28.565967] (-) TimerEvent: {}
+[28.666738] (-) TimerEvent: {}
+[28.767586] (-) TimerEvent: {}
+[28.868490] (-) TimerEvent: {}
+[28.969249] (-) TimerEvent: {}
+[29.070003] (-) TimerEvent: {}
+[29.170820] (-) TimerEvent: {}
+[29.271589] (-) TimerEvent: {}
+[29.372400] (-) TimerEvent: {}
+[29.473181] (-) TimerEvent: {}
+[29.574023] (-) TimerEvent: {}
+[29.674764] (-) TimerEvent: {}
+[29.775525] (-) TimerEvent: {}
+[29.876602] (-) TimerEvent: {}
+[29.977505] (-) TimerEvent: {}
+[30.080074] (-) TimerEvent: {}
+[30.180893] (-) TimerEvent: {}
+[30.281631] (-) TimerEvent: {}
+[30.391465] (-) TimerEvent: {}
+[30.492303] (-) TimerEvent: {}
+[30.593086] (-) TimerEvent: {}
+[30.693892] (-) TimerEvent: {}
+[30.794849] (-) TimerEvent: {}
+[30.899874] (-) TimerEvent: {}
+[31.000705] (-) TimerEvent: {}
+[31.101448] (-) TimerEvent: {}
+[31.202099] (-) TimerEvent: {}
+[31.302935] (-) TimerEvent: {}
+[31.403862] (-) TimerEvent: {}
+[31.504778] (-) TimerEvent: {}
+[31.605592] (-) TimerEvent: {}
+[31.706898] (-) TimerEvent: {}
+[31.807760] (-) TimerEvent: {}
+[31.908611] (-) TimerEvent: {}
+[32.009380] (-) TimerEvent: {}
+[32.110136] (-) TimerEvent: {}
+[32.210953] (-) TimerEvent: {}
+[32.227352] (calibrate_gyro) StderrLine: {'line': b'In file included from /home/ubuntu/ros2_ws/src/calibrate_gyro/src/calibrate_gyro.cpp:24:\n'}
+[32.229085] (calibrate_gyro) StderrLine: {'line': b'/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro/calibrate_gyro_private.h:68:2: error: #error Code was generated for compiler with different sized ulong/long. Consider adjusting Test hardware word size settings on the Hardware Implementation pane to match your compiler word sizes as defined in limits.h of the compiler. Alternatively, you can select the Test hardware is the same as production hardware option and select the Enable portable word sizes option on the Code Generation > Verification pane for ERT based targets, which will disable the preprocessor word size checks.\n'}
+[32.230271] (calibrate_gyro) StderrLine: {'line': b'   68 | #error Code was generated for compiler with different sized ulong/long. \\\n'}
+[32.231354] (calibrate_gyro) StderrLine: {'line': b'      |  ^~~~~\n'}
+[32.311301] (-) TimerEvent: {}
+[32.351539] (calibrate_gyro) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/calibrate_gyro.dir/src/ros2nodeinterface.cpp.o\n'}
+[32.366618] (calibrate_gyro) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"calibrate_gyro\\" -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro -I/home/ubuntu/ros2_ws/src/calibrate_gyro/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=calibrate_gyro -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -MD -MT CMakeFiles/calibrate_gyro.dir/src/ros2nodeinterface.cpp.o -MF CMakeFiles/calibrate_gyro.dir/src/ros2nodeinterface.cpp.o.d -o CMakeFiles/calibrate_gyro.dir/src/ros2nodeinterface.cpp.o -c /home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp\n'}
+[32.411693] (-) TimerEvent: {}
+[32.512507] (-) TimerEvent: {}
+[32.613279] (-) TimerEvent: {}
+[32.714053] (-) TimerEvent: {}
+[32.814769] (-) TimerEvent: {}
+[32.916002] (-) TimerEvent: {}
+[33.016784] (-) TimerEvent: {}
+[33.117512] (-) TimerEvent: {}
+[33.218531] (-) TimerEvent: {}
+[33.319436] (-) TimerEvent: {}
+[33.420563] (-) TimerEvent: {}
+[33.521409] (-) TimerEvent: {}
+[33.622159] (-) TimerEvent: {}
+[33.723012] (-) TimerEvent: {}
+[33.823954] (-) TimerEvent: {}
+[33.924754] (-) TimerEvent: {}
+[34.025605] (-) TimerEvent: {}
+[34.126326] (-) TimerEvent: {}
+[34.227122] (-) TimerEvent: {}
+[34.327935] (-) TimerEvent: {}
+[34.428653] (-) TimerEvent: {}
+[34.529355] (-) TimerEvent: {}
+[34.630167] (-) TimerEvent: {}
+[34.731558] (-) TimerEvent: {}
+[34.834290] (-) TimerEvent: {}
+[34.938059] (-) TimerEvent: {}
+[35.038925] (-) TimerEvent: {}
+[35.139810] (-) TimerEvent: {}
+[35.240632] (-) TimerEvent: {}
+[35.341475] (-) TimerEvent: {}
+[35.442489] (-) TimerEvent: {}
+[35.543334] (-) TimerEvent: {}
+[35.644222] (-) TimerEvent: {}
+[35.745054] (-) TimerEvent: {}
+[35.845853] (-) TimerEvent: {}
+[35.946717] (-) TimerEvent: {}
+[36.047552] (-) TimerEvent: {}
+[36.148478] (-) TimerEvent: {}
+[36.249312] (-) TimerEvent: {}
+[36.350196] (-) TimerEvent: {}
+[36.450987] (-) TimerEvent: {}
+[36.551911] (-) TimerEvent: {}
+[36.652783] (-) TimerEvent: {}
+[36.753667] (-) TimerEvent: {}
+[36.854543] (-) TimerEvent: {}
+[36.955586] (-) TimerEvent: {}
+[37.056547] (-) TimerEvent: {}
+[37.157465] (-) TimerEvent: {}
+[37.258459] (-) TimerEvent: {}
+[37.359298] (-) TimerEvent: {}
+[37.460255] (-) TimerEvent: {}
+[37.561173] (-) TimerEvent: {}
+[37.661993] (-) TimerEvent: {}
+[37.762819] (-) TimerEvent: {}
+[37.863965] (-) TimerEvent: {}
+[37.964851] (-) TimerEvent: {}
+[38.065747] (-) TimerEvent: {}
+[38.166598] (-) TimerEvent: {}
+[38.267587] (-) TimerEvent: {}
+[38.368687] (-) TimerEvent: {}
+[38.469534] (-) TimerEvent: {}
+[38.570344] (-) TimerEvent: {}
+[38.671198] (-) TimerEvent: {}
+[38.772039] (-) TimerEvent: {}
+[38.872828] (-) TimerEvent: {}
+[38.973672] (-) TimerEvent: {}
+[39.074496] (-) TimerEvent: {}
+[39.175364] (-) TimerEvent: {}
+[39.278094] (-) TimerEvent: {}
+[39.379073] (-) TimerEvent: {}
+[39.479979] (-) TimerEvent: {}
+[39.584015] (-) TimerEvent: {}
+[39.684920] (-) TimerEvent: {}
+[39.785833] (-) TimerEvent: {}
+[39.887180] (-) TimerEvent: {}
+[39.988334] (-) TimerEvent: {}
+[40.089265] (-) TimerEvent: {}
+[40.190211] (-) TimerEvent: {}
+[40.291278] (-) TimerEvent: {}
+[40.392369] (-) TimerEvent: {}
+[40.493446] (-) TimerEvent: {}
+[40.594480] (-) TimerEvent: {}
+[40.698662] (-) TimerEvent: {}
+[40.799566] (-) TimerEvent: {}
+[40.902383] (-) TimerEvent: {}
+[41.003525] (-) TimerEvent: {}
+[41.104843] (-) TimerEvent: {}
+[41.208908] (-) TimerEvent: {}
+[41.309927] (-) TimerEvent: {}
+[41.410941] (-) TimerEvent: {}
+[41.511901] (-) TimerEvent: {}
+[41.612935] (-) TimerEvent: {}
+[41.713809] (-) TimerEvent: {}
+[41.814713] (-) TimerEvent: {}
+[41.915709] (-) TimerEvent: {}
+[42.016567] (-) TimerEvent: {}
+[42.117419] (-) TimerEvent: {}
+[42.218480] (-) TimerEvent: {}
+[42.319377] (-) TimerEvent: {}
+[42.420356] (-) TimerEvent: {}
+[42.521220] (-) TimerEvent: {}
+[42.622089] (-) TimerEvent: {}
+[42.722916] (-) TimerEvent: {}
+[42.824057] (-) TimerEvent: {}
+[42.925100] (-) TimerEvent: {}
+[43.026331] (-) TimerEvent: {}
+[43.127214] (-) TimerEvent: {}
+[43.228482] (-) TimerEvent: {}
+[43.329444] (-) TimerEvent: {}
+[43.430347] (-) TimerEvent: {}
+[43.531223] (-) TimerEvent: {}
+[43.632273] (-) TimerEvent: {}
+[43.733336] (-) TimerEvent: {}
+[43.834461] (-) TimerEvent: {}
+[43.938710] (-) TimerEvent: {}
+[44.039734] (-) TimerEvent: {}
+[44.140602] (-) TimerEvent: {}
+[44.241601] (-) TimerEvent: {}
+[44.342689] (-) TimerEvent: {}
+[44.443585] (-) TimerEvent: {}
+[44.544477] (-) TimerEvent: {}
+[44.645358] (-) TimerEvent: {}
+[44.746419] (-) TimerEvent: {}
+[44.847344] (-) TimerEvent: {}
+[44.948264] (-) TimerEvent: {}
+[45.051234] (-) TimerEvent: {}
+[45.152251] (-) TimerEvent: {}
+[45.253270] (-) TimerEvent: {}
+[45.354279] (-) TimerEvent: {}
+[45.455182] (-) TimerEvent: {}
+[45.556225] (-) TimerEvent: {}
+[45.657378] (-) TimerEvent: {}
+[45.758321] (-) TimerEvent: {}
+[45.859221] (-) TimerEvent: {}
+[45.960297] (-) TimerEvent: {}
+[46.061184] (-) TimerEvent: {}
+[46.162116] (-) TimerEvent: {}
+[46.263017] (-) TimerEvent: {}
+[46.364100] (-) TimerEvent: {}
+[46.465296] (-) TimerEvent: {}
+[46.566427] (-) TimerEvent: {}
+[46.667483] (-) TimerEvent: {}
+[46.771936] (-) TimerEvent: {}
+[46.873074] (-) TimerEvent: {}
+[46.973988] (-) TimerEvent: {}
+[47.074836] (-) TimerEvent: {}
+[47.175760] (-) TimerEvent: {}
+[47.276640] (-) TimerEvent: {}
+[47.377478] (-) TimerEvent: {}
+[47.478456] (-) TimerEvent: {}
+[47.579356] (-) TimerEvent: {}
+[47.680313] (-) TimerEvent: {}
+[47.781168] (-) TimerEvent: {}
+[47.882019] (-) TimerEvent: {}
+[47.982891] (-) TimerEvent: {}
+[48.083874] (-) TimerEvent: {}
+[48.184833] (-) TimerEvent: {}
+[48.285724] (-) TimerEvent: {}
+[48.386588] (-) TimerEvent: {}
+[48.487522] (-) TimerEvent: {}
+[48.588616] (-) TimerEvent: {}
+[48.689502] (-) TimerEvent: {}
+[48.790350] (-) TimerEvent: {}
+[48.891477] (-) TimerEvent: {}
+[48.992522] (-) TimerEvent: {}
+[49.093411] (-) TimerEvent: {}
+[49.194499] (-) TimerEvent: {}
+[49.295565] (-) TimerEvent: {}
+[49.403200] (-) TimerEvent: {}
+[49.504134] (-) TimerEvent: {}
+[49.605136] (-) TimerEvent: {}
+[49.705967] (-) TimerEvent: {}
+[49.806962] (-) TimerEvent: {}
+[49.908101] (-) TimerEvent: {}
+[50.008933] (-) TimerEvent: {}
+[50.114845] (-) TimerEvent: {}
+[50.215831] (-) TimerEvent: {}
+[50.316853] (-) TimerEvent: {}
+[50.417749] (-) TimerEvent: {}
+[50.518603] (-) TimerEvent: {}
+[50.619606] (-) TimerEvent: {}
+[50.724558] (-) TimerEvent: {}
+[50.825810] (-) TimerEvent: {}
+[50.927003] (-) TimerEvent: {}
+[51.028085] (-) TimerEvent: {}
+[51.129291] (-) TimerEvent: {}
+[51.231165] (-) TimerEvent: {}
+[51.332107] (-) TimerEvent: {}
+[51.433104] (-) TimerEvent: {}
+[51.533951] (-) TimerEvent: {}
+[51.634914] (-) TimerEvent: {}
+[51.735911] (-) TimerEvent: {}
+[51.836764] (-) TimerEvent: {}
+[51.937914] (-) TimerEvent: {}
+[52.038846] (-) TimerEvent: {}
+[52.139772] (-) TimerEvent: {}
+[52.240707] (-) TimerEvent: {}
+[52.342581] (-) TimerEvent: {}
+[52.443491] (-) TimerEvent: {}
+[52.544472] (-) TimerEvent: {}
+[52.645402] (-) TimerEvent: {}
+[52.746338] (-) TimerEvent: {}
+[52.847234] (-) TimerEvent: {}
+[52.948223] (-) TimerEvent: {}
+[53.049064] (-) TimerEvent: {}
+[53.149955] (-) TimerEvent: {}
+[53.250834] (-) TimerEvent: {}
+[53.351793] (-) TimerEvent: {}
+[53.452879] (-) TimerEvent: {}
+[53.553817] (-) TimerEvent: {}
+[53.654750] (-) TimerEvent: {}
+[53.755696] (-) TimerEvent: {}
+[53.856667] (-) TimerEvent: {}
+[53.957571] (-) TimerEvent: {}
+[54.058430] (-) TimerEvent: {}
+[54.159294] (-) TimerEvent: {}
+[54.261312] (-) TimerEvent: {}
+[54.362215] (-) TimerEvent: {}
+[54.463146] (-) TimerEvent: {}
+[54.564119] (-) TimerEvent: {}
+[54.665008] (-) TimerEvent: {}
+[54.765925] (-) TimerEvent: {}
+[54.866889] (-) TimerEvent: {}
+[54.967975] (-) TimerEvent: {}
+[55.068935] (-) TimerEvent: {}
+[55.169855] (-) TimerEvent: {}
+[55.270734] (-) TimerEvent: {}
+[55.371769] (-) TimerEvent: {}
+[55.472801] (-) TimerEvent: {}
+[55.573713] (-) TimerEvent: {}
+[55.674739] (-) TimerEvent: {}
+[55.775831] (-) TimerEvent: {}
+[55.876749] (-) TimerEvent: {}
+[55.977602] (-) TimerEvent: {}
+[56.078502] (-) TimerEvent: {}
+[56.179386] (-) TimerEvent: {}
+[56.280256] (-) TimerEvent: {}
+[56.381161] (-) TimerEvent: {}
+[56.482097] (-) TimerEvent: {}
+[56.583010] (-) TimerEvent: {}
+[56.683898] (-) TimerEvent: {}
+[56.784815] (-) TimerEvent: {}
+[56.886709] (-) TimerEvent: {}
+[56.987576] (-) TimerEvent: {}
+[57.088589] (-) TimerEvent: {}
+[57.189650] (-) TimerEvent: {}
+[57.290457] (-) TimerEvent: {}
+[57.392331] (-) TimerEvent: {}
+[57.493184] (-) TimerEvent: {}
+[57.594056] (-) TimerEvent: {}
+[57.695166] (-) TimerEvent: {}
+[57.796292] (-) TimerEvent: {}
+[57.897193] (-) TimerEvent: {}
+[57.998163] (-) TimerEvent: {}
+[58.099148] (-) TimerEvent: {}
+[58.200171] (-) TimerEvent: {}
+[58.301060] (-) TimerEvent: {}
+[58.401878] (-) TimerEvent: {}
+[58.502769] (-) TimerEvent: {}
+[58.603724] (-) TimerEvent: {}
+[58.704645] (-) TimerEvent: {}
+[58.805547] (-) TimerEvent: {}
+[58.906366] (-) TimerEvent: {}
+[59.007256] (-) TimerEvent: {}
+[59.108174] (-) TimerEvent: {}
+[59.209198] (-) TimerEvent: {}
+[59.310170] (-) TimerEvent: {}
+[59.411104] (-) TimerEvent: {}
+[59.512058] (-) TimerEvent: {}
+[59.612898] (-) TimerEvent: {}
+[59.713835] (-) TimerEvent: {}
+[59.814714] (-) TimerEvent: {}
+[59.915703] (-) TimerEvent: {}
+[60.016656] (-) TimerEvent: {}
+[60.117700] (-) TimerEvent: {}
+[60.218571] (-) TimerEvent: {}
+[60.319518] (-) TimerEvent: {}
+[60.420539] (-) TimerEvent: {}
+[60.521457] (-) TimerEvent: {}
+[60.622399] (-) TimerEvent: {}
+[60.728238] (-) TimerEvent: {}
+[60.829236] (-) TimerEvent: {}
+[60.930175] (-) TimerEvent: {}
+[61.031092] (-) TimerEvent: {}
+[61.131990] (-) TimerEvent: {}
+[61.232852] (-) TimerEvent: {}
+[61.333782] (-) TimerEvent: {}
+[61.434682] (-) TimerEvent: {}
+[61.535619] (-) TimerEvent: {}
+[61.636684] (-) TimerEvent: {}
+[61.737590] (-) TimerEvent: {}
+[61.838441] (-) TimerEvent: {}
+[61.939268] (-) TimerEvent: {}
+[62.040245] (-) TimerEvent: {}
+[62.141151] (-) TimerEvent: {}
+[62.242046] (-) TimerEvent: {}
+[62.342942] (-) TimerEvent: {}
+[62.443903] (-) TimerEvent: {}
+[62.544895] (-) TimerEvent: {}
+[62.650356] (-) TimerEvent: {}
+[62.751166] (-) TimerEvent: {}
+[62.852143] (-) TimerEvent: {}
+[62.953063] (-) TimerEvent: {}
+[63.053968] (-) TimerEvent: {}
+[63.154928] (-) TimerEvent: {}
+[63.255873] (-) TimerEvent: {}
+[63.356749] (-) TimerEvent: {}
+[63.457665] (-) TimerEvent: {}
+[63.558592] (-) TimerEvent: {}
+[63.659470] (-) TimerEvent: {}
+[63.760445] (-) TimerEvent: {}
+[63.861421] (-) TimerEvent: {}
+[63.962309] (-) TimerEvent: {}
+[64.063205] (-) TimerEvent: {}
+[64.164155] (-) TimerEvent: {}
+[64.265665] (-) TimerEvent: {}
+[64.366656] (-) TimerEvent: {}
+[64.468120] (-) TimerEvent: {}
+[64.568971] (-) TimerEvent: {}
+[64.669933] (-) TimerEvent: {}
+[64.775694] (-) TimerEvent: {}
+[64.876593] (-) TimerEvent: {}
+[64.977503] (-) TimerEvent: {}
+[65.078392] (-) TimerEvent: {}
+[65.179268] (-) TimerEvent: {}
+[65.280223] (-) TimerEvent: {}
+[65.381149] (-) TimerEvent: {}
+[65.482101] (-) TimerEvent: {}
+[65.583046] (-) TimerEvent: {}
+[65.683965] (-) TimerEvent: {}
+[65.789813] (-) TimerEvent: {}
+[65.890698] (-) TimerEvent: {}
+[65.992306] (-) TimerEvent: {}
+[66.093589] (-) TimerEvent: {}
+[66.197105] (-) TimerEvent: {}
+[66.299048] (-) TimerEvent: {}
+[66.399985] (-) TimerEvent: {}
+[66.500923] (-) TimerEvent: {}
+[66.601790] (-) TimerEvent: {}
+[66.702693] (-) TimerEvent: {}
+[66.803609] (-) TimerEvent: {}
+[66.904554] (-) TimerEvent: {}
+[67.005399] (-) TimerEvent: {}
+[67.106371] (-) TimerEvent: {}
+[67.207359] (-) TimerEvent: {}
+[67.309416] (-) TimerEvent: {}
+[67.410303] (-) TimerEvent: {}
+[67.511162] (-) TimerEvent: {}
+[67.612044] (-) TimerEvent: {}
+[67.712972] (-) TimerEvent: {}
+[67.813927] (-) TimerEvent: {}
+[67.915906] (-) TimerEvent: {}
+[68.016821] (-) TimerEvent: {}
+[68.117781] (-) TimerEvent: {}
+[68.218775] (-) TimerEvent: {}
+[68.319755] (-) TimerEvent: {}
+[68.420636] (-) TimerEvent: {}
+[68.521510] (-) TimerEvent: {}
+[68.623427] (-) TimerEvent: {}
+[68.724458] (-) TimerEvent: {}
+[68.825476] (-) TimerEvent: {}
+[68.926296] (-) TimerEvent: {}
+[69.027198] (-) TimerEvent: {}
+[69.128205] (-) TimerEvent: {}
+[69.229103] (-) TimerEvent: {}
+[69.330001] (-) TimerEvent: {}
+[69.430963] (-) TimerEvent: {}
+[69.531899] (-) TimerEvent: {}
+[69.632829] (-) TimerEvent: {}
+[69.733799] (-) TimerEvent: {}
+[69.834673] (-) TimerEvent: {}
+[69.935576] (-) TimerEvent: {}
+[70.036547] (-) TimerEvent: {}
+[70.137404] (-) TimerEvent: {}
+[70.239335] (-) TimerEvent: {}
+[70.340919] (-) TimerEvent: {}
+[70.441976] (-) TimerEvent: {}
+[70.542916] (-) TimerEvent: {}
+[70.643880] (-) TimerEvent: {}
+[70.744749] (-) TimerEvent: {}
+[70.850427] (-) TimerEvent: {}
+[70.951365] (-) TimerEvent: {}
+[71.052337] (-) TimerEvent: {}
+[71.153315] (-) TimerEvent: {}
+[71.254695] (-) TimerEvent: {}
+[71.355666] (-) TimerEvent: {}
+[71.456693] (-) TimerEvent: {}
+[71.557683] (-) TimerEvent: {}
+[71.658633] (-) TimerEvent: {}
+[71.760043] (-) TimerEvent: {}
+[71.861118] (-) TimerEvent: {}
+[71.962137] (-) TimerEvent: {}
+[72.063141] (-) TimerEvent: {}
+[72.164201] (-) TimerEvent: {}
+[72.265113] (-) TimerEvent: {}
+[72.366079] (-) TimerEvent: {}
+[72.467097] (-) TimerEvent: {}
+[72.567966] (-) TimerEvent: {}
+[72.668971] (-) TimerEvent: {}
+[72.769912] (-) TimerEvent: {}
+[72.870796] (-) TimerEvent: {}
+[72.971866] (-) TimerEvent: {}
+[73.072833] (-) TimerEvent: {}
+[73.173794] (-) TimerEvent: {}
+[73.274654] (-) TimerEvent: {}
+[73.375500] (-) TimerEvent: {}
+[73.476665] (-) TimerEvent: {}
+[73.577679] (-) TimerEvent: {}
+[73.678658] (-) TimerEvent: {}
+[73.779604] (-) TimerEvent: {}
+[73.880448] (-) TimerEvent: {}
+[73.981364] (-) TimerEvent: {}
+[74.082394] (-) TimerEvent: {}
+[74.183256] (-) TimerEvent: {}
+[74.284182] (-) TimerEvent: {}
+[74.385108] (-) TimerEvent: {}
+[74.485977] (-) TimerEvent: {}
+[74.586882] (-) TimerEvent: {}
+[74.687871] (-) TimerEvent: {}
+[74.788824] (-) TimerEvent: {}
+[74.889747] (-) TimerEvent: {}
+[74.990680] (-) TimerEvent: {}
+[75.091770] (-) TimerEvent: {}
+[75.192614] (-) TimerEvent: {}
+[75.293527] (-) TimerEvent: {}
+[75.394464] (-) TimerEvent: {}
+[75.495855] (-) TimerEvent: {}
+[75.596733] (-) TimerEvent: {}
+[75.697754] (-) TimerEvent: {}
+[75.798766] (-) TimerEvent: {}
+[75.902662] (-) TimerEvent: {}
+[76.003565] (-) TimerEvent: {}
+[76.104545] (-) TimerEvent: {}
+[76.205428] (-) TimerEvent: {}
+[76.306405] (-) TimerEvent: {}
+[76.407328] (-) TimerEvent: {}
+[76.508242] (-) TimerEvent: {}
+[76.609170] (-) TimerEvent: {}
+[76.710080] (-) TimerEvent: {}
+[76.811021] (-) TimerEvent: {}
+[76.911937] (-) TimerEvent: {}
+[77.013880] (-) TimerEvent: {}
+[77.114813] (-) TimerEvent: {}
+[77.215846] (-) TimerEvent: {}
+[77.316724] (-) TimerEvent: {}
+[77.417614] (-) TimerEvent: {}
+[77.518525] (-) TimerEvent: {}
+[77.619406] (-) TimerEvent: {}
+[77.720377] (-) TimerEvent: {}
+[77.821243] (-) TimerEvent: {}
+[77.922113] (-) TimerEvent: {}
+[78.023021] (-) TimerEvent: {}
+[78.123969] (-) TimerEvent: {}
+[78.224870] (-) TimerEvent: {}
+[78.325737] (-) TimerEvent: {}
+[78.426598] (-) TimerEvent: {}
+[78.527461] (-) TimerEvent: {}
+[78.628451] (-) TimerEvent: {}
+[78.729391] (-) TimerEvent: {}
+[78.830304] (-) TimerEvent: {}
+[78.931266] (-) TimerEvent: {}
+[79.032258] (-) TimerEvent: {}
+[79.133176] (-) TimerEvent: {}
+[79.234091] (-) TimerEvent: {}
+[79.334972] (-) TimerEvent: {}
+[79.435913] (-) TimerEvent: {}
+[79.536830] (-) TimerEvent: {}
+[79.637731] (-) TimerEvent: {}
+[79.642660] (calibrate_gyro) StderrLine: {'line': b'In file included from /home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:31:\n'}
+[79.644476] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro/ros2nodeinterface.h: In constructor 'ros2::matlab::NodeInterface::NodeInterface()':\n"}
+[79.645946] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro/ros2nodeinterface.h:76:38: warning: 'ros2::matlab::NodeInterface::mExtModeThread' will be initialized after [-Wreorder]\n"}
+[79.647165] (calibrate_gyro) StderrLine: {'line': b'   76 |         std::shared_ptr<std::thread> mExtModeThread;\n'}
+[79.648544] (calibrate_gyro) StderrLine: {'line': b'      |                                      ^~~~~~~~~~~~~~\n'}
+[79.649765] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/include/calibrate_gyro/ros2nodeinterface.h:73:15: warning:   'ros2::matlab::Semaphore ros2::matlab::NodeInterface::mStopSem' [-Wreorder]\n"}
+[79.650939] (calibrate_gyro) StderrLine: {'line': b'   73 |     Semaphore mStopSem;\n'}
+[79.652285] (calibrate_gyro) StderrLine: {'line': b'      |               ^~~~~~~~\n'}
+[79.653634] (calibrate_gyro) StderrLine: {'line': b'/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:43:1: warning:   when initialized here [-Wreorder]\n'}
+[79.654919] (calibrate_gyro) StderrLine: {'line': b'   43 | NodeInterface::NodeInterface()\n'}
+[79.657051] (calibrate_gyro) StderrLine: {'line': b'      | ^~~~~~~~~~~~~\n'}
+[79.693519] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp: In member function 'void ros2::matlab::NodeInterface::initialize(int, char* const*)':\n"}
+[79.695187] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:67:47: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[79.696700] (calibrate_gyro) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[79.698220] (calibrate_gyro) StderrLine: {'line': b'      |                                               ^~~~~~~\n'}
+[79.699619] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:67:55: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[79.701080] (calibrate_gyro) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[79.702852] (calibrate_gyro) StderrLine: {'line': b'      |                                                       ^~~~~~~\n'}
+[79.710803] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:67:63: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[79.712385] (calibrate_gyro) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[79.713653] (calibrate_gyro) StderrLine: {'line': b'      |                                                               ^~~~~~~~~~~\n'}
+[79.714967] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:67:75: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[79.716453] (calibrate_gyro) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[79.717733] (calibrate_gyro) StderrLine: {'line': b'      |                                                                           ^~~\n'}
+[79.718963] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:67:79: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[79.740734] (-) TimerEvent: {}
+[79.751952] (calibrate_gyro) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[79.753576] (calibrate_gyro) StderrLine: {'line': b'      |                                                                               ^~~~~~~~~~\n'}
+[79.755055] (calibrate_gyro) StderrLine: {'line': b"/home/ubuntu/ros2_ws/src/calibrate_gyro/src/ros2nodeinterface.cpp:67:90: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]\n"}
+[79.756565] (calibrate_gyro) StderrLine: {'line': b'   67 |                         char* extmodeArg[] = {"-port","17725","-blocking","1","-verbose","0"};\n'}
+[79.757864] (calibrate_gyro) StderrLine: {'line': b'      |                                                                                          ^~~\n'}
+[79.841069] (-) TimerEvent: {}
+[79.941908] (-) TimerEvent: {}
+[80.042832] (-) TimerEvent: {}
+[80.143911] (-) TimerEvent: {}
+[80.244814] (-) TimerEvent: {}
+[80.345703] (-) TimerEvent: {}
+[80.446602] (-) TimerEvent: {}
+[80.547539] (-) TimerEvent: {}
+[80.648477] (-) TimerEvent: {}
+[80.749381] (-) TimerEvent: {}
+[80.850253] (-) TimerEvent: {}
+[80.953717] (-) TimerEvent: {}
+[81.054754] (-) TimerEvent: {}
+[81.155712] (-) TimerEvent: {}
+[81.256583] (-) TimerEvent: {}
+[81.357512] (-) TimerEvent: {}
+[81.458364] (-) TimerEvent: {}
+[81.559302] (-) TimerEvent: {}
+[81.660239] (-) TimerEvent: {}
+[81.761129] (-) TimerEvent: {}
+[81.862969] (-) TimerEvent: {}
+[81.963896] (-) TimerEvent: {}
+[82.064779] (-) TimerEvent: {}
+[82.165617] (-) TimerEvent: {}
+[82.266494] (-) TimerEvent: {}
+[82.367405] (-) TimerEvent: {}
+[82.468298] (-) TimerEvent: {}
+[82.569287] (-) TimerEvent: {}
+[82.670255] (-) TimerEvent: {}
+[82.771195] (-) TimerEvent: {}
+[82.872072] (-) TimerEvent: {}
+[82.972963] (-) TimerEvent: {}
+[83.073929] (-) TimerEvent: {}
+[83.174855] (-) TimerEvent: {}
+[83.275916] (-) TimerEvent: {}
+[83.376962] (-) TimerEvent: {}
+[83.477954] (-) TimerEvent: {}
+[83.578814] (-) TimerEvent: {}
+[83.679611] (-) TimerEvent: {}
+[83.780688] (-) TimerEvent: {}
+[83.881676] (-) TimerEvent: {}
+[83.982537] (-) TimerEvent: {}
+[84.083340] (-) TimerEvent: {}
+[84.184318] (-) TimerEvent: {}
+[84.285493] (-) TimerEvent: {}
+[84.387558] (-) TimerEvent: {}
+[84.488633] (-) TimerEvent: {}
+[84.589619] (-) TimerEvent: {}
+[84.690546] (-) TimerEvent: {}
+[84.791431] (-) TimerEvent: {}
+[84.892586] (-) TimerEvent: {}
+[84.993525] (-) TimerEvent: {}
+[85.094416] (-) TimerEvent: {}
+[85.195420] (-) TimerEvent: {}
+[85.296346] (-) TimerEvent: {}
+[85.397184] (-) TimerEvent: {}
+[85.498002] (-) TimerEvent: {}
+[85.598998] (-) TimerEvent: {}
+[85.701318] (-) TimerEvent: {}
+[85.802353] (-) TimerEvent: {}
+[85.903165] (-) TimerEvent: {}
+[86.004515] (-) TimerEvent: {}
+[86.105345] (-) TimerEvent: {}
+[86.206347] (-) TimerEvent: {}
+[86.307446] (-) TimerEvent: {}
+[86.408314] (-) TimerEvent: {}
+[86.510366] (-) TimerEvent: {}
+[86.611223] (-) TimerEvent: {}
+[86.712087] (-) TimerEvent: {}
+[86.812953] (-) TimerEvent: {}
+[86.913824] (-) TimerEvent: {}
+[87.014669] (-) TimerEvent: {}
+[87.115483] (-) TimerEvent: {}
+[87.216379] (-) TimerEvent: {}
+[87.317242] (-) TimerEvent: {}
+[87.418121] (-) TimerEvent: {}
+[87.518990] (-) TimerEvent: {}
+[87.619901] (-) TimerEvent: {}
+[87.720710] (-) TimerEvent: {}
+[87.821566] (-) TimerEvent: {}
+[87.922552] (-) TimerEvent: {}
+[88.026697] (-) TimerEvent: {}
+[88.127750] (-) TimerEvent: {}
+[88.228676] (-) TimerEvent: {}
+[88.329576] (-) TimerEvent: {}
+[88.430393] (-) TimerEvent: {}
+[88.531249] (-) TimerEvent: {}
+[88.632169] (-) TimerEvent: {}
+[88.732872] (-) TimerEvent: {}
+[88.833548] (-) TimerEvent: {}
+[88.934487] (-) TimerEvent: {}
+[89.035336] (-) TimerEvent: {}
+[89.136245] (-) TimerEvent: {}
+[89.237160] (-) TimerEvent: {}
+[89.338097] (-) TimerEvent: {}
+[89.438922] (-) TimerEvent: {}
+[89.539783] (-) TimerEvent: {}
+[89.640637] (-) TimerEvent: {}
+[89.741411] (-) TimerEvent: {}
+[89.842278] (-) TimerEvent: {}
+[89.943174] (-) TimerEvent: {}
+[90.044044] (-) TimerEvent: {}
+[90.144890] (-) TimerEvent: {}
+[90.248678] (-) TimerEvent: {}
+[90.349597] (-) TimerEvent: {}
+[90.450417] (-) TimerEvent: {}
+[90.551230] (-) TimerEvent: {}
+[90.652171] (-) TimerEvent: {}
+[90.753118] (-) TimerEvent: {}
+[90.854041] (-) TimerEvent: {}
+[90.954958] (-) TimerEvent: {}
+[91.055942] (-) TimerEvent: {}
+[91.157053] (-) TimerEvent: {}
+[91.257990] (-) TimerEvent: {}
+[91.358880] (-) TimerEvent: {}
+[91.460041] (-) TimerEvent: {}
+[91.560947] (-) TimerEvent: {}
+[91.661894] (-) TimerEvent: {}
+[91.762901] (-) TimerEvent: {}
+[91.863922] (-) TimerEvent: {}
+[91.964831] (-) TimerEvent: {}
+[92.065672] (-) TimerEvent: {}
+[92.166501] (-) TimerEvent: {}
+[92.267456] (-) TimerEvent: {}
+[92.368466] (-) TimerEvent: {}
+[92.469370] (-) TimerEvent: {}
+[92.570218] (-) TimerEvent: {}
+[92.671108] (-) TimerEvent: {}
+[92.771945] (-) TimerEvent: {}
+[92.872768] (-) TimerEvent: {}
+[92.973564] (-) TimerEvent: {}
+[93.074362] (-) TimerEvent: {}
+[93.175228] (-) TimerEvent: {}
+[93.276155] (-) TimerEvent: {}
+[93.376976] (-) TimerEvent: {}
+[93.477759] (-) TimerEvent: {}
+[93.578578] (-) TimerEvent: {}
+[93.679427] (-) TimerEvent: {}
+[93.780247] (-) TimerEvent: {}
+[93.881064] (-) TimerEvent: {}
+[93.981882] (-) TimerEvent: {}
+[94.083127] (-) TimerEvent: {}
+[94.183903] (-) TimerEvent: {}
+[94.284649] (-) TimerEvent: {}
+[94.385376] (-) TimerEvent: {}
+[94.486121] (-) TimerEvent: {}
+[94.586885] (-) TimerEvent: {}
+[94.687619] (-) TimerEvent: {}
+[94.788410] (-) TimerEvent: {}
+[94.889196] (-) TimerEvent: {}
+[94.989927] (-) TimerEvent: {}
+[95.090665] (-) TimerEvent: {}
+[95.191430] (-) TimerEvent: {}
+[95.292217] (-) TimerEvent: {}
+[95.392933] (-) TimerEvent: {}
+[95.493631] (-) TimerEvent: {}
+[95.594340] (-) TimerEvent: {}
+[95.695062] (-) TimerEvent: {}
+[95.795842] (-) TimerEvent: {}
+[95.896534] (-) TimerEvent: {}
+[95.997290] (-) TimerEvent: {}
+[96.097951] (-) TimerEvent: {}
+[96.198760] (-) TimerEvent: {}
+[96.299551] (-) TimerEvent: {}
+[96.400393] (-) TimerEvent: {}
+[96.501174] (-) TimerEvent: {}
+[96.601905] (-) TimerEvent: {}
+[96.702810] (-) TimerEvent: {}
+[96.803707] (-) TimerEvent: {}
+[96.904413] (-) TimerEvent: {}
+[97.005087] (-) TimerEvent: {}
+[97.105752] (-) TimerEvent: {}
+[97.206414] (-) TimerEvent: {}
+[97.307084] (-) TimerEvent: {}
+[97.407967] (-) TimerEvent: {}
+[97.508679] (-) TimerEvent: {}
+[97.609386] (-) TimerEvent: {}
+[97.710233] (-) TimerEvent: {}
+[97.810984] (-) TimerEvent: {}
+[97.911750] (-) TimerEvent: {}
+[98.012494] (-) TimerEvent: {}
+[98.113349] (-) TimerEvent: {}
+[98.214098] (-) TimerEvent: {}
+[98.314812] (-) TimerEvent: {}
+[98.415542] (-) TimerEvent: {}
+[98.516339] (-) TimerEvent: {}
+[98.617064] (-) TimerEvent: {}
+[98.717782] (-) TimerEvent: {}
+[98.818485] (-) TimerEvent: {}
+[98.919246] (-) TimerEvent: {}
+[99.020015] (-) TimerEvent: {}
+[99.120736] (-) TimerEvent: {}
+[99.221447] (-) TimerEvent: {}
+[99.322185] (-) TimerEvent: {}
+[99.422833] (-) TimerEvent: {}
+[99.523457] (-) TimerEvent: {}
+[99.624291] (-) TimerEvent: {}
+[99.725153] (-) TimerEvent: {}
+[99.825983] (-) TimerEvent: {}
+[99.926754] (-) TimerEvent: {}
+[100.027479] (-) TimerEvent: {}
+[100.128310] (-) TimerEvent: {}
+[100.229465] (-) TimerEvent: {}
+[100.260892] (calibrate_gyro) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/calibrate_gyro.dir/build.make:163: CMakeFiles/calibrate_gyro.dir/src/calibrate_gyro.cpp.o] Error 1\n'}
+[100.262201] (calibrate_gyro) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/calibrate_gyro'\n"}
+[100.263188] (calibrate_gyro) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/calibrate_gyro.dir/all] Error 2\n'}
+[100.264257] (calibrate_gyro) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/ubuntu/ros2_ws/build/calibrate_gyro'\n"}
+[100.265219] (calibrate_gyro) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[100.274032] (calibrate_gyro) CommandEnded: {'returncode': 2}
+[100.329991] (-) TimerEvent: {}
+[100.430769] (-) TimerEvent: {}
+[100.531470] (-) TimerEvent: {}
+[100.632201] (-) TimerEvent: {}
+[100.732917] (-) TimerEvent: {}
+[100.833712] (-) TimerEvent: {}
+[100.934656] (-) TimerEvent: {}
+[100.955771] (calibrate_gyro) JobEnded: {'identifier': 'calibrate_gyro', 'rc': 2}
+[100.968756] (-) EventReactorShutdown: {}

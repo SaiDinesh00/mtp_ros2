@@ -1,0 +1,11 @@
+[01m[K/home/ubuntu/ros2_ws/src/untitled1/src/slros_busmsg_conversion.cpp:[m[K In function ‘[01m[Kvoid convertFromBus(aerobot_interfaces::srv::Calibrate::Request&, const SL_Bus_aerobot_interfaces_CalibrateRequest*)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/untitled1/src/slros_busmsg_conversion.cpp:10:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = using Calibrate_Request = struct aerobot_interfaces::srv::Calibrate_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct aerobot_interfaces::srv::Calibrate_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kget_calibration_parameters[m[K’
+   10 |   msgPtr.[01;31m[Kget_calibration_parameters[m[K =  busPtr->get_calibration_parameters;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/untitled1/src/slros_busmsg_conversion.cpp:[m[K In function ‘[01m[Kvoid convertToBus(SL_Bus_aerobot_interfaces_CalibrateRequest*, const Request&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/untitled1/src/slros_busmsg_conversion.cpp:17:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Request[m[K’ {aka ‘[01m[Kconst struct aerobot_interfaces::srv::Calibrate_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kget_calibration_parameters[m[K’
+   17 |   busPtr->get_calibration_parameters =  msgPtr.[01;31m[Kget_calibration_parameters[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/untitled1.dir/build.make:205: CMakeFiles/untitled1.dir/src/slros_busmsg_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/untitled1.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

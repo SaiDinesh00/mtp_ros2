@@ -4773,6 +4773,8 @@ CMakeFiles/testing_ros.dir/src/testing_ros_data.cpp.o: /home/ubuntu/ros2_ws/src/
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
   /home/ubuntu/ros2_ws/src/testing_ros/include/testing_ros/slros_msgconvert_utils.h \
   /home/ubuntu/ros2_ws/src/testing_ros/include/testing_ros/slros2_generic_service.h \
+  /home/ubuntu/ros2_ws/src/testing_ros/include/testing_ros/rtGetNaN.h \
+  /home/ubuntu/ros2_ws/src/testing_ros/include/testing_ros/rt_nonfinite.h \
   /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h
 
 CMakeFiles/testing_ros.dir/src/updown.c.o: /home/ubuntu/ros2_ws/src/testing_ros/src/updown.c \

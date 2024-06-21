@@ -13,7 +13,7 @@ class LSM6DSO(Node):
         # LSM6DSO Register addresses
         self.WHO_AM_I = 0x0F
         self.CTRL1_XL = 0x10
-        self.CTRL2_G  = 0x4C
+        self.CTRL2_G  = 0x11
         self.OUTX_L_G = 0x22
         self.OUTX_H_G = 0x23
         self.OUTY_L_G = 0x24
@@ -29,7 +29,7 @@ class LSM6DSO(Node):
         
         self.bus = smbus2.SMBus(1)  # 1 indicates /dev/i2c-1
         self.sensitivity_gyro = 70.0 / 1000 # (dps / LSB)
-        self.sensitivity_acc = 0.061 / 1000 # (milligravity / LSB)
+        self.sensitivity_acc = 8.75 / 1000 # (milligravity / LSB)
         self.gyr_conv = (np.pi/180) # (mdps 2 rad/s)
         self.acc_conv = 9.81 # (g 2 mps2)
         
@@ -39,7 +39,7 @@ class LSM6DSO(Node):
         
         # Initialize accelerometer (CTRL1_XL) and gyroscope (CTRL2_G)
         self.write_byte(self.CTRL1_XL, 0x60)  # Accelerometer: 104 Hz, 2g, 400 Hz filter
-        self.write_byte(self.CTRL2_G, 0x60)   # Gyroscope: 104 Hz, 2000 dps
+        self.write_byte(self.CTRL2_G, 0x5C)   # Gyroscope: 104 Hz, 2000 dps
         
         self.timer_ = self.create_timer(1/104, self.read_gyroscope)
         self.publisher_ = self.create_publisher(Imu, 'imu/data', 10)

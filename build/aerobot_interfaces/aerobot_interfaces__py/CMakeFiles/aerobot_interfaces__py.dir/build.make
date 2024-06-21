@@ -71,10 +71,12 @@ aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/ae
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_c.c
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_esc_srv.py
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/msg/_esc_msg.py
+aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_calibrate.py
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/__init__.py
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/msg/__init__.py
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_esc_srv_s.c
 aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/msg/_esc_msg_s.c
+aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_calibrate_s.c
 
 rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -91,6 +93,7 @@ rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aerobot_interfaces/srv/EscSrv.idl
 rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aerobot_interfaces/msg/EscMsg.idl
+rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aerobot_interfaces/srv/Calibrate.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/ubuntu/ros2_ws/build/aerobot_interfaces/aerobot_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -106,6 +109,9 @@ rosidl_generator_py/aerobot_interfaces/srv/_esc_srv.py: rosidl_generator_py/aero
 rosidl_generator_py/aerobot_interfaces/msg/_esc_msg.py: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aerobot_interfaces/msg/_esc_msg.py
 
+rosidl_generator_py/aerobot_interfaces/srv/_calibrate.py: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aerobot_interfaces/srv/_calibrate.py
+
 rosidl_generator_py/aerobot_interfaces/srv/__init__.py: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aerobot_interfaces/srv/__init__.py
 
@@ -118,6 +124,9 @@ rosidl_generator_py/aerobot_interfaces/srv/_esc_srv_s.c: rosidl_generator_py/aer
 rosidl_generator_py/aerobot_interfaces/msg/_esc_msg_s.c: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aerobot_interfaces/msg/_esc_msg_s.c
 
+rosidl_generator_py/aerobot_interfaces/srv/_calibrate_s.c: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aerobot_interfaces/srv/_calibrate_s.c
+
 aerobot_interfaces__py: aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_c.c
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -126,6 +135,8 @@ aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/msg/__init__.py
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/msg/_esc_msg.py
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/msg/_esc_msg_s.c
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/__init__.py
+aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_calibrate.py
+aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_calibrate_s.c
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_esc_srv.py
 aerobot_interfaces__py: rosidl_generator_py/aerobot_interfaces/srv/_esc_srv_s.c
 aerobot_interfaces__py: aerobot_interfaces__py/CMakeFiles/aerobot_interfaces__py.dir/build.make

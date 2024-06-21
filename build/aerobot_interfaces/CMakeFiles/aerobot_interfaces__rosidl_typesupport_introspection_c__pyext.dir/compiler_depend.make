@@ -247,7 +247,10 @@ CMakeFiles/aerobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ros
   rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.h \
   rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__type_support.h \
   rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__struct.h \
-  rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.h
+  rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.h \
+  rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__type_support.h \
+  rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__struct.h \
+  rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.h
 
 
 rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__struct.h:
@@ -332,6 +335,8 @@ rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.h:
 
 /usr/include/python3.10/dictobject.h:
 
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__struct.h:
+
 /usr/include/python3.10/cpython/tupleobject.h:
 
 /usr/include/python3.10/tupleobject.h:
@@ -339,6 +344,8 @@ rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.h:
 /usr/include/python3.10/enumobject.h:
 
 /usr/include/python3.10/memoryobject.h:
+
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.h:
 
 /usr/include/python3.10/boolobject.h:
 
@@ -543,6 +550,8 @@ rosidl_generator_py/aerobot_interfaces/_aerobot_interfaces_s.ep.rosidl_typesuppo
 /usr/include/python3.10/cpython/dictobject.h:
 
 /usr/include/unistd.h:
+
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__type_support.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
 

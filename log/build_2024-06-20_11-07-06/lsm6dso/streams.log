@@ -1,0 +1,36 @@
+[8.178s] Invoking command in '/home/ubuntu/ros2_ws/build/lsm6dso': PYTHONPATH=/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/lsm6dso/build
+[11.613s] running develop
+[13.772s] Removing /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso.egg-link (link to .)
+[14.043s] Invoked command in '/home/ubuntu/ros2_ws/build/lsm6dso' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/lsm6dso/build
+[14.057s] Invoking command in '/home/ubuntu/ros2_ws/src/lsm6dso': PYTHONPATH=/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lsm6dso build --build-base /home/ubuntu/ros2_ws/build/lsm6dso/build install --record /home/ubuntu/ros2_ws/build/lsm6dso/install.log --single-version-externally-managed install_data --force
+[17.362s] running egg_info
+[17.368s] writing ../../build/lsm6dso/lsm6dso.egg-info/PKG-INFO
+[17.370s] writing dependency_links to ../../build/lsm6dso/lsm6dso.egg-info/dependency_links.txt
+[17.373s] writing entry points to ../../build/lsm6dso/lsm6dso.egg-info/entry_points.txt
+[17.376s] writing requirements to ../../build/lsm6dso/lsm6dso.egg-info/requires.txt
+[17.377s] writing top-level names to ../../build/lsm6dso/lsm6dso.egg-info/top_level.txt
+[17.398s] reading manifest file '../../build/lsm6dso/lsm6dso.egg-info/SOURCES.txt'
+[17.409s] writing manifest file '../../build/lsm6dso/lsm6dso.egg-info/SOURCES.txt'
+[17.413s] running build
+[17.414s] running build_py
+[17.420s] copying lsm6dso/sensor.py -> /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso
+[17.422s] copying lsm6dso/calibrate.py -> /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso
+[17.424s] running install
+[17.427s] running install_lib
+[17.436s] creating /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso
+[17.439s] copying /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso/__init__.py -> /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso
+[17.443s] copying /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso/sensor.py -> /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso
+[17.444s] copying /home/ubuntu/ros2_ws/build/lsm6dso/build/lib/lsm6dso/calibrate.py -> /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso
+[17.449s] byte-compiling /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso/__init__.py to __init__.cpython-310.pyc
+[17.452s] byte-compiling /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso/sensor.py to sensor.cpython-310.pyc
+[17.463s] byte-compiling /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso/calibrate.py to calibrate.cpython-310.pyc
+[17.468s] running install_data
+[17.469s] copying resource/lsm6dso -> /home/ubuntu/ros2_ws/install/lsm6dso/share/ament_index/resource_index/packages
+[17.471s] copying package.xml -> /home/ubuntu/ros2_ws/install/lsm6dso/share/lsm6dso
+[17.473s] running install_egg_info
+[17.492s] Copying ../../build/lsm6dso/lsm6dso.egg-info to /home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages/lsm6dso-0.0.0-py3.10.egg-info
+[17.508s] running install_scripts
+[17.718s] Installing calibrate_gyro script to /home/ubuntu/ros2_ws/install/lsm6dso/lib/lsm6dso
+[17.720s] Installing lsm6dso script to /home/ubuntu/ros2_ws/install/lsm6dso/lib/lsm6dso
+[17.727s] writing list of installed files to '/home/ubuntu/ros2_ws/build/lsm6dso/install.log'
+[17.985s] Invoked command in '/home/ubuntu/ros2_ws/src/lsm6dso' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/lsm6dso/prefix_override:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lsm6dso build --build-base /home/ubuntu/ros2_ws/build/lsm6dso/build install --record /home/ubuntu/ros2_ws/build/lsm6dso/install.log --single-version-externally-managed install_data --force

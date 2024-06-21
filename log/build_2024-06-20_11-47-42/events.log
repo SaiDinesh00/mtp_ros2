@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.004535] (aerobot_interfaces) JobQueued: {'identifier': 'aerobot_interfaces', 'dependencies': OrderedDict()}
+[0.006969] (bmm150_sensor) JobQueued: {'identifier': 'bmm150_sensor', 'dependencies': OrderedDict()}
+[0.008497] (lsm6dso) JobQueued: {'identifier': 'lsm6dso', 'dependencies': OrderedDict()}
+[0.011340] (my_ahrs) JobQueued: {'identifier': 'my_ahrs', 'dependencies': OrderedDict()}
+[0.012853] (esc_pkg) JobQueued: {'identifier': 'esc_pkg', 'dependencies': OrderedDict([('aerobot_interfaces', '/home/ubuntu/ros2_ws/install/aerobot_interfaces')])}
+[0.014838] (aerobot_interfaces) JobStarted: {'identifier': 'aerobot_interfaces'}
+[0.096793] (-) TimerEvent: {}
+[0.107074] (bmm150_sensor) JobStarted: {'identifier': 'bmm150_sensor'}
+[0.200031] (-) TimerEvent: {}
+[0.203378] (lsm6dso) JobStarted: {'identifier': 'lsm6dso'}
+[0.300419] (-) TimerEvent: {}
+[0.306574] (my_ahrs) JobStarted: {'identifier': 'my_ahrs'}
+[0.400618] (-) TimerEvent: {}
+[0.424233] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'cmake'}
+[0.432361] (aerobot_interfaces) JobProgress: {'identifier': 'aerobot_interfaces', 'progress': 'build'}
+[0.439593] (aerobot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/aerobot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/aerobot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.106 50297 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/aerobot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9a57b7c9-9ad1-41cf-a1f6-acb14e005371.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1b06a26342.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/bmm150_sensor:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/aerobot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 50297 192.168.0.122 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/my_ahrs/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/lsm6dso/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/esc_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/bmm150_sensor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/aerobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/untitled1:/home/ubuntu/ros2_ws/install/testing_ros2:/home/ubuntu/ros2_ws/install/testing_ros:/home/ubuntu/ros2_ws/install/ros2_imu:/home/ubuntu/ros2_ws/install/pid_control_aerobot:/home/ubuntu/ros2_ws/install/complementary_filter_ros2:/home/ubuntu/ros2_ws/install/aerobot_interfaces:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble')]), 'shell': False}
+[0.501028] (-) TimerEvent: {}
+[0.604461] (-) TimerEvent: {}
+[0.707757] (-) TimerEvent: {}
+[0.811856] (-) TimerEvent: {}
+[0.916228] (-) TimerEvent: {}
+[1.020929] (-) TimerEvent: {}
+[1.125261] (-) TimerEvent: {}
+[1.229746] (-) TimerEvent: {}
+[1.331443] (-) TimerEvent: {}
+[1.433347] (-) TimerEvent: {}
+[1.535193] (-) TimerEvent: {}
+[1.636858] (-) TimerEvent: {}
+[1.738602] (-) TimerEvent: {}
+[1.840436] (-) TimerEvent: {}
+[1.942063] (-) TimerEvent: {}
+[2.044892] (-) TimerEvent: {}
+[2.147761] (-) TimerEvent: {}
+[2.249442] (-) TimerEvent: {}
+[2.352481] (-) TimerEvent: {}
+[2.454172] (-) TimerEvent: {}
+[2.557424] (-) TimerEvent: {}
+[2.659350] (-) TimerEvent: {}
+[2.761171] (-) TimerEvent: {}
+[2.862783] (-) TimerEvent: {}
+[2.964539] (-) TimerEvent: {}
+[3.066257] (-) TimerEvent: {}
+[3.168049] (-) TimerEvent: {}
+[3.269854] (-) TimerEvent: {}
+[3.371464] (-) TimerEvent: {}
+[3.473190] (-) TimerEvent: {}
+[3.574876] (-) TimerEvent: {}
+[3.676735] (-) TimerEvent: {}
+[3.778532] (-) TimerEvent: {}
+[3.880354] (-) TimerEvent: {}
+[3.985642] (-) TimerEvent: {}
+[4.087627] (-) TimerEvent: {}
+[4.189940] (-) TimerEvent: {}
+[4.291709] (-) TimerEvent: {}
+[4.393497] (-) TimerEvent: {}
+[4.495207] (-) TimerEvent: {}
+[4.598719] (-) TimerEvent: {}
+[4.700424] (-) TimerEvent: {}
+[4.802165] (-) TimerEvent: {}
+[4.904010] (-) TimerEvent: {}
+[5.005738] (-) TimerEvent: {}
+[5.107467] (-) TimerEvent: {}
+[5.209443] (-) TimerEvent: {}
+[5.311672] (-) TimerEvent: {}
+[5.413620] (-) TimerEvent: {}
+[5.515365] (-) TimerEvent: {}
+[5.617122] (-) TimerEvent: {}
+[5.718912] (-) TimerEvent: {}
+[5.820709] (-) TimerEvent: {}
+[5.922558] (-) TimerEvent: {}
+[6.024467] (-) TimerEvent: {}
+[6.126322] (-) TimerEvent: {}
+[6.228291] (-) TimerEvent: {}
+[6.330031] (-) TimerEvent: {}
+[6.433009] (-) TimerEvent: {}
+[6.537485] (-) TimerEvent: {}
+[6.641984] (-) TimerEvent: {}
+[6.747098] (-) TimerEvent: {}
+[6.852064] (-) TimerEvent: {}
+[6.955108] (-) TimerEvent: {}
+[7.058133] (-) TimerEvent: {}
+[7.161077] (-) TimerEvent: {}
+[7.263852] (-) TimerEvent: {}
+[7.366752] (-) TimerEvent: {}
+[7.470563] (-) TimerEvent: {}
+[7.574182] (-) TimerEvent: {}
+[7.678552] (-) TimerEvent: {}
+[7.783294] (-) TimerEvent: {}
+[7.889671] (-) TimerEvent: {}
+[7.994114] (-) TimerEvent: {}
+[8.098489] (-) TimerEvent: {}
+[8.203736] (-) TimerEvent: {}
+[8.307463] (-) TimerEvent: {}
+[8.409938] (-) TimerEvent: {}
+[8.515435] (-) TimerEvent: {}
+[8.619129] (-) TimerEvent: {}
+[8.724460] (-) TimerEvent: {}
+[8.830607] (-) TimerEvent: {}
+[8.935932] (-) TimerEvent: {}
+[9.045984] (-) TimerEvent: {}
+[9.149785] (-) TimerEvent: {}
+[9.180927] (lsm6dso) JobEnded: {'identifier': 'lsm6dso', 'rc': 0}
+[9.209502] (aerobot_interfaces) StdoutLine: {'line': b'[  2%] Built target aerobot_interfaces__cpp\n'}
+[9.214700] (aerobot_interfaces) StdoutLine: {'line': b'[ 12%] Built target aerobot_interfaces__rosidl_generator_c\n'}
+[9.223748] (aerobot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_aerobot_interfaces\n'}
+[9.225530] (aerobot_interfaces) StdoutLine: {'line': b'[ 23%] Built target aerobot_interfaces__rosidl_typesupport_cpp\n'}
+[9.227057] (aerobot_interfaces) StdoutLine: {'line': b'[ 34%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.228561] (aerobot_interfaces) StdoutLine: {'line': b'[ 44%] Built target aerobot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.239067] (aerobot_interfaces) StdoutLine: {'line': b'[ 55%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.240551] (aerobot_interfaces) StdoutLine: {'line': b'[ 65%] Built target aerobot_interfaces__rosidl_typesupport_c\n'}
+[9.241847] (aerobot_interfaces) StdoutLine: {'line': b'[ 76%] Built target aerobot_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.243089] (aerobot_interfaces) StdoutLine: {'line': b'[ 76%] Built target aerobot_interfaces\n'}
+[9.244308] (aerobot_interfaces) StdoutLine: {'line': b'[ 78%] Built target aerobot_interfaces__py\n'}
+[9.245699] (aerobot_interfaces) StdoutLine: {'line': b'[ 87%] Built target aerobot_interfaces__rosidl_generator_py\n'}
+[9.246939] (aerobot_interfaces) StdoutLine: {'line': b'[ 91%] Built target aerobot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.248831] (aerobot_interfaces) StdoutLine: {'line': b'[ 95%] Built target aerobot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.250121] (-) TimerEvent: {}
+[9.251116] (aerobot_interfaces) StdoutLine: {'line': b'[100%] Built target aerobot_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.252665] (aerobot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[9.253955] (aerobot_interfaces) StdoutLine: {'line': b'writing aerobot_interfaces.egg-info/PKG-INFO\n'}
+[9.255171] (aerobot_interfaces) StdoutLine: {'line': b'writing dependency_links to aerobot_interfaces.egg-info/dependency_links.txt\n'}
+[9.256290] (aerobot_interfaces) StdoutLine: {'line': b'writing top-level names to aerobot_interfaces.egg-info/top_level.txt\n'}
+[9.257727] (aerobot_interfaces) StdoutLine: {'line': b"reading manifest file 'aerobot_interfaces.egg-info/SOURCES.txt'\n"}
+[9.259857] (aerobot_interfaces) StdoutLine: {'line': b"writing manifest file 'aerobot_interfaces.egg-info/SOURCES.txt'\n"}
+[9.261388] (aerobot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_aerobot_interfaces_egg\n'}
+[9.262639] (bmm150_sensor) JobEnded: {'identifier': 'bmm150_sensor', 'rc': 'SIGINT'}
+[9.265818] (my_ahrs) JobEnded: {'identifier': 'my_ahrs', 'rc': 'SIGINT'}
+[9.269212] (aerobot_interfaces) JobEnded: {'identifier': 'aerobot_interfaces', 'rc': 'SIGINT'}
+[9.277922] (esc_pkg) JobSkipped: {'identifier': 'esc_pkg'}
+[9.278302] (-) EventReactorShutdown: {}

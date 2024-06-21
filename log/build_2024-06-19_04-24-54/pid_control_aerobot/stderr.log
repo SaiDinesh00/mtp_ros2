@@ -1,0 +1,11 @@
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+cc1: warning: command-line option '-fpermissive' is valid for C++/ObjC++ but not for C
+/home/ubuntu/ros2_ws/src/pid_control_aerobot/src/pid_control_aerobot.cpp:24:10: fatal error: emmintrin.h: No such file or directory
+   24 | #include <emmintrin.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pid_control_aerobot.dir/build.make:177: CMakeFiles/pid_control_aerobot.dir/src/pid_control_aerobot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/pid_control_aerobot.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

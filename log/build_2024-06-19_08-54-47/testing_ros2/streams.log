@@ -1,0 +1,37 @@
+[0.419s] Invoking command in '/home/ubuntu/ros2_ws/build/testing_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/testing_ros2 -- -j4 -l4
+[0.550s] /usr/bin/cmake -S/home/ubuntu/ros2_ws/src/testing_ros2 -B/home/ubuntu/ros2_ws/build/testing_ros2 --check-build-system CMakeFiles/Makefile.cmake 0
+[0.700s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/testing_ros2/CMakeFiles /home/ubuntu/ros2_ws/build/testing_ros2//CMakeFiles/progress.marks
+[1.141s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.180s] gmake[1]: Entering directory '/home/ubuntu/ros2_ws/build/testing_ros2'
+[1.182s] /usr/bin/gmake  -f CMakeFiles/testing_ros2.dir/build.make CMakeFiles/testing_ros2.dir/depend
+[1.315s] gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/testing_ros2'
+[1.316s] cd /home/ubuntu/ros2_ws/build/testing_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_ws/src/testing_ros2 /home/ubuntu/ros2_ws/src/testing_ros2 /home/ubuntu/ros2_ws/build/testing_ros2 /home/ubuntu/ros2_ws/build/testing_ros2 /home/ubuntu/ros2_ws/build/testing_ros2/CMakeFiles/testing_ros2.dir/DependInfo.cmake --color=
+[1.636s] gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/testing_ros2'
+[1.641s] /usr/bin/gmake  -f CMakeFiles/testing_ros2.dir/build.make CMakeFiles/testing_ros2.dir/build
+[1.891s] gmake[2]: Entering directory '/home/ubuntu/ros2_ws/build/testing_ros2'
+[1.892s] gmake[2]: Nothing to be done for 'CMakeFiles/testing_ros2.dir/build'.
+[1.893s] gmake[2]: Leaving directory '/home/ubuntu/ros2_ws/build/testing_ros2'
+[2.059s] [100%] Built target testing_ros2
+[2.122s] gmake[1]: Leaving directory '/home/ubuntu/ros2_ws/build/testing_ros2'
+[2.124s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ros2_ws/build/testing_ros2/CMakeFiles 0
+[2.625s] Invoked command in '/home/ubuntu/ros2_ws/build/testing_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/testing_ros2 -- -j4 -l4
+[5.469s] Invoking command in '/home/ubuntu/ros2_ws/build/testing_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/testing_ros2
+[5.665s] -- Install configuration: "Release"
+[5.687s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/lib/testing_ros2/testing_ros2
+[5.689s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/ament_index/resource_index/package_run_dependencies/testing_ros2
+[5.705s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/ament_index/resource_index/parent_prefix_path/testing_ros2
+[5.717s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/environment/ament_prefix_path.sh
+[5.740s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/environment/ament_prefix_path.dsv
+[5.754s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/environment/path.sh
+[5.774s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/environment/path.dsv
+[5.777s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/local_setup.bash
+[5.785s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/local_setup.sh
+[5.804s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/local_setup.zsh
+[5.812s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/local_setup.dsv
+[5.814s] -- Installing: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/package.dsv
+[5.840s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/ament_index/resource_index/packages/testing_ros2
+[5.844s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.845s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/cmake/testing_ros2Config.cmake
+[5.850s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/cmake/testing_ros2Config-version.cmake
+[5.851s] -- Up-to-date: /home/ubuntu/ros2_ws/install/testing_ros2/share/testing_ros2/package.xml
+[5.933s] Invoked command in '/home/ubuntu/ros2_ws/build/testing_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_ahrs:/home/ubuntu/ros2_ws/install/lsm6dso:/home/ubuntu/ros2_ws/install/esc_pkg:/home/ubuntu/ros2_ws/install/bmm150_sensor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/testing_ros2

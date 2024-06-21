@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/aerobot_interfaces/msg/_esc_msg.py"
   "../rosidl_generator_py/aerobot_interfaces/msg/_esc_msg_s.c"
   "../rosidl_generator_py/aerobot_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/aerobot_interfaces/srv/_calibrate.py"
+  "../rosidl_generator_py/aerobot_interfaces/srv/_calibrate_s.c"
   "../rosidl_generator_py/aerobot_interfaces/srv/_esc_srv.py"
   "../rosidl_generator_py/aerobot_interfaces/srv/_esc_srv_s.c"
   "CMakeFiles/aerobot_interfaces__py"

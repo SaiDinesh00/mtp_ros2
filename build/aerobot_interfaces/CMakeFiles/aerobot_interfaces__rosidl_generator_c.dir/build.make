@@ -84,6 +84,7 @@ rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h: /opt/ros/humble/share/rosid
 rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h: rosidl_adapter/aerobot_interfaces/srv/EscSrv.idl
 rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h: rosidl_adapter/aerobot_interfaces/msg/EscMsg.idl
+rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h: rosidl_adapter/aerobot_interfaces/srv/Calibrate.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_generator_c__arguments.json
 
@@ -108,11 +109,26 @@ rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__struct.h: rosidl_gener
 rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__type_support.h: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__type_support.h
 
+rosidl_generator_c/aerobot_interfaces/srv/calibrate.h: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/srv/calibrate.h
+
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.h: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.h
+
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__struct.h: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__struct.h
+
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__type_support.h: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__type_support.h
+
 rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c
 
 rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c
+
+rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c: rosidl_generator_c/aerobot_interfaces/srv/esc_srv.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c
 
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c.o: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c.o: rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c
@@ -142,21 +158,37 @@ CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c -o CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c.s
 
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o: rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o -MF CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o.d -o CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o -c /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c
+
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c > CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.i
+
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws/build/aerobot_interfaces/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c -o CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.s
+
 # Object files for target aerobot_interfaces__rosidl_generator_c
 aerobot_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c.o" \
-"CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c.o"
+"CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c.o" \
+"CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o"
 
 # External object files for target aerobot_interfaces__rosidl_generator_c
 aerobot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libaerobot_interfaces__rosidl_generator_c.so: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c.o
 libaerobot_interfaces__rosidl_generator_c.so: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__functions.c.o
+libaerobot_interfaces__rosidl_generator_c.so: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c.o
 libaerobot_interfaces__rosidl_generator_c.so: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/build.make
 libaerobot_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libaerobot_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libaerobot_interfaces__rosidl_generator_c.so: CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libaerobot_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws/build/aerobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libaerobot_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +204,11 @@ CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__struct.h
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/msg/detail/esc_msg__type_support.h
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/msg/esc_msg.h
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/calibrate.h
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.c
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__functions.h
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__struct.h
+CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/calibrate__type_support.h
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.c
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__functions.h
 CMakeFiles/aerobot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aerobot_interfaces/srv/detail/esc_srv__struct.h
